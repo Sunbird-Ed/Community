@@ -62,6 +62,10 @@
   * [Specifications](use/learn-more/specifications/README.md)
     * [SOFIE](use/learn-more/specifications/sofie.md)
 
+## Engage
+
+* [Discuss](https://github.com/Sunbird-Ed/Community/discussions)
+
 ## Contribute <a href="#use" id="use"></a>
 
 * [System Requirements](use-1/system-requirements/README.md)
@@ -83,12 +87,6 @@
   * [Sunbird Themes](use-1/independent-libraries/sunbird-themes.md)
   * [Sunbird Tag Manager](use-1/independent-libraries/sunbird-tag-manager.md)
 * [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
-
-## ENGAGE
-
-***
-
-* [Discuss](https://github.com/project-sunbird/sunbird-community/discussions)
 
 ## Misc
 
