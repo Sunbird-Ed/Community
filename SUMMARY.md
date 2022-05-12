@@ -61,6 +61,8 @@
   * [Dependencies](use/learn-more/dependencies.md)
   * [Specifications](use/learn-more/specifications/README.md)
     * [SOFIE](use/learn-more/specifications/sofie.md)
+* [Releases](use/releases/README.md)
+  * [Release Calendar 4.9, 5.0](use/releases/release-calendar-4.9-5.0.md)
 
 ## Engage
 
