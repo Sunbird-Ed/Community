@@ -6,7 +6,7 @@ The Sunbird portal is the browser-based interface for the Sunbird application st
 
 ### Getting started
 
-To get started with the Sunbird portal, please try out our cloud-based demo site at: [https://staging.open-sunbird.org/](https://staging.open-sunbird.org)
+To get started with the Sunbird portal, please try out our cloud-based demo site at: [https://staging.open-sunbird.org/](https://staging.open-sunbird.org/)
 
 #### Local Installation
 

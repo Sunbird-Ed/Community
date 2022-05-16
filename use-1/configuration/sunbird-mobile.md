@@ -34,7 +34,7 @@ Replace the producer id `PRODUCER_ID` for respective environments in sunbird.pro
 
 **Fabric credentials:**
 
-Replace `release_fabric_api_key` in `sunbird.properties` with your fabric API Key. Create an account in [fabric.io](https://get.fabric.io) and register in the app to get the API key.
+Replace `release_fabric_api_key` in `sunbird.properties` with your fabric API Key. Create an account in [fabric.io](https://get.fabric.io/) and register in the app to get the API key.
 
 ### Set up mobile app workspace from Git Repository <a href="#set-up-mobile-app-workspace-from-git-repository" id="set-up-mobile-app-workspace-from-git-repository"></a>
 
