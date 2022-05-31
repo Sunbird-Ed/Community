@@ -62,7 +62,11 @@
   * [Specifications](use/learn-more/specifications/README.md)
     * [SOFIE](use/learn-more/specifications/sofie.md)
 * [Releases](use/releases/README.md)
-  * [Release Calendar 4.9, 4.10, 5.0](use/releases/release-calendar-4.9-4.10-5.0.md)
+  * [Release calendars](use/releases/release-calendars/README.md)
+    * [Release Calendar 4.9, 4.10, 5.0](use/releases/release-calendars/release-calendar-4.9-4.10-5.0.md)
+  * [Planned items](use/releases/planned-items/README.md)
+    * [4.9.1 & 4.10](use/releases/planned-items/4.9.1-and-4.10.md)
+  * [Release notes](use/releases/release-notes.md)
 
 ## Engage
 
