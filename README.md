@@ -2,9 +2,9 @@
 
 **What is Sunbird ED and what does it solve for?**
 
-Sunbird ED is a software leveraged for enable learning, capacity building, professional development, content distribution solutions. These are applicable in multiple domains such as Education, Agriculture, Healthcare, and anywhere learning is a primary need.
+Sunbird ED is a software leveraged to enable learning, capacity building, professional development, and content distribution solutions. These are applicable in multiple domains such as Education, Agriculture, Healthcare, and anywhere learning is a primary need.
 
-Here are the few examples of solutions that can be enabled through Sunbird ED:
+Here are a few examples of solutions that can be enabled through Sunbird ED:
 
 1. Targeted training or self-driven learning through courses, where users can be issued a digitally verifiable proof/credential of their learning.
 2. Providing reference materials for self directed learning by users. E.g. How-to videos for farmers, health workers.&#x20;
