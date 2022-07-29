@@ -1,4 +1,4 @@
 # Extend / Contribute to Sunbird
 
-Guidelines to contribute to Sunbird ED
+Link to issues in Issue tracker - [https://github.com/Sunbird-Ed/Community/discussions/46](https://github.com/Sunbird-Ed/Community/discussions/46)
 
