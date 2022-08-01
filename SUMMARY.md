@@ -96,6 +96,7 @@
   * [Sunbird Themes](use-1/independent-libraries/sunbird-themes.md)
   * [Sunbird Tag Manager](use-1/independent-libraries/sunbird-tag-manager.md)
 * [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
+* [Issue tracker](use-1/issue-tracker.md)
 
 ## Misc
 
