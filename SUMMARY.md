@@ -70,6 +70,7 @@
   * [Release notes](use/releases/release-notes/README.md)
     * [Release 4.9.1](use/releases/release-notes/release-4.9.1.md)
     * [Release 4.10.0](use/releases/release-notes/release-4.10.0.md)
+  * [Demo of released items](use/releases/demo-of-released-items.md)
 
 ## Engage
 
