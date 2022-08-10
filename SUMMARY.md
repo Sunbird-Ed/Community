@@ -46,6 +46,9 @@
 ## USE
 
 * [Deployment Diagram](use/deployment-diagram.md)
+* [Deployment Artifacts](use/deployment-artifacts/README.md)
+  * [4.10](use/deployment-artifacts/4.10.md)
+  * [4.10.1](use/deployment-artifacts/4.10.1.md)
 * [Prerequisites for your own Sunbird ED Instance](use/prerequisites-for-your-own-sunbird-ed-instance/README.md)
   * [Platform](use/prerequisites-for-your-own-sunbird-ed-instance/platform/README.md)
     * [Infra Provisioning](use/prerequisites-for-your-own-sunbird-ed-instance/platform/infra-provisioning.md)
