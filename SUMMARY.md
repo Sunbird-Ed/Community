@@ -70,6 +70,7 @@
   * [Planned items](use/releases/planned-items/README.md)
     * [4.9, 4.9.1, & 4.10(major)](use/releases/planned-items/4.9-4.9.1-and-4.10-major.md)
     * [4.10.1, 4.10.2, 4.10.3, & 5.0(major)](use/releases/planned-items/4.10.1-4.10.2-4.10.3-and-5.0-major.md)
+    * [5.0.1, 5.0.2, 5.0.3 & 5.1 (major)](use/releases/planned-items/5.0.1-5.0.2-5.0.3-and-5.1-major.md)
   * [Release notes](use/releases/release-notes/README.md)
     * [Release 4.9.1](use/releases/release-notes/release-4.9.1.md)
     * [Release 4.10.0](use/releases/release-notes/release-4.10.0.md)
