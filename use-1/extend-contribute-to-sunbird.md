@@ -1,5 +1,9 @@
 # Extend / Contribute to Sunbird
 
+**Contribution process**
+
+****[**https://sunbird.gitbook.io/sunbird-community-practices/VJZlxBFjATn5Y97QSiJB/**](https://sunbird.gitbook.io/sunbird-community-practices/VJZlxBFjATn5Y97QSiJB/)****
+
 **Priority definition**
 
 1. P1 (fix to be provided asap )&#x20;
@@ -11,11 +15,5 @@
    1. Breakage in a major feature used by the majority of our adopters&#x20;
    2. Issue/feature/enhancement to enable a strategic initiative of the adopters
 3. P3 (Fix to be provided when bandwidth allows)
-   1. All other issues/ features/enhancements which align with the roadmap
-
-
-
-Contribution process -&#x20;
-
-{% file src="../.gitbook/assets/Sunbird ED Adopter's Issue Resolution Workflow.drawio.pdf" %}
+   1. All other issues/ features/enhancements which align with the roadmapContribution process
 

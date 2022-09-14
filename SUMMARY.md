@@ -87,6 +87,7 @@
 
 ## Contribute <a href="#use" id="use"></a>
 
+* [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
 * [System Requirements](use-1/system-requirements/README.md)
   * [Learning Apps](use-1/system-requirements/learning-apps.md)
 * [Source Code](use-1/source-code/README.md)
@@ -105,7 +106,6 @@
   * [Sunbird Styles](use-1/independent-libraries/sunbird-styles.md)
   * [Sunbird Themes](use-1/independent-libraries/sunbird-themes.md)
   * [Sunbird Tag Manager](use-1/independent-libraries/sunbird-tag-manager.md)
-* [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
 * [Issue tracker/ Create Issue](use-1/issue-tracker.md)
 
 ## Misc
