@@ -11,9 +11,7 @@
    1. Breakage in a major feature used by the majority of our adopters&#x20;
    2. Issue blocking a strategic partner.
 
-Become a contributor-&#x20;
 
-Become a&#x20;
 
 Contribution process -&#x20;
 
