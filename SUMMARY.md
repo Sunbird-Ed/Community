@@ -75,7 +75,7 @@
   * [Release notes](use/releases/release-notes/README.md)
     * [4.7.0, 4.8.0](use/releases/release-notes/4.7.0-4.8.0.md)
     * [4.9.0, 4.9.1, 4.10.0](use/releases/release-notes/4.9.0-4.9.1-4.10.0.md)
-    * [4.10.1, 4.10.2, 4.10.3](use/releases/release-notes/release-4.10.0.md)
+    * [4.10.1, 4.10.2, 4.10.3, 5.0.0](use/releases/release-notes/release-4.10.0.md)
   * [Release Artefacts](use/releases/release-artefacts/README.md)
     * [Release 4.10.2](use/releases/release-artefacts/release-4.10.2.md)
     * [Release 4.10.3](use/releases/release-artefacts/release-4.10.3.md)
