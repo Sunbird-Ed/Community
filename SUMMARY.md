@@ -48,7 +48,7 @@
 * [Deployment Diagram](use/deployment-diagram.md)
 * [Deployment Artifacts](use/deployment-artifacts/README.md)
   * [4.10](use/deployment-artifacts/4.10.md)
-  * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/deployment-artifacts/4.10.1-4.10.2-4.10.3-and-5.0.md)
+  * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/deployment-artifacts/4.10.1.md)
 * [Prerequisites for your own Sunbird ED Instance](use/prerequisites-for-your-own-sunbird-ed-instance/README.md)
   * [Platform](use/prerequisites-for-your-own-sunbird-ed-instance/platform/README.md)
     * [Infra Provisioning](use/prerequisites-for-your-own-sunbird-ed-instance/platform/infra-provisioning.md)
@@ -78,8 +78,8 @@
     * [4.9.0, 4.9.1, 4.10.0](use/releases/release-notes/4.9.0-4.9.1-4.10.0.md)
     * [4.10.1, 4.10.2, 4.10.3, 5.0.0](use/releases/release-notes/release-4.10.0.md)
   * [Release Artefacts](use/releases/release-artefacts/README.md)
-    * [Release 4.10.2](use/releases/release-artefacts/release-4.10.2.md)
-    * [Release 4.10.3](use/releases/release-artefacts/release-4.10.3.md)
+    * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/releases/release-artefacts/4.10.1-4.10.2-4.10.3-and-5.0.md)
+    * [5.0.1, 5.0.2, 5.0.3, & 5.1](use/releases/release-artefacts/5.0.1-5.0.2-5.0.3-and-5.1.md)
   * [Demo of released items](use/releases/demo-of-released-items.md)
 
 ## Engage
