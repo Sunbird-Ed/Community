@@ -10,7 +10,7 @@ Enable learning for anyone, on any device, anywhere. Learning Apps are front-end
 
 ![](<../../.gitbook/assets/image (8).png>)
 
-**Mobile app** Works on a range of mobile devices Android 5.1+, iOS 9+ and optimized app size for a variety of devices
+**Mobile app** Works on a range of mobile devices Android 6+, iOS 9+ and optimized app size for a variety of devices
 
 **Web app** Runs on the latest browsers on desktops, mobile phones, and tablets. Compatible with Chrome 47+, Safari 13+, and Firefox&#x20;
 
