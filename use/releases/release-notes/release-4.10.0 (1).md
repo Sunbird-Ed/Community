@@ -1,9 +1,13 @@
-# 4.10.1, 4.10.2, 4.10.3, 5.0.0
+# Release 4.10.0
 
-{% file src="../../../.gitbook/assets/Release Notes 4.10.1.docx" %}
+### Release brief of 4.10.0
 
-{% file src="../../../.gitbook/assets/Release Notes 4.10.2 (2).docx" %}
+* Minor enhancements for Project&#x20;
+* Direct access to the observation forms
+* Uniform labels on Program and Admin Dashboard
 
-{% file src="../../../.gitbook/assets/Release Notes 4.10.3 (1).docx" %}
+To read the release notes in detail, download the attached file.
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.0.docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 4.10.0.docx" %}
+
+\
