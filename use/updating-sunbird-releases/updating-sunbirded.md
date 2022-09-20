@@ -35,7 +35,7 @@ This page details out the jobs required to be run as part of the upgrade from Su
 | Build/managed-learn/ml-projects-service | release-5.0.0_RC5                   | Deploy/managed-learn/ml-projects-service | release-5.0.0_RC2 |                  |
 | Build/managed-learn/ml-survey-service   | release-5.0.0_RC6                   | Deploy/managed-learn/ml-survey-service   | release-5.0.0_RC2 |                  |
 | Build/managed-learn/ml-reports-service  | release-5.0.0_RC2                   | Deploy/managed-learn/ml-reports-service  | release-5.0.0_RC2 |                  |
-|  |              | Deploy/managed-learn/ml-analytics-service   | release-5.0.0_RC7 ||
+|  |              | Deploy/managed-learn/ml-analytics-service   | branch_or_tag: release-5.0.0,ml_analytics_version: release-5.0.0_RC7 ||
 | Build/Plugins/ContentEditor             | release-5.0.0_RC1                   | Deploy/Plugins/ContentEditor             | release-5.0.0_RC2 |                  |
 | Build/Plugins/ContentPlugins            | release-5.0.0_RC1                   | Deploy/Plugins/ContentPlugins            | release-5.0.0_RC2 |                  |
 | Build/Plugins/GenericEditor             | release-5.0.0_RC1                   | Deploy/Plugins/GenericEditor             | release-5.0.0_RC2 |                  |
