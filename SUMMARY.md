@@ -48,7 +48,7 @@
 * [Deployment Diagram](use/deployment-diagram.md)
 * [Deployment Artifacts](use/deployment-artifacts/README.md)
   * [4.10](use/deployment-artifacts/4.10.md)
-  * [4.10.1](use/deployment-artifacts/4.10.1.md)
+  * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/deployment-artifacts/4.10.1.md)
 * [Prerequisites for your own Sunbird ED Instance](use/prerequisites-for-your-own-sunbird-ed-instance/README.md)
   * [Platform](use/prerequisites-for-your-own-sunbird-ed-instance/platform/README.md)
     * [Infra Provisioning](use/prerequisites-for-your-own-sunbird-ed-instance/platform/infra-provisioning.md)
@@ -60,6 +60,7 @@
   * [Sunbird ED Mobile](use/prerequisites-for-your-own-sunbird-ed-instance/sunbird-ed-mobile.md)
 * [Updating Sunbird Releases](use/updating-sunbird-releases/README.md)
   * [4.5 to 4.6](use/updating-sunbird-releases/4.5-to-4.6.md)
+  * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/updating-sunbird-releases/4.10.1-4.10.2-4.10.3-and-5.0.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
   * [Specifications](use/learn-more/specifications/README.md)
@@ -67,22 +68,19 @@
 * [Releases](use/releases/README.md)
   * [Release calendars](use/releases/release-calendars/README.md)
     * [Release Calendar 4.9, 4.10, 5.0](use/releases/release-calendar-4.9-4.10-5.0.md)
+    * [Release calendar 5.0.1, 5.0.2, 5.0.3, 5.1.0 (major), 5.1.1, 5.1.2, 5.1.3 &5.2.0 (major)](use/releases/release-calendars/release-calendar-5.0.1-5.0.2-5.0.3-5.1.0-major-5.1.1-5.1.2-5.1.3-and-5.2.0-major.md)
   * [Planned items](use/releases/planned-items/README.md)
     * [4.9, 4.9.1, & 4.10(major)](use/releases/planned-items/4.9-4.9.1-and-4.10-major.md)
     * [4.10.1, 4.10.2, 4.10.3, & 5.0(major)](use/releases/planned-items/4.10.1-4.10.2-4.10.3-and-5.0-major.md)
     * [5.0.1, 5.0.2, 5.0.3 & 5.1 (major)](use/releases/planned-items/5.0.1-5.0.2-5.0.3-and-5.1-major.md)
   * [Release notes](use/releases/release-notes/README.md)
-    * [Release 4.7.0](use/releases/release-notes/release-4.7.0.md)
-    * [Release 4.8.0](use/releases/release-notes/release-4.8.0.md)
-    * [Release 4.9.0](use/releases/release-notes/release-4.9.0/README.md)
-      * [Release 4.9.1](use/releases/release-notes/release-4.9.0/release-4.9.1.md)
-      * [Release 4.10.0](use/releases/release-notes/release-4.9.0/release-4.10.0.md)
-    * [Release 4.10.1](use/releases/release-notes/release-4.10.0/README.md)
-      * [Release 4.10.2](use/releases/release-notes/release-4.10.0/release-4.10.2.md)
-      * [Release 4.10.3](use/releases/release-notes/release-4.10.0/release-4.10.3.md)
+    * [Release 4.10.0](<use/releases/release-notes/release-4.10.0 (1).md>)
+    * [4.7.0, 4.8.0](use/releases/release-notes/4.7.0-4.8.0.md)
+    * [4.9.0, 4.9.1, 4.10.0](use/releases/release-notes/4.9.0-4.9.1-4.10.0.md)
+    * [4.10.1, 4.10.2, 4.10.3, 5.0.0](use/releases/release-notes/release-4.10.0.md)
   * [Release Artefacts](use/releases/release-artefacts/README.md)
-    * [Release 4.10.2](use/releases/release-artefacts/release-4.10.2.md)
-    * [Release 4.10.3](use/releases/release-artefacts/release-4.10.3.md)
+    * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/releases/release-artefacts/4.10.1-4.10.2-4.10.3-and-5.0.md)
+    * [5.0.1, 5.0.2, 5.0.3, & 5.1](use/releases/release-artefacts/5.0.1-5.0.2-5.0.3-and-5.1.md)
   * [Demo of released items](use/releases/demo-of-released-items.md)
 
 ## Engage
@@ -91,6 +89,7 @@
 
 ## Contribute <a href="#use" id="use"></a>
 
+* [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
 * [System Requirements](use-1/system-requirements/README.md)
   * [Learning Apps](use-1/system-requirements/learning-apps.md)
 * [Source Code](use-1/source-code/README.md)
@@ -109,8 +108,7 @@
   * [Sunbird Styles](use-1/independent-libraries/sunbird-styles.md)
   * [Sunbird Themes](use-1/independent-libraries/sunbird-themes.md)
   * [Sunbird Tag Manager](use-1/independent-libraries/sunbird-tag-manager.md)
-* [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
-* [Issue tracker](use-1/issue-tracker.md)
+* [Issue tracker/ Create Issue](use-1/issue-tracker.md)
 
 ## Misc
 
