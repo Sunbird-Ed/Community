@@ -77,6 +77,6 @@ Enable targeted time bound programs with defined digital assets to be consumed. 
 
 **Contributors:** EkStep, ShikshaLokam
 
-**Last Upgrade date**: **25**th Mar 2022
+**Last Upgrade date**: **14th** Sep 2022
 
-**Version :** 4.7
+**Version :** 5.0.0
