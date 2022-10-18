@@ -79,4 +79,4 @@ Enable targeted time bound programs with defined digital assets to be consumed. 
 
 **Last Upgrade date**: **14th** Sep 2022
 
-**Version :** 5.0.0
+**Version :** 5.0.1
