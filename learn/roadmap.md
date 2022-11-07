@@ -1,10 +1,15 @@
 # Roadmap
 
-| Theme                 | What (initiative)                                                                                 | Target release | Status   |
-| --------------------- | ------------------------------------------------------------------------------------------------- | -------------- | -------- |
-| Ease of deployment    | An ease way for adopters to quickly build Sunbird mobile app with few clicks                      | Oct 2022       | Released |
-| Registeration changes | For account creation on Sunbird, minors are explicitly requesired to give their parents' constent | Oct 2022       | Released |
-|                       |                                                                                                   |                |          |
+| Theme                 | What (initiative)                                                                                                | Target release | Status   |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------- | -------- |
+| Ease of deployment    | An ease way for adopters to quickly build Sunbird mobile app with few clicks                                     | Oct 2022       | Released |
+| Registeration changes | For account creation on Sunbird, minors are explicitly requesired to give their parents' constent                | Oct 2022       | Released |
+|                       |                                                                                                                  |                |          |
+| CSP                   | Making sunbird apps to be cloud agnostic                                                                         | Sep 2022       | Released |
+| Search                | User will be able to see results upto 100 content in a single page for a better search exeprience                | July 2022      | Released |
+| Accessability         | Accessability of on-boarding and landing pages of sunbird apps                                                   | July 2022      | Released |
+| Generalisation        | Adopters will be able to customize the sunbird mobile app's splash screen, icon, lables as per their preferences | July 2022      | Released |
+| Consumption           | Consumption of question sets offline in IOS app                                                                  | June 2022      | Released |
 
 
 
