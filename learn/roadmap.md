@@ -1,5 +1,13 @@
 # Roadmap
 
+| Theme                 | What (initiative)                                                                                 | Target release | Status   |
+| --------------------- | ------------------------------------------------------------------------------------------------- | -------------- | -------- |
+| Ease of deployment    | An ease way for adopters to quickly build Sunbird mobile app with few clicks                      | Oct 2022       | Released |
+| Registeration changes | For account creation on Sunbird, minors are explicitly requesired to give their parents' constent | Oct 2022       | Released |
+|                       |                                                                                                   |                |          |
+
+
+
 1. IOS app - In pursuit to be available on different device, we are coming up with our IOS apps which will enable users with apple mobile and tablets to easily use Sunbird ED app. First version is already out. Do check it out!
 2. Functional features
    1. Create certificate new UI - We are coming up with a new configurable UI for creation of certificates which will enable creators to easily change literally anything on the certificate without have to engage anyone from design and engineering team. [https://project-sunbird.atlassian.net/browse/SC-2182](https://project-sunbird.atlassian.net/browse/SC-2182)
