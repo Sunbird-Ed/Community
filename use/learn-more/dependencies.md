@@ -4,23 +4,7 @@
 {% tab title="Sunbird Knowlg" %}
 
 
-| Category of Dependency | Tools & API End Points | Description |   |
-| ---------------------- | ---------------------- | ----------- | - |
-| Content Players        | PDF Player             |             |   |
-|                        | Video Player           |             |   |
-|                        | H5p/HTML Player        |             |   |
-|                        | ECML Player            |             |   |
-|                        | EPUB Player            |             |   |
-| Micro Services         |                        |             |   |
-| Content Service        | content/v1/read/       |             |   |
-| Collection Service     | course/v1/hierarchy/   |             |   |
-| Search Service         | content/v1/search      |             |   |
-| Dial Service           | data/v1/dial/assemble  |             |   |
-| Taxonomy Service       |                        |             |   |
-|                        |                        |             |   |
-|                        |                        |             |   |
-|                        |                        |             |   |
-| Event Service          |                        |             |   |
+<table><thead><tr><th>Category of Dependency</th><th>Tools &#x26; API End Points</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>Content Players</td><td>PDF Player</td><td></td><td></td></tr><tr><td></td><td>Video Player</td><td></td><td></td></tr><tr><td></td><td>H5p/HTML Player</td><td></td><td></td></tr><tr><td></td><td>ECML Player</td><td></td><td></td></tr><tr><td></td><td>EPUB Player</td><td></td><td></td></tr><tr><td>Micro Services</td><td></td><td></td><td></td></tr><tr><td>Content Service</td><td>content/v1/read/</td><td></td><td></td></tr><tr><td>Collection Service</td><td>course/v1/hierarchy/</td><td></td><td></td></tr><tr><td>Search Service</td><td>content/v1/search</td><td></td><td></td></tr><tr><td>Dial Service</td><td>data/v1/dial/assemble</td><td></td><td></td></tr><tr><td>Taxonomy Service</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Event Service</td><td></td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sunbird Observ" %}
@@ -28,12 +12,7 @@ Sunbird _Obsrv_ to measure and observe various actions and activities on Sunbird
 
 
 
-| Category of Dependency | API End Point              | Description |   |
-| ---------------------- | -------------------------- | ----------- | - |
-| Micro Services         |                            |             |   |
-| Telemetry Service      | /content/data/v1/telemetry |             |   |
-|                        | /device/register/          |             |   |
-| Report Service         | /data/reports/public/      |             |   |
+<table><thead><tr><th>Category of Dependency</th><th>API End Point</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>Micro Services</td><td></td><td></td><td></td></tr><tr><td>Telemetry Service</td><td>/content/data/v1/telemetry</td><td></td><td></td></tr><tr><td></td><td>/device/register/</td><td></td><td></td></tr><tr><td>Report Service</td><td>/data/reports/public/</td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sunbird Lern" %}
@@ -41,24 +20,7 @@ Sunbird _Lern_ is a building block comprising of core services that enable obser
 
 
 
-| Category of Dependency | API End Point             | Description |   |
-| ---------------------- | ------------------------- | ----------- | - |
-| Micro Services         |                           |             |   |
-| Profile Service        | user/v4/read/             |             |   |
-|                        | user/v1/update            |             |   |
-|                        | user/v1/tnc/accept        |             |   |
-|                        | user/v1/consent/read      |             |   |
-| Content Service        | content/state/v1/read     |             |   |
-|                        | content/state/v1/update   |             |   |
-| Enrolment Service      | course/v1/enrol           |             |   |
-| Certificate Service    | certreg/v1/cert/search    |             |   |
-|                        | certreg/v1/cert/downloads |             |   |
-| Location Service       | data/v1/location/search   |             |   |
-| Organisation Service   |                           |             |   |
-|                        |                           |             |   |
-|                        |                           |             |   |
-|                        |                           |             |   |
-| Notification Service   | user/v1/feed              |             |   |
+<table><thead><tr><th>Category of Dependency</th><th>API End Point</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>Micro Services</td><td></td><td></td><td></td></tr><tr><td>Profile Service</td><td>user/v4/read/</td><td></td><td></td></tr><tr><td></td><td>user/v1/update</td><td></td><td></td></tr><tr><td></td><td>user/v1/tnc/accept</td><td></td><td></td></tr><tr><td></td><td>user/v1/consent/read</td><td></td><td></td></tr><tr><td>Content Service</td><td>content/state/v1/read</td><td></td><td></td></tr><tr><td></td><td>content/state/v1/update</td><td></td><td></td></tr><tr><td>Enrolment Service</td><td>course/v1/enrol</td><td></td><td></td></tr><tr><td>Certificate Service</td><td>certreg/v1/cert/search</td><td></td><td></td></tr><tr><td></td><td>certreg/v1/cert/downloads</td><td></td><td></td></tr><tr><td>Location Service</td><td>data/v1/location/search</td><td></td><td></td></tr><tr><td>Organisation Service</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Notification Service</td><td>user/v1/feed</td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sunbird Inquiry" %}
@@ -66,19 +28,13 @@ Sunbird inQuiry is a building block that enables question banks that can contain
 
 
 
-| Category of Dependency | Tools and API End Points | Description |   |
-| ---------------------- | ------------------------ | ----------- | - |
-| Players                | QuML Player              |             |   |
-| Micro Services         |                          |             |   |
-| Question Set Service   | questionset/v1/read      |             |   |
+<table><thead><tr><th>Category of Dependency</th><th>Tools and API End Points</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>Players</td><td>QuML Player</td><td></td><td></td></tr><tr><td>Micro Services</td><td></td><td></td><td></td></tr><tr><td>Question Set Service</td><td>questionset/v1/read</td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sunbird UCI" %}
 
 
-| Category of Dependency | Tools    | Description |   |
-| ---------------------- | -------- | ----------- | - |
-| UI                     | Chat Bot |             |   |
+<table><thead><tr><th>Category of Dependency</th><th>Tools</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>UI</td><td>Chat Bot</td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
