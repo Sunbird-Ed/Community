@@ -61,7 +61,7 @@
 * [Updating Sunbird Releases](use/updating-sunbird-releases/README.md)
   * [ED - Portal](use/updating-sunbird-releases/ed-portal/README.md)
     * [4.5 to 4.6](use/updating-sunbird-releases/ed-portal/4.5-to-4.6.md)
-    * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/updating-sunbird-releases/ed-portal/4.10.1-4.10.2-4.10.3-and-5.0.md)
+    * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/updating-sunbird-releases/4.10.1-4.10.2-4.10.3-and-5.0.md)
   * [ED - Desktop](use/updating-sunbird-releases/ed-desktop.md)
   * [ED - Mobile App](use/updating-sunbird-releases/ed-mobile-app/README.md)
     * [4.10.3 to 5.0.0](use/updating-sunbird-releases/ed-mobile-app/4.10.3-to-5.0.0.md)
