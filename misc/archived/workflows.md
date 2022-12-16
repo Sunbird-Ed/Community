@@ -4,7 +4,7 @@
 
 Any Actor in the system will go through the workflow in following steps:
 
-![](<../../.gitbook/assets/Consumption workflow.PNG>)
+![](<../../.gitbook/assets/Consumption workflow (1).PNG>)
 
 **OnBoard / Setup User** : Sunbird reference apps allow users to onboard either anonymously or as via logins. This step ensures that users really discover assets that are relevant to them. This step allows users to pull personalised recommendation from the system.
 
