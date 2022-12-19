@@ -6,7 +6,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 
     ```bash
        git clone https://github.com/project-sunbird/sunbird-devops.git
-       cd sunbird-devops && git checkout tags/release-4.3.0 -b release-4.3.0
+       cd sunbird-devops && git checkout tags/release-4.10.0 -b release-4.10.0
        cd deploy/jenkins
        sudo bash jenkins-server-setup.sh
     ```
@@ -44,7 +44,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 
     ```
     sudo su jenkins
-    curl -SsL -o ~/jenkins.yaml https://raw.githubusercontent.com/project-sunbird/sunbird-devops/release-4.3.0/deploy/jenkins/jenkins.yaml
+    curl -SsL -o ~/jenkins.yaml https://raw.githubusercontent.com/project-sunbird/sunbird-devops/release-4.10.0/deploy/jenkins/jenkins.yaml
       
     # Replace all placeholders ${VALUE} with proper values
     # For example, 

@@ -15,7 +15,7 @@ To successfully complete Sunbird installation, you need to have:
 * Kubernetes Cluster with 4 worker nodes
 * Private GitHub repository to store ansible inventory
 * Fully Qualified Domain Name (FQDN) with SSL
-* Object Storage
+* Azure Storage account
 * Docker hub account
 * Public IP
 * Google Oauth Credentials
