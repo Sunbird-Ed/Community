@@ -25,6 +25,12 @@ Three applications - a mobile app, a desktop app, and a web portal allow user en
 
 ![Key Capabilities of Sunbird ED](<.gitbook/assets/image (15).png>)
 
+**A short video about SunbirdED and its functional capabilities**
+
+{% file src=".gitbook/assets/GMT20221221-075949_Recording_1760x900.mp4" %}
+
+****
+
 **Learning Apps**&#x20;
 
 Consume content on any device using a mobile app, web portal, or Desktop app in online and offline mode.
