@@ -8,7 +8,7 @@ Enable learning for anyone, on any device, anywhere. Learning Apps are front-end
 4. Enables contextual discovery based on user's preferences and persona.
 5. Enable access for anonymous as well as registered users.
 
-![](<../../.gitbook/assets/image (21).png>)
+![](../../.gitbook/assets/image.png)
 
 **Mobile app** Works on a range of mobile devices Android 6+, iOS 9+ and optimized app size for a variety of devices
 
