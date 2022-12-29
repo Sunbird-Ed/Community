@@ -17,9 +17,9 @@ Three applications - a mobile app, a desktop app, and a web portal allow user en
 
 ### **Adopters of Sunbird ED**&#x20;
 
-#### 1. DIKSHA - Digital Infrastructure for Knowledge Sharing by NCERT, MOE
+1. **DIKSHA** - Digital Infrastructure for Knowledge Sharing by NCERT, MOE
 
-2\. **Lex** by Infosys
+2. **Lex** by Infosys
 
 ### **Key Capabilities**
 
