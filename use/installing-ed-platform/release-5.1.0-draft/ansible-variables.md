@@ -36,6 +36,12 @@ git checkout tags/release-5.1.0 -b release-5.1.0
             └── secrets.yml
 ```
 
+**Neo4j download and upload to object storage**
+
+* Neo4j community artifact needs to be downloaded from neo4j official website(only neo4j 3.4 and below is supported)
+* Upload downloaded artifact to `cloud_storage_artifacts_bucketname`&#x20;
+* Update `neo4j_zip` variable with artifact name `Eg: neo4j-community-3.3.9-unix.tar.gz`
+
 > Note:
 >
 > * The ansible inventory setup is a must before we can start to run jobs from the **Provision**, **ArtifactUpload** and **Deploy** directory in Jenkins. The **Build** directory on Jenkins does not depend on the ansible variables

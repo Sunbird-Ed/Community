@@ -2,6 +2,14 @@
 
 > **Note:** We have automated infra provision scripts for azure, if you using any other cloud service provider other than azure create infra manually.
 
+**Provisioning infrastructure on other cloud service providers (except Azure)**
+
+* Object storage with CORS enabled
+* Virtual network with 2 subnets, one for VM's and other for kubernetes cluster
+* Managed Kubernetes cluster with 4 worker nodes
+* Create VM's as mentioned in prerequisites
+* Enable communication between above created two subnets, so that kubernetes cluster and VM'S created can communicate with each other
+
 **Provisioning infrastructure on Azure**
 
 You can run the following steps to create azure infrastructure using ansible.
@@ -58,13 +66,5 @@ Get the kubeconfig file for your cluster with the below command -
 ```
 
 * Disable **Secure transfer required** in storage account configuration
-
-**Provisioning infrastructure on other cloud service providers**
-
-* Object storage with CORS enabled
-* Virtual network with 2 subnets, one for VM's and other for kubernetes cluster
-* Managed Kubernetes cluster with 4 worker nodes
-* Create VM's as mentioned in prerequisites
-* Enable communication between above created two subnets, so that kubernetes cluster and VM'S created can communicate with each other
 
 ***
