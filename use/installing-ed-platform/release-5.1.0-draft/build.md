@@ -96,7 +96,7 @@ To install SunbirdED `release-5.1.0`, we will need to run many Jenkins jobs and 
 | Build/Plugins/ContentPlugins             | release-5.0.0\_RC1                                                       | [https://github.com/project-sunbird/sunbird-content-plugins.git](https://github.com/project-sunbird/sunbird-content-plugins.git)           | A bunch of base plugins to support the content editors and content player |
 | Build/Plugins/GenericEditor              | release-5.0.0\_RC3                                                       | [https://github.com/project-sunbird/sunbird-generic-editor.git](https://github.com/project-sunbird/sunbird-generic-editor.git)             | A bunch of plugins to edit certain types of content                       |
 
-**Infra Provision**
+**Service Provision**
 
 > **Note**:
 >
@@ -130,7 +130,7 @@ To install SunbirdED `release-5.1.0`, we will need to run many Jenkins jobs and 
 | Provision/DataPipeline/Redis                       | release-5.1.0                                                                                                                   | [https://github.com/project-sunbird/sunbird-data-pipeline.git](https://github.com/project-sunbird/sunbird-data-pipeline.git)         | Install Redis                                                                        |
 | Provision/DataPipeline/Zookeeper                   | release-5.1.0                                                                                                                   | [https://github.com/project-sunbird/sunbird-data-pipeline.git](https://github.com/project-sunbird/sunbird-data-pipeline.git)         | Installs Zookeeper                                                                   |
 
-**ArtifactUpload**
+**Artifact Upload**
 
 * Every job in the **Build** directory has a corresponding job in **ArtifactUpload** directory with the same name
 * These jobs are auto triggered and usually run without issues after the corresponding job in the build directory succeeds
@@ -138,7 +138,7 @@ To install SunbirdED `release-5.1.0`, we will need to run many Jenkins jobs and 
 * If the job has failed, fix the ansible variables issue and rerun the job to upload the artifact / docker image
 * Ensure the artifact upload jobs are successful before proceeding
 
-**Code Deploy**
+**Service Deploy**
 
 > **Note**:
 >

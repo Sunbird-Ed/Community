@@ -1,6 +1,6 @@
 # Infra Provisioning
 
-> **Note:** We have automated infra provision scripts for azure, if you using any other cloud service provider other than azure create infra manually.
+> **Note:** We have automated infra provision scripts available for azure, if you using any other cloud service provider other than azure provision infrastructure manually.
 
 **Provisioning infrastructure on other cloud service providers (except Azure)**
 
@@ -57,7 +57,7 @@ Get the kubeconfig file for your cluster with the below command -
 * Update the CORS rule for the storage account as follows:
 
 ```bash
-      Allowed Origins: *
+    Allowed Origins: *
     Allowed Methods: GET,HEAD,OPTIONS, PUT
     Allowed Headers: Access-Control-Allow-Origin,Access-Control-Allow-Method,Origin,x-ms-meta-qq,x-ms-blob-type,x-ms-blob-content-type,Content-Type
     Exposed Headers: Access-Control-Allow-Origin,Access-Control-Allow-Methods
