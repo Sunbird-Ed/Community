@@ -6,7 +6,7 @@
 
 * Object storage with CORS enabled
 * Virtual network with 2 subnets, one for VM's and other for kubernetes cluster
-* Managed Kubernetes cluster with 4 worker nodes
+* Managed Kubernetes cluster with 4 worker nodes each node with 4 Core, 16GB RAM configuration
 * Create VM's as mentioned in prerequisites
 * Enable communication between above created two subnets, so that kubernetes cluster and VM'S created can communicate with each other
 
