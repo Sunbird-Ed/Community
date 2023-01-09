@@ -1,4 +1,4 @@
-# 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.1.0
+# 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.4**</mark>** (29-12-2022)**
 
@@ -10,7 +10,15 @@ Course progress does not get updated correctly.  [ED-648](https://project-sunbir
 | ---------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Sunbird-Mobile   | release-5.0.5\_RC0                                                                                              | Same as above                                                                                                                                                                                                |
 
+### <mark style="color:blue;">Hot-fix:5.0.5</mark>(09-1-2023)
 
+#### <mark style="color:blue;">Bugs:</mark>
+
+Mobile app: User is not able to play resource content [ED-714](https://project-sunbird.atlassian.net/browse/ED-714)
+
+| Service to Build                     | Public Tag                                                                                       | Private Branch |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------ | -------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.0.6\_RC0](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/release-5.0.6\_RC0) | release-5.0.0  |
 
 {% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}
 
