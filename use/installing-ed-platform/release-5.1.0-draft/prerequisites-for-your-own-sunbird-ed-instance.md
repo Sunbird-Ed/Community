@@ -57,6 +57,6 @@ Before you start the installation process, ensure that you have the required inf
 | KP                    | 4core 16GB RAM 60G HDD  | 1            |
 | DP                    | 4core 16GB RAM 60G HDD  | 1            |
 | DB                    | 4core 16GB RAM 60G HDD  | 1            |
-| Yarn                  | 4core 16GB RAM 60G HDD  | 1            |
+| Learning              | 4core 16GB RAM 60G HDD  | 1            |
 | Druid                 | 4core 16GB RAM 60G HDD  | 1            |
 | Basic Load Balancers  | Layer 4                 | 2 (Optional) |
