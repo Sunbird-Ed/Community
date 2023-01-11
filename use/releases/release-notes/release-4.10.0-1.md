@@ -10,6 +10,11 @@ Course progress does not get updated correctly.  [ED-648](https://project-sunbir
 | ---------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Sunbird-Mobile   | release-5.0.5\_RC0                                                                                              | Same as above                                                                                                                                                                                                |
 
+Course progress does not get updated correctly If single page PDF content. [ED-731](https://project-sunbird.atlassian.net/browse/ED-731)
+
+| SunbirdEd-Portal | release-5.0.0.5\_RC1 | <p> checnged the code if course back Button or Next module and Prev. module button is clicked the single page PDF is marked as read. and the content status is marked as 2</p> |
+| ---------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
 ### <mark style="color:blue;">Hot-fix:5.0.5</mark>(09-1-2023)
 
 #### <mark style="color:blue;">Bugs:</mark>
