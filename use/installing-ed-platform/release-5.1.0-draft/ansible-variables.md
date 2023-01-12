@@ -15,6 +15,7 @@ git checkout tags/release-5.1.0 -b release-5.1.0
 ```
 
 * Copy the directory `sunbird-devops/private_repo/ansible` to your private repo
+* Run the `key-generate.sh` script located under `ansible/inventory/dev` folder. The script will ask for the ansible vault password. Enter the same vault password that you used in the Jenkins setup stage. The script will generate many private key files and they will be encrypted with the vault password. Deployments will fail if keys are not encrypted.
 * Update the files **common.yml**, **hosts**, and **secrets.yml** under **Core**, **KnowledgePlatform** and **DataPipeline** directories. After updating, push them to your private repo branch
 * Your private repo structure starting from the root path should be exactly as shown below
 
@@ -26,6 +27,10 @@ git checkout tags/release-5.1.0 -b release-5.1.0
         │   ├── common.yml
         │   ├── hosts
         │   └── secrets.yml
+        ├── Kubernetes
+        │   ├── common.yml   (soft link to Core directory files)
+        │   ├── hosts.       (soft link to Core directory files)
+        │   └── secrets.yml  (soft link to Core directory files)
         ├── DataPipeline
         │   ├── common.yml
         │   ├── hosts
