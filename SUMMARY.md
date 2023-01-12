@@ -101,6 +101,8 @@
     * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/releases/release-artefacts/4.10.1-4.10.2-4.10.3-and-5.0.md)
     * [5.0.1, 5.0.2, 5.0.3, & 5.1](use/releases/release-artefacts/5.0.1-5.0.2-5.0.3-and-5.1.md)
   * [Demo of released items](use/releases/demo-of-released-items.md)
+* [Telemetry](use/telemetry/README.md)
+  * [Course](use/telemetry/course.md)
 
 ## Engage
 
