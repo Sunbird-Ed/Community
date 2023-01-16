@@ -1,6 +1,6 @@
 # Platform
 
-
+### Sunbird Knowlg
 
 | SunbirdKnowlg Components            | GitHub Repo                                                                                                                      |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -16,6 +16,8 @@
 | Content Management Services         | [https://github.com/project-sunbird/knowledge-mw-service](https://github.com/project-sunbird/knowledge-mw-service)               |
 
 
+
+### Sunbird Lern
 
 | SunbirdLern Components                | GitHub Repo                                                                                                                                                                     |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,11 +36,15 @@
 
 
 
+### Sunbird CoKreat
+
 | Sunbird Co-Kreat Components | GitHub Repo                                                                                    |
 | --------------------------- | ---------------------------------------------------------------------------------------------- |
 | Co-Kreat                    | [https://github.com/Sunbird-Ed/creation-portal](https://github.com/Sunbird-Ed/creation-portal) |
 
 
+
+### Sunbird Devops
 
 | Sunbird Devops Components | GitHub Repo                                                                                                                                |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
