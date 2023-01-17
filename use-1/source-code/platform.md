@@ -2,18 +2,20 @@
 
 ### Sunbird Knowlg
 
-| SunbirdKnowlg Components                | GitHub Repo                                                                                                                      |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Collection Editor (going to deprecate)  | [https://github.com/project-sunbird/sunbird-collection-editor](https://github.com/project-sunbird/sunbird-collection-editor)     |
-| Plugins: Editors & Players              | [https://github.com/project-sunbird/sunbird-content-plugins](https://github.com/project-sunbird/sunbird-content-plugins)         |
-| Editor for non ecml content             | [https://github.com/project-sunbird/sunbird-content-editor](https://github.com/project-sunbird/sunbird-content-editor)           |
-| File upload editor                      | [https://github.com/project-sunbird/sunbird-generic-editor](https://github.com/project-sunbird/sunbird-generic-editor)           |
-| Learning platform (going to deprecate)  | [https://github.com/project-sunbird/sunbird-learning-platform](https://github.com/project-sunbird/sunbird-learning-platform)     |
-| Knowlg platform jobs                    | [https://github.com/project-sunbird/knowledge-platform-jobs](https://github.com/project-sunbird/knowledge-platform-jobs)         |
-| Sunbird Knowlg Core                     | [https://github.com/project-sunbird/knowledge-platform](https://github.com/project-sunbird/knowledge-platform)                   |
-| Sunbird Search Service                  | [https://github.com/project-sunbird/sunbird-core-search-service](https://github.com/project-sunbird/sunbird-core-search-service) |
-| Sunbird DIAL Service                    | [https://github.com/project-sunbird/sunbird-dial-service](https://github.com/project-sunbird/sunbird-dial-service)               |
-| Knowledge Middleware Service            | [https://github.com/project-sunbird/knowledge-mw-service](https://github.com/project-sunbird/knowledge-mw-service)               |
+| SunbirdKnowlg Components            | GitHub Repo                                                                                                                      |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Collection Editor                   | [https://github.com/Sunbird-Ed/sunbird-collection-editor](https://github.com/Sunbird-Ed/sunbird-collection-editor)               |
+| Editor for non ecml content         | [https://github.com/project-sunbird/sunbird-generic-editor](https://github.com/project-sunbird/sunbird-generic-editor)           |
+| Question Set Editor                 | [https://github.com/Sunbird-Ed/sunbird-questionset-editor](https://github.com/Sunbird-Ed/sunbird-questionset-editor)             |
+| Program Service                     | [https://github.com/Sunbird-Ed/program-service](https://github.com/Sunbird-Ed/program-service)                                   |
+| API for LMS (Deprecated now)        | [https://github.com/project-sunbird/sunbird-lms-service](https://github.com/project-sunbird/sunbird-lms-service)                 |
+| Background  pipeline Jobs of Knowlg | [https://github.com/project-sunbird/knowledge-platform-jobs](https://github.com/project-sunbird/knowledge-platform-jobs)         |
+| Sunbird Knowlg Core                 | [https://github.com/project-sunbird/knowledge-platform](https://github.com/project-sunbird/knowledge-platform)                   |
+| Sunbird Search Service              | [https://github.com/project-sunbird/sunbird-core-search-service](https://github.com/project-sunbird/sunbird-core-search-service) |
+| Graph Engine Component              | [https://github.com/project-sunbird/graph-engine](https://github.com/project-sunbird/graph-engine)                               |
+| Content Management Services         | [https://github.com/project-sunbird/knowledge-mw-service](https://github.com/project-sunbird/knowledge-mw-service)               |
+
+
 
 ### Sunbird Lern
 
@@ -24,7 +26,7 @@
 | Certificate Registry                     | [https://github.com/Sunbird-Lern/certificate-registry](https://github.com/Sunbird-Lern/certificate-registry)                                                                                                                            |
 | Sunbird RC (Certificate Generation)      | [https://github.com/Sunbird-RC/sunbird-rc-core](https://github.com/Sunbird-RC/sunbird-rc-core)                                                                                                                                          |
 | User Management Micro Services           | [https://github.com/Sunbird-Lern/sunbird-lms-service](https://github.com/Sunbird-Lern/sunbird-lms-service)                                                                                                                              |
-| Discussion Forum front-end library       | [https://github.com/Sunbird-Lern/discussions-UI](https://github.com/Sunbird-Lern/discussions-UI)                                                                                                                                        |
+| Discussion Forum Framework               | [https://github.com/Sunbird-Lern/discussions-UI](https://github.com/Sunbird-Lern/discussions-UI)                                                                                                                                        |
 | Discussion Forum Middleware              | [https://github.com/Sunbird-Lern/discussions-middleware](https://github.com/Sunbird-Lern/discussions-middleware)                                                                                                                        |
 | Node BB Plugin for Discussion Forum      | [https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api](https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api)                                                                                                                  |
 | Node BB Plugin for User Auth             | [https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-oidc](https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-oidc)                                                                                                                |
@@ -33,7 +35,7 @@
 | Notification Services                    | [https://github.com/Sunbird-Lern/sunbird-notification-service](https://github.com/Sunbird-Lern/sunbird-notification-service)                                                                                                            |
 | Lern Data Products                       | [https://github.com/Sunbird-Lern/data-products](https://github.com/Sunbird-Lern/data-products)                                                                                                                                          |
 | Cassandra migration                      | [https://github.com/Sunbird-Lern/sunbird-utils](https://github.com/Sunbird-Lern/sunbird-utils)                                                                                                                                          |
-| Discussion forum Sunbird API's           | [https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api](https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api)                                                                                                                  |
+| NodeBB                                   | [https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api](https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api)                                                                                                                  |
 | Api Manager Utility and Token generation | [https://github.com/Sunbird-Lern/sunbird-apimanager-util](https://github.com/Sunbird-Lern/sunbird-apimanager-util)                                                                                                                      |
 | Keycloak SPI                             | [https://github.com/Sunbird-Lern/sunbird-auth](https://github.com/Sunbird-Lern/sunbird-auth)                                                                                                                                            |
 
@@ -41,20 +43,9 @@
 
 ### Sunbird CoKreat
 
-| Sunbird Co-Kreat Components        | GitHub Repo                                                                                    |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Sourcing Portal (Content creation) | [https://github.com/Sunbird-Ed/creation-portal](https://github.com/Sunbird-Ed/creation-portal) |
-| Program service                    | [https://github.com/Sunbird-Ed/program-service](https://github.com/Sunbird-Ed/program-service) |
-
-
-
-### Sunbird Inquiry
-
-| Sunbird Inquiry Components | GitHub Repo                                                                                                                                                          |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| QUML player                | [https://github.com/project-sunbird/sunbird-quml-player](https://github.com/project-sunbird/sunbird-quml-player)                                                     |
-| Question Editor            | [https://github.com/Sunbird-Ed/sunbird-collection-editor](https://github.com/Sunbird-Ed/sunbird-collection-editor)                                                   |
-| Assessment service         | [https://github.com/project-sunbird/knowledge-platform/tree/master/assessment-api](https://github.com/project-sunbird/knowledge-platform/tree/master/assessment-api) |
+| Sunbird Co-Kreat Components | GitHub Repo                                                                                    |
+| --------------------------- | ---------------------------------------------------------------------------------------------- |
+| Co-Kreat                    | [https://github.com/Sunbird-Ed/creation-portal](https://github.com/Sunbird-Ed/creation-portal) |
 
 
 
