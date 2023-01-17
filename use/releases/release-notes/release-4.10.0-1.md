@@ -46,3 +46,7 @@ Course progress does not get updated correctly. For a course which has a single 
 {% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}
 
 {% file src="../../../.gitbook/assets/Release Notes 5.0.2.docx" %}
+
+#### Release 5.1.0 (16-1-2023)
+
+{% file src="../../../.gitbook/assets/Release Notes 5.1.0.docx" %}
