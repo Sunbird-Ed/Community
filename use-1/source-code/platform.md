@@ -19,20 +19,25 @@
 
 ### Sunbird Lern
 
-| SunbirdLern Components                | GitHub Repo                                                                                                                                                                     |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Course Services                       | [https://github.com/project-sunbird/sunbird-course-service](https://github.com/project-sunbird/sunbird-course-service)                                                          |
-| Certificate Services                  | <p><a href="https://github.com/project-sunbird/cert-servicehttps://github.com/project-sunbird/certificate-registry">https://github.com/project-sunbird/cert-service<br></a></p> |
-| Certificate Registry                  | [https://github.com/project-sunbird/certificate-registry](https://github.com/project-sunbird/cert-servicehttps://github.com/project-sunbird/certificate-registry)               |
-| Open Saber Implementation for Sunbird | [https://github.com/project-sunbird/sunbird-user-registry](https://github.com/project-sunbird/sunbird-user-registry)                                                            |
-| User Management Micro Services        | [https://github.com/project-sunbird/sunbird-user-service](https://github.com/project-sunbird/sunbird-user-service)                                                              |
-| Discussion Forum Framework            | [https://github.com/Sunbird-Ed/discussions-UI](https://github.com/Sunbird-Ed/discussions-UI)                                                                                    |
-| Discussion Forum Middleware           | [https://github.com/Sunbird-Ed/discussions-middleware](https://github.com/Sunbird-Ed/discussions-middleware)                                                                    |
-| Node BB Plugin for Discussion Forum   | [https://github.com/Sunbird-Ed/nodebb-plugin-sunbird-api](https://github.com/Sunbird-Ed/nodebb-plugin-sunbird-api)                                                              |
-| Node BB Plugin for User Auth          | [https://github.com/Sunbird-Ed/nodebb-plugin-sunbird-oidc](https://github.com/Sunbird-Ed/nodebb-plugin-sunbird-oidc)                                                            |
-| Groups Services                       | [https://github.com/project-sunbird/groups-service](https://github.com/project-sunbird/groups-service)                                                                          |
-| Learning Platform Devops              | [https://github.com/project-sunbird/sunbird-learning-platform-devops](https://github.com/project-sunbird/sunbird-learning-platform-devops)                                      |
-| Notification Services                 | [https://github.com/project-sunbird/sunbird-notification-service](https://github.com/project-sunbird/sunbird-notification-service)                                              |
+| SunbirdLern Components                   | GitHub Repo                                                                                                                                                                                                                             |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Course Services                          | [https://github.com/Sunbird-Lern/sunbird-course-service](https://github.com/Sunbird-Lern/sunbird-course-service)                                                                                                                        |
+| Certificate Services                     | <p><a href="https://github.com/Sunbird-Lern/cert-service">https://github.com/Sunbird-Lern/cert-service</a><a href="https://github.com/project-sunbird/cert-servicehttps://github.com/project-sunbird/certificate-registry"><br></a></p> |
+| Certificate Registry                     | [https://github.com/Sunbird-Lern/certificate-registry](https://github.com/Sunbird-Lern/certificate-registry)                                                                                                                            |
+| Sunbird RC (Certificate Generation)      | [https://github.com/Sunbird-RC/sunbird-rc-core](https://github.com/Sunbird-RC/sunbird-rc-core)                                                                                                                                          |
+| User Management Micro Services           | [https://github.com/Sunbird-Lern/sunbird-lms-service](https://github.com/Sunbird-Lern/sunbird-lms-service)                                                                                                                              |
+| Discussion Forum Framework               | [https://github.com/Sunbird-Lern/discussions-UI](https://github.com/Sunbird-Lern/discussions-UI)                                                                                                                                        |
+| Discussion Forum Middleware              | [https://github.com/Sunbird-Lern/discussions-middleware](https://github.com/Sunbird-Lern/discussions-middleware)                                                                                                                        |
+| Node BB Plugin for Discussion Forum      | [https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api](https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api)                                                                                                                  |
+| Node BB Plugin for User Auth             | [https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-oidc](https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-oidc)                                                                                                                |
+| Groups Services                          | [https://github.com/Sunbird-Lern/groups-service](https://github.com/Sunbird-Lern/groups-service)                                                                                                                                        |
+| Learning Data Pipeline                   | [https://github.com/Sunbird-Lern/data-pipeline](https://github.com/Sunbird-Lern/data-pipeline)                                                                                                                                          |
+| Notification Services                    | [https://github.com/Sunbird-Lern/sunbird-notification-service](https://github.com/Sunbird-Lern/sunbird-notification-service)                                                                                                            |
+| Lern Data Products                       | [https://github.com/Sunbird-Lern/data-products](https://github.com/Sunbird-Lern/data-products)                                                                                                                                          |
+| Cassandra migration                      | [https://github.com/Sunbird-Lern/sunbird-utils](https://github.com/Sunbird-Lern/sunbird-utils)                                                                                                                                          |
+| NodeBB                                   | [https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api](https://github.com/Sunbird-Lern/nodebb-plugin-sunbird-api)                                                                                                                  |
+| Api Manager Utility and Token generation | [https://github.com/Sunbird-Lern/sunbird-apimanager-util](https://github.com/Sunbird-Lern/sunbird-apimanager-util)                                                                                                                      |
+| Keycloak SPI                             | [https://github.com/Sunbird-Lern/sunbird-auth](https://github.com/Sunbird-Lern/sunbird-auth)                                                                                                                                            |
 
 
 
@@ -46,12 +51,11 @@
 
 ### Sunbird Devops
 
-| Sunbird Devops Components | GitHub Repo                                                                                                                                |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Sunbird Devops Repository | [https://github.com/project-sunbird/sunbird-devops](https://github.com/project-sunbird/sunbird-devops)                                     |
-| Api Manager Utility       | [https://github.com/project-sunbird/sunbird-apimanager-util](https://github.com/project-sunbird/sunbird-apimanager-util)                   |
-| Devops Repo for Lern      | [https://github.com/project-sunbird/sunbird-learning-platform-devops](https://github.com/project-sunbird/sunbird-learning-platform-devops) |
-|                           | [https://github.com/project-sunbird/sunbird-data-pipeline-devops](https://github.com/project-sunbird/sunbird-data-pipeline-devops)         |
-|                           | [https://github.com/project-sunbird/sunbird-data-pipeline-devops](https://github.com/project-sunbird/sunbird-data-pipeline-devops)         |
-|                           | [https://github.com/Sunbird-Ed/sunbird-perf-tests](https://github.com/Sunbird-Ed/sunbird-perf-tests)                                       |
-|                           | [https://github.com/project-sunbird/prometheus-azure-blob-exporter](https://github.com/project-sunbird/prometheus-azure-blob-exporter)     |
+| Sunbird Devops Components      | GitHub Repo                                                                                                                            |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Sunbird Devops Repository      | [https://github.com/project-sunbird/sunbird-devops](https://github.com/project-sunbird/sunbird-devops)                                 |
+| Api Manager Utility            | [https://github.com/project-sunbird/sunbird-apimanager-util](https://github.com/project-sunbird/sunbird-apimanager-util)               |
+| DevOps Repo for Knowlg         | [https://github.com/project-sunbird/sunbird-learning-platform](https://github.com/project-sunbird/sunbird-learning-platform)           |
+| DevOps Repo for Observ         | [https://github.com/project-sunbird/sunbird-data-pipeline-devops](https://github.com/project-sunbird/sunbird-data-pipeline-devops)     |
+| Prometheus azure blob exporter | [https://github.com/project-sunbird/prometheus-azure-blob-exporter](https://github.com/project-sunbird/prometheus-azure-blob-exporter) |
+| Prometheus json exporter       | [https://github.com/project-sunbird/prometheus-jsonpath-exporter](https://github.com/project-sunbird/prometheus-jsonpath-exporter)     |
