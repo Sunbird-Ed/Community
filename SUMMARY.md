@@ -80,6 +80,7 @@
   * [ED - Desktop](use/updating-sunbird-releases/ed-desktop.md)
   * [ED - Mobile App](use/updating-sunbird-releases/ed-mobile-app/README.md)
     * [4.10.3 to 5.0.0](use/updating-sunbird-releases/ed-mobile-app/4.10.3-to-5.0.0.md)
+    * [5.0.0 to 5.1.0](use/updating-sunbird-releases/ed-mobile-app/5.0.0-to-5.1.0.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
   * [Specifications](use/learn-more/specifications/README.md)
