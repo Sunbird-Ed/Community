@@ -18,7 +18,7 @@ Mobile app: User is not able to play resource content [ED-714](https://project-s
 
 | Service to Build                     | Public Tag                                                                                       | Private Branch |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------ | -------------- |
-| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.0.6\_RC0](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/release-5.0.6\_RC0) | release-5.0.0  |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.0.6\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/release-5.0.6\_RC1) | release-5.0.0  |
 
 
 
@@ -49,4 +49,4 @@ Course progress does not get updated correctly. For a course which has a single 
 
 #### Release 5.1.0 (16-1-2023)
 
-{% file src="../../../.gitbook/assets/Release Notes 5.1.0.docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.1.0 (1).docx" %}

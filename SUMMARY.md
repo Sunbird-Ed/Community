@@ -103,7 +103,7 @@
     * [5.0.1, 5.0.2, 5.0.3, & 5.1](use/releases/release-artefacts/5.0.1-5.0.2-5.0.3-and-5.1.md)
   * [Demo of released items](use/releases/demo-of-released-items.md)
 * [Telemetry](use/telemetry/README.md)
-  * [Trackable Collection](use/telemetry/trackable-collection.md)
+  * [Trackable Collection](use/telemetry/course.md)
 
 ## Engage
 
