@@ -131,6 +131,7 @@
   * [Sunbird Themes](use-1/independent-libraries/sunbird-themes.md)
   * [Sunbird Tag Manager](use-1/independent-libraries/sunbird-tag-manager.md)
 * [Issue tracker/ Create Issue](use-1/issue-tracker.md)
+* [Contribute to ED](use-1/contribute-to-ed.md)
 
 ## Misc
 
