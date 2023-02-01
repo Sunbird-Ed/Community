@@ -1,14 +1,40 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
-### Hotfix: 5.1.0(01-02-2023)
 
-#### Bugs:
+
+### <mark style="color:blue;">Hotfix: 5.1.0.2(01-02-2023)</mark>
+
+#### <mark style="color:blue;">Bugs:</mark>
 
 Mobile App : Unable to login with an existing user. ([<mark style="color:blue;">**ED-1169**</mark>](https://project-sunbird.atlassian.net/browse/ED-1169))
 
 | Service to Build | Public Tag                                                                                                                                                                                                      | Comment |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | SunbirdEd-Portal | <mark style="color:blue;">****</mark>[<mark style="color:blue;">**release-5.1.0.2\_RC1**</mark>](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.2\_RC1)<mark style="color:blue;">****</mark> |         |
+
+### <mark style="color:blue;">Hotfix:5.1.0.1(27-01-2023)</mark>
+
+<mark style="color:blue;">**Features:**</mark>
+
+Name change for Certificate in the project([<mark style="color:blue;">**ED-84**</mark>](https://project-sunbird.atlassian.net/browse/ED-84))
+
+Certificate download and access via profile page([<mark style="color:blue;">**ED-85**</mark>](https://project-sunbird.atlassian.net/browse/ED-85))
+
+Download the certificate from the Project page([**ED-86**](https://project-sunbird.atlassian.net/browse/ED-86))
+
+Identification of projects with certificates in the listing page([<mark style="color:blue;">**ED-87**</mark>](https://project-sunbird.atlassian.net/browse/ED-87))
+
+Warning for users before project submission (projects with certificate)([<mark style="color:blue;">**ED-95**</mark>](https://project-sunbird.atlassian.net/browse/ED-95))
+
+Access to certificate information from the project page([**ED-96**](https://project-sunbird.atlassian.net/browse/ED-96))
+
+Verification flow for certificate([**ED-97**](https://project-sunbird.atlassian.net/browse/ED-97))
+
+| Service to build                     | Public Tag                                                                                                   | Private Tag   |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.1\_RC3](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.1\_RC3) | release-5.1.0 |
+
+
 
 ### Release 5.1.0 (16-01-2023)
 
