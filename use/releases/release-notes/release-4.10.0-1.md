@@ -1,5 +1,15 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+### Hotfix: 5.1.0(01-02-2023)
+
+#### Bugs:
+
+Mobile App : Unable to login with an existing user. ([<mark style="color:blue;">**ED-1169**</mark>](https://project-sunbird.atlassian.net/browse/ED-1169))
+
+| Service to Build | Public Tag                                                                                                                                                                                                      | Comment |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| SunbirdEd-Portal | <mark style="color:blue;">****</mark>[<mark style="color:blue;">**release-5.1.0.2\_RC1**</mark>](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.2\_RC1)<mark style="color:blue;">****</mark> |         |
+
 ### Release 5.1.0 (16-01-2023)
 
 {% file src="../../../.gitbook/assets/Release Notes 5.1.0 (1).docx" %}
