@@ -132,10 +132,10 @@
 
 ## Misc
 
+* [Templates](misc/templates/README.md)
+  * [Upgrade Sunbird release document](misc/templates/5.0.0-to-5.1.0.md)
+  * [Release Notes](misc/templates/release-4.10.0-1.md)
 * [Archived](misc/archived/README.md)
-  * [Templates](misc/archived/templates/README.md)
-    * [Upgrade Sunbird release document](misc/archived/templates/5.0.0-to-5.1.0.md)
-    * [Release Notes](misc/archived/templates/release-4.10.0-1.md)
   * [High Level Capabilities](misc/archived/high-level-capabilities.md)
   * [Workflows](misc/archived/workflows.md)
   * [Where Sunbird ED helps you](misc/archived/where-sunbird-ed-helps-you.md)
