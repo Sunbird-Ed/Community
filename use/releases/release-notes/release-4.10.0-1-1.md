@@ -1,4 +1,4 @@
-# 5.2.0 (on-going)
+# 5.2.0 (ongoing)
 
 <mark style="color:blue;"></mark>
 
