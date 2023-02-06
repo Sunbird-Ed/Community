@@ -1,15 +1,17 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
-## <mark style="color:blue;">Hotfix:5.1.0.2(03-02-2023)</mark>
+## <mark style="color:blue;">Hotfix:5.1.0.3(06-02-2023)</mark>
 
 #### Bugs
 
 1. \[ML] Unable to download a video for VAM\_Manipur ([`ED:1172`](https://project-sunbird.atlassian.net/browse/ED-1172))
 2. \[ML] Targetted projects are NOT coming under Assigned to me filter ([`ED:1064`](https://project-sunbird.atlassian.net/browse/ED-1064))
+3. Portal: Contents are not getting loaded in digitaltextbook, courses , and Tv classes ( [ED-1179](https://project-sunbird.atlassian.net/browse/ED-1179), [ED-1178](https://project-sunbird.atlassian.net/browse/ED-1178) )
 
-| Service to build                     | Public tag           | Private tag   |
-| ------------------------------------ | -------------------- | ------------- |
-| Mobile/job/Sunbird-IONIC-Mobile-App/ | release-5.1.0.2\_RC1 | release-5.1.0 |
+| Service to build                     | Public tag                                                                                       | Comments                 |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------ |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | release-5.1.0.2\_RC1                                                                             | Branch: release-5.1.0.2  |
+| SunbirdEd-Portal                     | [release-5.1.0.3\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.3\_RC1) | Branch: release-5.1.0.3  |
 
 ### <mark style="color:blue;">Hotfix: 5.1.0.2(01-02-2023)</mark>
 
