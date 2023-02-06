@@ -1,6 +1,15 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+## <mark style="color:blue;">Hotfix:5.1.0.3(03-02-2023)</mark>
 
+#### Bugs
+
+1. \[ML] Unable to download a video for VAM\_Manipur ([`ED:1172`](https://project-sunbird.atlassian.net/browse/ED-1172))
+2. \[ML] Targetted projects are NOT coming under Assigned to me filter ([`ED:1064`](https://project-sunbird.atlassian.net/browse/ED-1064))
+
+| Service to build                     | Public tag           | Private tag   |
+| ------------------------------------ | -------------------- | ------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | release-5.1.0.2\_RC0 | release-5.1.0 |
 
 ### <mark style="color:blue;">Hotfix: 5.1.0.2(01-02-2023)</mark>
 
