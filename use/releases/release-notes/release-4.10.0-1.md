@@ -86,4 +86,10 @@ Course progress does not get updated correctly.  [ED-648](https://project-sunbir
 | SunbirdEd-Portal | release-5.0.0.4\_RC2[**​**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3)**** | <p>Sunbird video player version update for End event summary progress issue.<br><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3">sunbird-video-player: 5.1.3</a></p> |
 | Sunbird-Mobile   | release-5.0.5\_RC0                                                                                              | Same as above                                                                                                                                                                                                |
 
-<mark style="color:blue;"></mark>
+### <mark style="color:blue;">**Hot-fix:  5.0.2**</mark>** (21-10-2022)**
+
+{% file src="../../../.gitbook/assets/Release Notes 5.0.2.docx" %}
+
+### <mark style="color:blue;">**Hot-fix:  5.0.1**</mark>** (27-9-2022)**
+
+{% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}
