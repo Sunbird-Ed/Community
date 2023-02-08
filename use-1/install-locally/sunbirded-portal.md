@@ -1,12 +1,10 @@
 # SunbirdED Portal
 
-
-
 The Sunbird portal is the browser-based interface for the Sunbird application stack. It provides a web-app through which all functionality of Sunbird can be accessed.
 
 ### Getting started
 
-To get started with the Sunbird portal, please try out our cloud-based demo site at: [https://staging.open-sunbird.org/](https://staging.open-sunbird.org/)
+To get started with the Sunbird portal, please try out our cloud-based demo site at: [https://staging.sunbirded.org/](https://staging.sunbirded.org/)
 
 #### Local Installation
 
