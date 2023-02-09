@@ -159,5 +159,5 @@
   * [What are multiple databases used for](development-resources/misc-pages/what-are-multiple-databases-used-for.md)
   * [Course completion, reports and certificate issue](development-resources/misc-pages/course-completion-reports-and-certificate-issue.md)
   * [How to access Flink UI](development-resources/misc-pages/how-to-access-flink-ui.md)
-  * [How does data flow into Druid](development-resources/misc-pages/how-does-data-flow-into-druid.md)
   * [What are all the flink jobs for](development-resources/misc-pages/what-are-all-the-flink-jobs-for.md)
+  * [How does data flow into Druid](development-resources/misc-pages/how-does-data-flow-into-druid.md)
