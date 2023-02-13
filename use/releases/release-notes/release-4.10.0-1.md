@@ -1,8 +1,21 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
-## <mark style="color:blue;">Hotfix:5.1.0.3(06-02-2023)</mark>
+## <mark style="color:blue;">Hotfix:5.1.0.3</mark>
 
-#### Bugs
+#### Bugs <mark style="color:blue;">(13-02-2023)</mark>
+
+* \[ML] Getting empty black screen at the bottom of the screen after deleting the entity in observation.([ED-1210](https://project-sunbird.atlassian.net/browse/ED-1210))
+* \[ML]Placeholder text is showing up wrong in search bar of entity page in observation.([ED-1211](https://project-sunbird.atlassian.net/browse/ED-1211))
+* \[ML] Getting an error message when user clicking on back button in observation with rubric which as improvement project option([ED-1215](https://project-sunbird.atlassian.net/browse/ED-1215))
+* \[ML] Unable to view/download a evidences from Observations and Surveys([ED-1217](https://project-sunbird.atlassian.net/browse/ED-1217))
+
+| Service to build                     | Public tag                                                                                                   | Comments                |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.3\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.3\_RC1) | Branch: release-5.1.0.3 |
+
+<mark style="color:blue;"></mark>
+
+#### Bugs (<mark style="color:blue;">06-02-2023)</mark>
 
 1. \[ML] Unable to download a video for VAM\_Manipur ([`ED:1172`](https://project-sunbird.atlassian.net/browse/ED-1172))
 2. \[ML] Targetted projects are NOT coming under Assigned to me filter ([`ED:1064`](https://project-sunbird.atlassian.net/browse/ED-1064))
