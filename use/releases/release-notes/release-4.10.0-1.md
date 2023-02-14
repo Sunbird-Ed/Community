@@ -2,14 +2,17 @@
 
 ## <mark style="color:blue;">Hotfix:5.1.0.4</mark>
 
-#### Bugs
+#### Bugs (14-02-2023)
 
 * \[ML] User is seeing Start button for surveys when user is trying to access ([ED-1245](https://project-sunbird.atlassian.net/browse/ED-1245))
+* Sunbird : Unwanted Space and Text is not bold on the Digital Textbook Creation Popup ([ED-1174](https://project-sunbird.atlassian.net/browse/ED-1174))
+* Sunbird: Radio Button and UI text are broken on sync telemetry page ([ED-1204](https://project-sunbird.atlassian.net/browse/ED-1204))
+* Sunbird: Avatar button is not getting focused with 2x padding ([ED-1141](https://project-sunbird.atlassian.net/browse/ED-1141))
 
 | Service to build                     | Public tag                                                                                                   | Comments                |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
 | Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.4\_RC0](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.4\_RC0) | Branch: release-5.1.0.4 |
-|                                      |                                                                                                              |                         |
+| SunbirdEd-Portal                     | [release-5.1.0.4\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.4\_RC1)             | Branch: release-5.1.0.4 |
 |                                      |                                                                                                              |                         |
 
 ## <mark style="color:blue;">Hotfix:5.1.0.3</mark>
