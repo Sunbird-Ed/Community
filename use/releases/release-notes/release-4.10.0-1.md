@@ -1,5 +1,17 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+## <mark style="color:blue;">Hotfix:5.1.0.4</mark>
+
+#### Bugs
+
+* \[ML] User is seeing Start button for surveys when user is trying to access ([ED-1245](https://project-sunbird.atlassian.net/browse/ED-1245))
+
+| Service to build                     | Public tag                                                                                                   | Comments                |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.4\_RC0](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.4\_RC0) | Branch: release-5.1.0.4 |
+|                                      |                                                                                                              |                         |
+|                                      |                                                                                                              |                         |
+
 ## <mark style="color:blue;">Hotfix:5.1.0.3</mark>
 
 #### Bugs <mark style="color:blue;">(13-02-2023)</mark>
