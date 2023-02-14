@@ -19,7 +19,7 @@
 
 This Page will try to explain and understand the user flow and telemetry that will be created for a user journey
 
-&#x20;Step 1:
+## &#x20;Step 1:
 
 A user tries to search a course with the course name or ID or QRCODE an Impression event will be triggerd\
 
@@ -78,7 +78,7 @@ A user tries to search a course with the course name or ID or QRCODE an Impressi
     }
 ```
 
-Step 2:
+## Step 2:
 
 Once Searched a Course name and got the response user clicks on the course card the following Interact telemetry event will be generated
 
@@ -138,7 +138,7 @@ Once Searched a Course name and got the response user clicks on the course card 
     }
 ```
 
-Step 3
+## Step 3
 
 Once the user clicks on the course card and lands into the course TOC page there will be a impression event will be generated as following
 
@@ -200,7 +200,7 @@ Once the user clicks on the course card and lands into the course TOC page there
     }
 ```
 
-Step 4:
+## Step 4:
 
 User needs to join a batch of a course to take one so once user clicks on the join batch button an interact event is generated as follows
 
