@@ -81,6 +81,7 @@
   * [Dependencies](use/learn-more/dependencies.md)
   * [Specifications](use/learn-more/specifications/README.md)
     * [SOFIE](use/learn-more/specifications/sofie.md)
+    * [SOFIE Implementation](use/learn-more/specifications/sofie-implementation.md)
 * [Releases](use/releases/README.md)
   * [Release calendars](use/releases/release-calendars/README.md)
     * [Release Calendar 4.9, 4.10, 5.0](use/releases/release-calendars/release-calendar-4.9-4.10-5.0.md)
@@ -156,7 +157,6 @@
 ## Development Resources
 
 * [Misc Pages](development-resources/misc-pages/README.md)
-  * [SOFIE integration](development-resources/misc-pages/sofie-integration.md)
   * [Content Indexing Flow](development-resources/misc-pages/content-indexing-flow.md)
   * [What are multiple databases used for](development-resources/misc-pages/what-are-multiple-databases-used-for.md)
   * [Course completion, reports and certificate issue](development-resources/misc-pages/course-completion-reports-and-certificate-issue.md)

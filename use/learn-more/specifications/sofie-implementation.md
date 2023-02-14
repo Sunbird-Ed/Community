@@ -1,4 +1,4 @@
-# SOFIE integration
+# SOFIE Implementation
 
 #### Registration steps for third-party apps with the Sunbird platform
 
