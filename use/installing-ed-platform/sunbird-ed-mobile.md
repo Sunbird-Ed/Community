@@ -1,5 +1,16 @@
 # Sunbird ED Mobile
 
+### Steps to setup jenkins slave for mobile build
+
+* Create a seperate jenkins slave and attatch it with master jenkins.
+* Login to jenkins slave vm and execute below script to install dependencies.
+
+```
+https://github.com/project-sunbird/sunbird-devops/blob/release-5.1.0/deploy/jenkins/jenkins-mobile-slave-setup.sh
+```
+
+* Update mobile build jenkins job to execute on jenkins slave vm.
+
 **Dependencies:**\
 NPM Version - above 6\
 Node JS Version - above 10
