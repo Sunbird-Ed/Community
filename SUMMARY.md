@@ -159,6 +159,7 @@
 ## Development Resources
 
 * [Misc Pages](development-resources/misc-pages/README.md)
+  * [Configurations to setup mobile app](development-resources/misc-pages/configurations-to-setup-mobile-app.md)
   * [Content Indexing Flow](development-resources/misc-pages/content-indexing-flow.md)
   * [What are multiple databases used for](development-resources/misc-pages/what-are-multiple-databases-used-for.md)
   * [Course completion, reports and certificate issue](development-resources/misc-pages/course-completion-reports-and-certificate-issue.md)
