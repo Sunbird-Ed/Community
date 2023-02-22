@@ -1,5 +1,19 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+## <mark style="color:blue;">Hotfix:5.1.0.5</mark>
+
+#### Bugs(21-02-2023)
+
+* \[ML] Share consent pop up is appearing second time even if user has already clicked on 'SHARE' button from the consent pop up for Discovered by me projects.([ED-1299](https://project-sunbird.atlassian.net/browse/ED-1299))
+* \[ML] survey saved responses are not getting saved([ED-1294](https://project-sunbird.atlassian.net/browse/ED-1294))
+* \[ML] Unable to view/download a evidences from Observations and Surveys([ED-1217](https://project-sunbird.atlassian.net/browse/ED-1217))
+
+| Service to build                     | Public tag                                                                                                   | Comments                |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.5\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.5\_RC1) | Branch: release-5.1.0.5 |
+
+
+
 ## <mark style="color:blue;">Hotfix:5.1.0.4</mark>
 
 #### Bugs (14-02-2023)
