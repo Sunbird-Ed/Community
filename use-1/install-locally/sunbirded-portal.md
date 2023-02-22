@@ -4,66 +4,7 @@ The Sunbird portal is the browser-based interface for the Sunbird application st
 
 ### Getting started
 
-To get started with the Sunbird portal, please try out our cloud-based demo site at: [https://staging.sunbirded.org/](https://staging.sunbirded.org/)
-
-#### Local Installation
-
-You can also install the Sunbird portal locally on your laptop, please follow the instructions below: Have node version 10 and follow the next steps
-
-### Pre Installation Steps
-
-Prerequisities
-
-```
-1. Node > 10x
-2. Angular 8x
-3. Yarn
-```
-
-Sunbird dev has 2 parts
-
-```
-	1. Angular client
-	2. Node server
-```
-
-Go to src/app/helpers/ replace environmentVariablesHelper.js
-
-#### Installing and running Angular client
-
-### Step 1: Go to src/app/client folder
-
-```
-npm i (OR) yarn install
-npm run start
-```
-
-#### Installing and running Node server
-
-### Step 2: Go to src/app folder
-
-```
-npm i (OR) yarn install
-npm run server
-```
-
-### Reporting Issues
-
-We have an open and active [issue tracker](https://github.com/project-sunbird/sunbird-commons/issues). Please report any issues.
-
-## Installing Sunbird Portal
-
-Installing Sunbird requires two primary software components:
-
-* Sunbird portal or web application
-* Sunbird services stack or the backend API interface
-
-## Installing Sunbird Portal
-
-Installing Sunbird requires two primary software components:
-
-* Sunbird portal or web application
-* Sunbird services stack or the backend API interface
+To get started with the Sunbird portal, please try out our cloud-based demo site at: [https://staging.sunbirded.org](https://staging.sunbirded.org/)
 
 ### Table of contents
 
@@ -85,7 +26,7 @@ Installing Sunbird requires two primary software components:
 
 | Software dependencies                                            |                                                      |
 | ---------------------------------------------------------------- | ---------------------------------------------------- |
-| [**Node**](https://nodejs.org/en/download/)                      | > 12.x.x (Install the latest release of LTS version) |
+| [**Node**](https://nodejs.org/en/download/)                      | > 14.x.x (Install the latest release of LTS version) |
 | [**Angular CLI**](https://angular.io/cli#installing-angular-cli) | > 12.x.x (Install the latest Angular CLI version)    |
 | [**yarn**](https://classic.yarnpkg.com/en/)                      | Latest version of yarn: `npm install --global yarn`  |
 | [**nodemon**](https://www.npmjs.com/package/nodemon)             | Latest version of nodemon: `npm install -g nodemon`  |
