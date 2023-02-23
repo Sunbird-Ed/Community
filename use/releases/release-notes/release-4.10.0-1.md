@@ -1,5 +1,19 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+## <mark style="color:blue;">Hotfix:5.1.0.6</mark>
+
+**Bugs(22-02-2023)**
+
+* User is seeing back button instead of burger menu in the Home screen([ED-1289](https://project-sunbird.atlassian.net/browse/ED-1289))
+* \[ML] User is viewing the blank white screen, when user clicks on 'Start learning' button for the second time([ED-1309](https://project-sunbird.atlassian.net/browse/ED-1309))
+* \[ML] - Unable to attach file >50MB for observations and surveys([ED-1296](https://project-sunbird.atlassian.net/browse/ED-1296))
+
+| Service to build                     | Public Tag                                                                                                   | Comments                |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.6\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.6\_RC1) | Branch: release-5.1.0.6 |
+
+****
+
 ## <mark style="color:blue;">Hotfix:5.1.0.5</mark>
 
 #### Bugs(21-02-2023)
