@@ -1,5 +1,22 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+## <mark style="color:blue;">Hotfix:5.1.0.7</mark>
+
+**Bugs(23-02-2023)**
+
+* \[ML] - Unable to attach file >50MB for observations and surveys([ED-1296](https://project-sunbird.atlassian.net/browse/ED-1296))
+* \[ML] Clicking on back arrow button from project listing page user is re-directing back to project view page with START IMPROVEMENT button enabled even when user has already started the project when user tries to access the CERTIFICATE projects via link. ([ED-1321](https://project-sunbird.atlassian.net/browse/ED-1321))
+* \[ML]There is a page data overflowing for the downloaded certificate project([ED-1326](https://project-sunbird.atlassian.net/browse/ED-1326))
+* Mobile App : Questions Count are displaying "0" (Total Questions, Questions answered , Questions skipped ) ,while consuming the course assessment inside the course.([`ED-1260`](https://project-sunbird.atlassian.net/browse/ED-1260))
+
+| Service to build                     | Public Tag                                                                                                   | Comments                                                                                                        |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.7\_RC](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.7\_RC0)1 | Branch: [release-5.1.0.7](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.7\_RC0) |
+
+#### Note
+
+* [Form config](https://project-sunbird.atlassian.net/wiki/spaces/MC/pages/3289677825/Form+Configuration+release-5.1.0) to be updated.
+
 ## <mark style="color:blue;">Hotfix:5.1.0.6</mark>
 
 **Bugs(22-02-2023)**
@@ -144,8 +161,8 @@ Course progress does not get updated correctly.  [ED-648](https://project-sunbir
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.2**</mark>** (21-10-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.2.docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.2 (2).docx" %}
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.1**</mark>** (27-9-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.1 (2).docx" %}
