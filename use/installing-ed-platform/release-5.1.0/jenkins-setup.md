@@ -46,9 +46,16 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
     sudo su jenkins
     curl -SsL -o ~/jenkins.yaml https://raw.githubusercontent.com/project-sunbird/sunbird-devops/release-5.1.0/deploy/jenkins/jenkins.yaml
       
-    # Replace all placeholders ${VALUE} with proper values
-    # For example, 
-    # username: "${GH_USERNAME}" to  username: "mygithubusername"
+    # Replace all placeholders ${VALUE} with below mentioned values
+    ${DOCKER_REGISTRY_URL} to the container registry URL which you would like to store the container images
+    ${GH_USERNAME} to the github username which has access to the private repository
+    ${GH_PASSWORD} to the github access token which has access to the private repository
+    ${GH_PRIVATE_REPO_URL} to the private github repository URL where the environment variables and servers information is updated
+    ${GH_PRIVATE_REPO_BRANCH} to the name of the private repo branch where the environment variables and servers information is updated
+    ${GH_PUBLIC_REPO_BRANCH} to "release-5.1.0"
+    ${KP_PUBLIC_REPO_BRANCH} to "release-5.2.0"
+    ${DP_PUBLIC_REPO_BRANCH} to "release-5.1.0"
+
     vim ~/jenkins.yaml
     ```
 *   Run the below commands on Jenkins server -
@@ -69,3 +76,4 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 ```
 
 * Reboot the Jenkins VM (`sudo reboot`)
+
