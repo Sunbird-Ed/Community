@@ -21,13 +21,13 @@ To get started with the Sunbird portal, please try out our cloud-based demo site
 | **System Requirements** |                                                       |
 | ----------------------- | ----------------------------------------------------- |
 | **Operating System**    | Windows 7 and above/4.2 Mac OS X 10.0 and above/Linux |
-| **RAM**                 | > 1.5 Gb                                              |
-| **CPU**                 | 2 cores, > 2 GHz                                      |
+| **RAM**                 | > 4 Gb                                                |
+| **CPU**                 | 2 cores, >2 GHz                                       |
 
 | Software dependencies                                            |                                                      |
 | ---------------------------------------------------------------- | ---------------------------------------------------- |
 | [**Node**](https://nodejs.org/en/download/)                      | > 14.x.x (Install the latest release of LTS version) |
-| [**Angular CLI**](https://angular.io/cli#installing-angular-cli) | > 12.x.x (Install the latest Angular CLI version)    |
+| [**Angular CLI**](https://angular.io/cli#installing-angular-cli) | > 11.x.x (Install the latest Angular CLI version)    |
 | [**yarn**](https://classic.yarnpkg.com/en/)                      | Latest version of yarn: `npm install --global yarn`  |
 | [**nodemon**](https://www.npmjs.com/package/nodemon)             | Latest version of nodemon: `npm install -g nodemon`  |
 
