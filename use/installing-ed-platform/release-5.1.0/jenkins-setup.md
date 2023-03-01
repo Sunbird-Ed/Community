@@ -16,23 +16,26 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 
 > Don’t run the following until above steps finished
 
-*   Run the below commands on Jenkins server to install external plugins
+*   Run the below commands on Jenkins server -
 
     ```bash
       sudo bash jenkins-plugins-setup.sh
-      
-    ```
-*   Setup environment specific Jenkins jobs. Update the environment list as per your requirement in ascending order. For example, if you want to have dev, staging and production environments, follow the below instructions
-
-    ```bash
       cp envOrder.txt.sample envOrder.txt
       vi envOrder.txt
+    ```
+*   Update the environment list as per your requirement in ascending order. For example, if you want to have dev, staging and production environments, your **envOrder.txt** will look like -
+
+    ```bash
       dev=0
       staging=1
       production=2
+    ```
+*   Run the below script on Jenkins server and provide input as required (case sensitive) -
+
+    ```bash
       sudo bash jenkins-jobs-setup.sh
     ```
-*   Restart Jenkins
+*   Restart jenkins
 
     ```bash
       sudo service jenkins restart
@@ -55,7 +58,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 
     vim ~/jenkins.yaml
     ```
-*   Run the below commands on Jenkins server to establish connectivity between Jenkins to kubernetes cluster and servers -
+*   Run the below commands on Jenkins server -
 
     ```bash
       mkdir -p /var/lib/jenkins/secrets
@@ -63,10 +66,9 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
       touch deployer_ssh_key vault-pass k8s.yaml
       chmod 600 deployer_ssh_key vault-pass k8s.yaml
     ```
-
-    * Copy the contents of your server’s private key into `/var/lib/jenkins/secrets/deployer_ssh_key`
-    * Copy the kubernetes config file contents into `/var/lib/jenkins/secrets/k8s.yaml`
-    * Update `/var/lib/jenkins/secrets/vault-pass` file with the ansible vault password which will be used to encrypt the ansible secrets file
+* Copy the contents of your server’s private key into `/var/lib/jenkins/secrets/deployer_ssh_key`
+* Copy the kubernetes config file contents into `/var/lib/jenkins/secrets/k8s.yaml`
+* If you have encrypted your `secrets.yml` using `ansible-vault`, enter the password to decrypt into `/var/lib/jenkins/secrets/vault-pass`. If you have not encrypted, then enter a random value like **12345**
 * Run `sudo visudo` on jenkins server and add the below line -
 
 ```bash
