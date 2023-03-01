@@ -66,7 +66,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 
     * Copy the contents of your server’s private key into `/var/lib/jenkins/secrets/deployer_ssh_key`
     * Copy the kubernetes config file contents into `/var/lib/jenkins/secrets/k8s.yaml`
-    * If you have encrypted your `secrets.yml` using `ansible-vault`, enter the password to decrypt into `/var/lib/jenkins/secrets/vault-pass`. If you have not encrypted, then enter a random value like **12345**
+    * Update `/var/lib/jenkins/secrets/vault-pass` file with the ansible vault password which will be used to encrypt the ansible secrets file
 * Run `sudo visudo` on jenkins server and add the below line -
 
 ```bash

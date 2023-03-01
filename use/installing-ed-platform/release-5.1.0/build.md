@@ -8,8 +8,7 @@ To install SunbirdED `release-5.1.0`, we will need to run many Jenkins jobs and 
 
 * We will create few folders in object storage for storing sunbird plugins
 * Our deployment job always tries to delete the folder first before uploading, so we need to have the placeholders before running the jobs
-* We will create the folders by uploading random files from a random folder on your PC
-* Create a public object storage with the name you have set for the variable `cloud_storage_content_bucketname` and run the below commands
+* Create a public object storage with the name you have set for the variable `cloud_storage_content_bucketname`&#x20;
 * Under `cloud_storage_content_bucketname` create folders with below names.
   * collection-editor
   * generic-editor
@@ -32,7 +31,7 @@ To install SunbirdED `release-5.1.0`, we will need to run many Jenkins jobs and 
 * Download the Maxmind city database in zip format from Maxmind website
 * Upload the zip file to the `cloud_storage_artifacts_bucketname` object storage
 
-**Code Builds**
+**Build source code**
 
 > **Note**:
 >
