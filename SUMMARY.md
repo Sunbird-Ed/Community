@@ -105,6 +105,7 @@
   * [Demo of released items](use/releases/demo-of-released-items.md)
 * [Telemetry](use/telemetry/README.md)
   * [Trackable Collection](use/telemetry/course.md)
+* [Minimal forms](use/minimal-forms.md)
 
 ## Engage
 
@@ -159,10 +160,11 @@
 ## Development Resources
 
 * [Misc Pages](development-resources/misc-pages/README.md)
-  * [Configurations to setup mobile app](development-resources/misc-pages/configurations-to-setup-mobile-app.md)
   * [Content Indexing Flow](development-resources/misc-pages/content-indexing-flow.md)
   * [What are multiple databases used for](development-resources/misc-pages/what-are-multiple-databases-used-for.md)
   * [Course completion, reports and certificate issue](development-resources/misc-pages/course-completion-reports-and-certificate-issue.md)
   * [How to access Flink UI](development-resources/misc-pages/how-to-access-flink-ui.md)
   * [What are all the flink jobs for](development-resources/misc-pages/what-are-all-the-flink-jobs-for.md)
   * [How does data flow into Druid](development-resources/misc-pages/how-does-data-flow-into-druid.md)
+  * [Minimal build properties](development-resources/misc-pages/minimal-build-properties.md)
+  * [Configurations to setup mobile app](development-resources/misc-pages/configurations-to-setup-mobile-app.md)
