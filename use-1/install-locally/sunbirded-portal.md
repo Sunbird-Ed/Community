@@ -93,6 +93,21 @@ To get started with the Sunbird portal, please try out our cloud-based demo site
         }
     ```
 
+    > These are the mandatory keys required to run the application in Local environment. Please update them with appropriate values in `<PROJECT-FOLDER>/src/app/helpers/environmentVariablesHelper.js`
+
+    ```markup
+        |           Environment Variable        |  Data Type |             Description                |
+        | :-------------------------------------| ---------- | -------------------------------------  |
+        |        sunbird_azure_account_name     |   string   |          Azure account Name            |
+        |        sunbird_azure_account_key      |   string   |          Azure Account Key             |
+        |          sunbird_aws_region           |   string   |        Region for AWS account          |
+        |  KONG_DEVICE_REGISTER_ANONYMOUS_TOKEN |   boolean  |   Flag value to allow anonymous user   |
+        |  sunbird_anonymous_device_register_api|   string   |The API for registering anonymous device|
+        |  sunbird_anonymous_register_token     |   string   |    Token to register anonymous device  |
+        |               SB_DOMAIN               |   string   |    The host for Sunbird Environment    |
+        |         PORTAL_API_AUTH_TOKEN         |   string   |     User generated API auth token      |
+    ```
+
     > Once the file is updated with appropriate values, then you can proceed with running the application
 
 #### Running Application

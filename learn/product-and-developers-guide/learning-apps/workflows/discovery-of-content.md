@@ -4,7 +4,7 @@ Allowing users to discover content based on their preferences
 
 1. **Browsing menus & filtering as per users' preference**&#x20;
 
-![](<../../../../.gitbook/assets/WhatsApp Image 2022-04-01 at 3.20.31 PM (1) (1).jpg>)
+![](<../../../../.gitbook/assets/Home 1.jpg>)
 
 This is where the generalisation+ personalisation really kicks in. You can configure all types of browsing and navigation experiences on Sunbird Ed. The most familiar paradigm to users is domain or framework**-**based discovery. For example&#x20;
 
@@ -33,7 +33,7 @@ This is one mode that really excites us is asking questions is the most fundamen
 
 **4. Free text search**&#x20;
 
-![](<../../../../.gitbook/assets/Screenshot\_20220401-150135\_DIKSHA (1).jpg>)
+![](../../../../.gitbook/assets/Search.jpg)
 
 You can allow users to discover and search for content and make them personalised. Discover enables users to get inspired and take action before searching. You can enable users to discover content for other boards, audiences, categories, etc.
 
