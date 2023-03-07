@@ -1,5 +1,17 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+## <mark style="color:blue;">Hotfix:5.1.0.9</mark>
+
+**Bugs(02-03-2023)**
+
+* Destop app : Error while building offline desktop build from jenkins([ED-1358](ttps://project-sunbird.atlassian.net/browse/ED-1358))
+
+| Service to build | Public Tag                                                                                       | Comments                                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| SunbirdEd-Portal | [release-5.1.0.5\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.5\_RC1) | Branch: [release-5.1.0.5\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.5\_RC1) |
+
+<mark style="color:blue;"></mark>
+
 ## <mark style="color:blue;">Hotfix:5.1.0.8</mark>
 
 **Bugs(28-02-2023)**
