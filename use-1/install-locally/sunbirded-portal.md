@@ -18,11 +18,11 @@ To get started with the Sunbird portal, please try out our cloud-based demo site
 
 #### Prerequisites
 
-| **System Requirements** |                                                       |
-| ----------------------- | ----------------------------------------------------- |
-| **Operating System**    | Windows 7 and above/4.2 Mac OS X 10.0 and above/Linux |
-| **RAM**                 | > 4 Gb                                                |
-| **CPU**                 | 2 cores, >2 GHz                                       |
+| **System Requirements** |                                                                                                                                                                                      |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Operating System**    | <p>MAC OS X 10.0 and above/Linux<br><br><mark style="color:red;">Windows (not verified).</mark> Take it with your own expertise(no community support but open for contribution).</p> |
+| **RAM**                 | > 6 Gb                                                                                                                                                                               |
+| **CPU**                 | 2 cores, >2 GHz                                                                                                                                                                      |
 
 | Software dependencies                                            |                                                      |
 | ---------------------------------------------------------------- | ---------------------------------------------------- |
