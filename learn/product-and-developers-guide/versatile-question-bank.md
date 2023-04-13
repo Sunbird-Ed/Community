@@ -1,6 +1,6 @@
 # Versatile Question Bank
 
-The[versatile-question-bank.md](../functional-capabilities/versatile-question-bank.md "mention") capability is powered by three components of _ **Sunbird Inquiry:**_&#x20;
+The[versatile-question-bank.md](../functional-capabilities/versatile-question-bank.md "mention") capability is powered by three components of _**Sunbird Inquiry:**_&#x20;
 
 1. **Question and Question set services**
 
@@ -9,7 +9,7 @@ Question and Question set service is a micro-service which provides APIs to mana
 1. Add questions sets as assessments to courses&#x20;
 2. Generate ECAR file that enables consumption of question sets
 
-For more information about **Question and Question set services** please click [here](https://app.gitbook.com/s/Wu4HIWGkb7dD4y0Kup4W/learn/product-and-developer-guide/question-and-question-set-service).&#x20;
+For more information about **Question and Question set services** please click [here](http://localhost:5000/s/Wu4HIWGkb7dD4y0Kup4W/learn/product-and-developer-guide/question-and-question-set-service).&#x20;
 
 
 
@@ -21,7 +21,7 @@ Question set editor is used to create a question set, configure its behavior, an
 2. Creation of different type of questions like MCQs, subjective questions etc.
 3. Stitching questions together and add configurable features like sections, instructions, scores, layout, shuffle questions etc.&#x20;
 
-For more information about **Question set editor** please click [here](https://app.gitbook.com/s/Wu4HIWGkb7dD4y0Kup4W/learn/product-and-developer-guide/question-and-question-set-editor).&#x20;
+For more information about **Question set editor** please click [here](http://localhost:5000/s/Wu4HIWGkb7dD4y0Kup4W/learn/product-and-developer-guide/question-and-question-set-editor).&#x20;
 
 
 
@@ -32,10 +32,9 @@ Question set player renders questions & question sets and emits usage data. This
 1. Enable online and offline consumption of questions and question sets.&#x20;
 2. Embed to all learning apps of Sunbird ED
 
-For more information about **Question set player** please click [here](https://app.gitbook.com/s/Wu4HIWGkb7dD4y0Kup4W/learn/product-and-developer-guide/question-set-player).&#x20;
+For more information about **Question set player** please click [here](http://localhost:5000/s/Wu4HIWGkb7dD4y0Kup4W/learn/product-and-developer-guide/question-set-player).&#x20;
 
 {% hint style="info" %}
-Powered by [Sunbird inQuiry](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/ "mention")
+Powered by [Sunbird inQuiry](http://localhost:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/ "mention")
 {% endhint %}
 
-_****_

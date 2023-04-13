@@ -13,5 +13,5 @@ The **Multi-Channel Chatbot** capability is enabled by the following component o
    2. Creation of different types of free-flowing sets of questions with their respective answers
 
 {% hint style="info" %}
-Powered by [Sunbird UCI](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/nC2042spZ2TIbqdRA37S/ "mention")
+Powered by [Sunbird UCI](http://localhost:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/nC2042spZ2TIbqdRA37S/ "mention")
 {% endhint %}

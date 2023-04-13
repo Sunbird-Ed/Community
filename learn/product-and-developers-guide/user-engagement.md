@@ -7,7 +7,7 @@ The **User Engagement** capability is enabled by the following components of Sun
 1. User account creation and management, user login as well as platform administration capabilities
 2. creation of batches of users to take courses on the platform
 
-For more information about **User & Org Service** please click [here](https://app.gitbook.com/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/user-and-org-service)
+For more information about **User & Org Service** please click [here](http://localhost:5000/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/user-and-org-service)
 
 **Group service and UX Tool** - This UX tool enables creators to enable groups on Sunbird ED and the service provides a set of APIs to
 
@@ -25,8 +25,8 @@ For more information about **Discussion Forum service and UX Tool** please click
 
 1. Engage Users by sending email, sms, in-app, and Mobile based Push notifications
 
-For more information about **Notification Service** please click [here](https://app.gitbook.com/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/notification-service)
+For more information about **Notification Service** please click [here](http://localhost:5000/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/notification-service)
 
 {% hint style="info" %}
-Powered by [Sunbird Lern](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/4ZKyfmmhMWpPkD6iYvKF/ "mention")
+Powered by [Sunbird Lern](http://localhost:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/4ZKyfmmhMWpPkD6iYvKF/ "mention")
 {% endhint %}

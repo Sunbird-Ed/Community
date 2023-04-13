@@ -10,7 +10,7 @@
 | ---------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | SunbirdEd-Portal | [release-5.1.0.5\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.5\_RC1) | Branch: [release-5.1.0.5\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.5\_RC1) |
 
-<mark style="color:blue;"></mark>
+
 
 ## <mark style="color:blue;">Hotfix:5.1.0.8</mark>
 
@@ -52,7 +52,7 @@
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
 | Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.6\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.6\_RC1) | Branch: release-5.1.0.6 |
 
-****
+
 
 ## <mark style="color:blue;">Hotfix:5.1.0.5</mark>
 
@@ -96,7 +96,7 @@
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
 | Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.3\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.3\_RC1) | Branch: release-5.1.0.3 |
 
-<mark style="color:blue;"></mark>
+
 
 #### Bugs (<mark style="color:blue;">06-02-2023)</mark>
 
@@ -115,9 +115,9 @@
 
 Mobile App : Unable to login with an existing user. ([<mark style="color:blue;">**ED-1169**</mark>](https://project-sunbird.atlassian.net/browse/ED-1169))
 
-| Service to Build | Public Tag                                                                                                                                                                                                      | Comment |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| SunbirdEd-Portal | <mark style="color:blue;">****</mark>[<mark style="color:blue;">**release-5.1.0.2\_RC1**</mark>](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.2\_RC1)<mark style="color:blue;">****</mark> |         |
+| Service to Build | Public Tag                                                                                                                            | Comment |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| SunbirdEd-Portal | [<mark style="color:blue;">**release-5.1.0.2\_RC1**</mark>](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.2\_RC1) |         |
 
 ### <mark style="color:blue;">Hotfix:5.1.0.1(27-01-2023)</mark>
 
@@ -145,7 +145,7 @@ Verification flow for certificate([**ED-97**](https://project-sunbird.atlassian.
 
 ### Release 5.1.0 (16-01-2023)
 
-{% file src="../../../.gitbook/assets/Release Notes 5.1.0 (1).docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.1.0.docx" %}
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.6**</mark>** (12-01-2023)**
 
@@ -177,15 +177,15 @@ Course progress does not get updated correctly.  [ED-648](https://project-sunbir
 
 
 
-| Service to Build | Public Tag                                                                                                      | Comment                                                                                                                                                                                                      |
-| ---------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| SunbirdEd-Portal | release-5.0.0.4\_RC2[**​**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3)**** | <p>Sunbird video player version update for End event summary progress issue.<br><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3">sunbird-video-player: 5.1.3</a></p> |
-| Sunbird-Mobile   | release-5.0.5\_RC0                                                                                              | Same as above                                                                                                                                                                                                |
+| Service to Build | Public Tag                                                                                                  | Comment                                                                                                                                                                                                      |
+| ---------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| SunbirdEd-Portal | release-5.0.0.4\_RC2[**​**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3) | <p>Sunbird video player version update for End event summary progress issue.<br><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3">sunbird-video-player: 5.1.3</a></p> |
+| Sunbird-Mobile   | release-5.0.5\_RC0                                                                                          | Same as above                                                                                                                                                                                                |
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.2**</mark>** (21-10-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.2 (2).docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.2.docx" %}
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.1**</mark>** (27-9-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.1 (2).docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}

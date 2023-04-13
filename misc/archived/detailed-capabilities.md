@@ -6,7 +6,7 @@
   * Organize the contents into a framework for easy discovery
   * Tag the content across different categories for efficient discovery such as categories, publisher, subject, topic etc.
   * Associate content with the dial/QR code infrastructure
-  * All above are enabled by [_Sunbird Knowlg_](broken-reference)__
+  * All above are enabled by [_Sunbird Knowlg_](broken-reference)
 *   **Discover**:&#x20;
 
     1. Configure various _sections_ on Home and Explore page for personalized content
@@ -16,7 +16,7 @@
     5. Discovery by _search_ on clients
     6. Discovery by goals using _banners_
     7. Discovery content through _deep links_
-    8. Enabling **** _language support_ in more than 14 Indian languages
+    8. Enabling _language support_ in more than 14 Indian languages
 
     Know more about [Reference apps](../../learn/product-and-developers-guide/learning-apps/)
 * **Engage**:&#x20;
@@ -28,7 +28,7 @@
     1. Enable learning using e-books (_epub, pdf) and video (Mp4)_
     2. Enable learning using AR/VR experience, interactive content (H5P, HTML) etc.
 
-    Know more about  [_Sunbird Knowlg_](broken-reference)__
+    Know more about  [_Sunbird Knowlg_](broken-reference)
 *   **Visualize:**&#x20;
 
     1. _Monitor progress and performance of_ users through downloadable CSV reports and charts
@@ -54,8 +54,8 @@
     1. _Reward users Add certificate_ template and its criteria&#x20;
        1. _Participation certificate_ based on completion or&#x20;
        2. _Merit certificate_ based on performance criteria
-    2. View, download and share all certificates earned via **** _Learner passbook_
-    3. _Reward, recognize and gamify **** the user's digital footprint on the platform_
+    2. View, download and share all certificates earned via _Learner passbook_
+    3. _Reward, recognize and gamify_ _the user's digital footprint on the platform_
 
     Know more about [Sunbird Lern](broken-reference)
 

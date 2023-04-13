@@ -1,6 +1,6 @@
 # Release Notes
 
-<mark style="color:blue;"></mark>
+
 
 <mark style="color:blue;">**Features:**</mark>
 
@@ -16,6 +16,5 @@ RFC/Stroy/Bug description(JIRA ticket)
 
 ### Release X.X.X (DD-MM-YYYY)
 
-<mark style="color:blue;">****</mark>
 
-<mark style="color:blue;"></mark>
+

@@ -38,5 +38,4 @@ To understand the architecture principles of designing population scale digital 
 
 {% embed url="https://youtu.be/1S-599usfjc" %}
 
-``\
-``
+\

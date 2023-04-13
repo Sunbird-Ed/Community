@@ -21,4 +21,3 @@
 | Android SDK            | 10                          |
 | Android Platform Tools | Compatible with Android SDK |
 
-****

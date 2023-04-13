@@ -14,7 +14,7 @@ These event data are critically computed for the specific business logic of the 
 a) User with at least 20% progress in the Video can be set as a precondition for content consumption to be acknowledged.\
 b) User reaching the last page can be a precondition for content consumption to be acknowledged. \
 &#x20;\
-For more information about **Content player** please click [here](https://app.gitbook.com/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/player)
+For more information about **Content player** please click [here](http://localhost:5000/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/player)
 
 **2. Content service**
 
@@ -22,8 +22,8 @@ Content service is a set of microservices to manage the lowest consumable entity
 Ex: A student's learning experience can be personalised by providing more learning resources like explanation content videos, Question paper PDF, puzzles, and games based on his level of competence.\
 Sunbird ED has the capability to capture, record, and assess candidate's learning outcomes based on these assets.
 
-For more information about **Content  services** please click [here](https://app.gitbook.com/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/content-service)&#x20;
+For more information about **Content  services** please click [here](http://localhost:5000/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/content-service)&#x20;
 
 {% hint style="info" %}
-Powered by [Sunbird Knowlg](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/ "mention")
+Powered by [Sunbird Knowlg](http://localhost:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/ "mention")
 {% endhint %}

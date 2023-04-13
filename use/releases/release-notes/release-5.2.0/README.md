@@ -1,13 +1,12 @@
-# 5.2.0 (ongoing)
+# Release-5.2.0 (latest)
 
-| Release version                    | Date        | Comments                 |
-| ---------------------------------- | ----------- | ------------------------ |
-| 5.2.0.1                            | 11 Apr 2023 | Hot-fix of release-5.2.0 |
-| 5.2.0                              | 17 Mar 2023 | Stable release           |
-| [5.1.2](release-5.1.2-ongoing.md)  | 13 Feb 2023 | Intermediate release     |
-| [5.1.1](release-5.1.1.md)          | 29 DeC 2023 | Intermediate release     |
+| Release version                    | Date        | Comments             |
+| ---------------------------------- | ----------- | -------------------- |
+| 5.2.0                              | 5 Apr 2023  | Stable release       |
+| [5.1.2](release-5.1.2-ongoing.md)  | 14 Feb 2023 | Intermediate release |
+| [5.1.1](release-5.1.1.md)          | 14 Feb 2023 | Intermediate release |
 
-<mark style="color:blue;">****</mark>
+
 
 <mark style="color:blue;">**Features:**</mark>
 
@@ -21,21 +20,25 @@ RFC/Stroy/Bug description(JIRA ticket)
 
 
 
-### Release X.X.X (DD-MM-YYYY)
+### Release 5.2.0 (05-04-2023)
 
-<mark style="color:blue;">****</mark>
+{% file src="../../../../.gitbook/assets/Release Notes 5.2.0.docx" %}
+
+###
 
 ### Sunbird-Knowlg
 
-Release notes:
-
-### Sunbird-Inquiry
-
-Release notes:
+Release notes: [ https://knowlg.sunbird.org/use/release-notes](https://knowlg.sunbird.org/use/release-notes)
 
 ### Sunbird-Obsrv
 
-Release notes:
+Release notes: [https://obsrv.sunbird.org/use/release-notes/release-v-5.1.0-latest](https://obsrv.sunbird.org/use/release-notes/release-v-5.1.0-latest)
+
+### Sunbird-Lern
+
+Release notes: [https://lern.sunbird.org/use/release-notes/release-v-5.1.0](https://lern.sunbird.org/use/release-notes/release-v-5.1.0)
+
+
 
 
 
