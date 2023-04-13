@@ -145,7 +145,9 @@ Verification flow for certificate([**ED-97**](https://project-sunbird.atlassian.
 
 ### Release 5.1.0 (16-01-2023)
 
-{% file src="../../../.gitbook/assets/Release Notes 5.1.0.docx" %}
+The 5.1.0 release has breaking changes. Adopters who are on 5.1.0 should ensure that their mobile app users are on the latest version.
+
+{% file src="../../../.gitbook/assets/Release Notes 5.1.0 (2).docx" %}
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.6**</mark>** (12-01-2023)**
 

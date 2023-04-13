@@ -76,7 +76,7 @@
 * [Updating Sunbird Releases](use/updating-sunbird-releases/README.md)
   * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/updating-sunbird-releases/4.10.1-4.10.2-4.10.3-and-5.0.md)
   * [5.0.0 to 5.1.0](use/updating-sunbird-releases/5.0.0-to-5.1.0.md)
-  * [5.2.0 (ongoing)](use/updating-sunbird-releases/5.2.0.md)
+  * [5.1.0 to 5.2.0](use/updating-sunbird-releases/5.2.0.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
   * [Specifications](use/learn-more/specifications/README.md)
