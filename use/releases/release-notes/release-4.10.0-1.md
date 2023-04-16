@@ -1,5 +1,15 @@
 # 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
 
+## <mark style="color:blue;">Hotfix:5.1.0.10</mark>
+
+**Bugs(14-04-2023)**
+
+Sunbird : Content was not searchable for a  particular board ([ED-1](https://project-sunbird.atlassian.net/browse/ED-1174)[748](https://project-sunbird.atlassian.net/browse/ED-1748))
+
+| Service to build | Public Tag                                                                                       | Comments                                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| SunbirdEd-Portal | [release-5.1.0.6\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.6\_RC1) | Branch: [release-5.1.0.5\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.6\_RC1) |
+
 ## <mark style="color:blue;">Hotfix:5.1.0.9</mark>
 
 **Bugs(02-03-2023)**
