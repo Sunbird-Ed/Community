@@ -1,10 +1,10 @@
 # Release-5.2.0 (latest)
 
-| Release version                    | Date        | Comments             |
-| ---------------------------------- | ----------- | -------------------- |
-| 5.2.0                              | 5 Apr 2023  | Stable release       |
-| [5.1.2](release-5.1.2-ongoing.md)  | 14 Feb 2023 | Intermediate release |
-| [5.1.1](release-5.1.1.md)          | 14 Feb 2023 | Intermediate release |
+| Release version                      | Date        | Comments             |
+| ------------------------------------ | ----------- | -------------------- |
+| [5.2.0](./#release-5.2.0-05-04-2023) | 5 Apr 2023  | Stable release       |
+| [5.1.2](release-5.1.2.md)            | 14 Feb 2023 | Intermediate release |
+| [5.1.1](release-5.1.1.md)            | 14 Feb 2023 | Intermediate release |
 
 
 
