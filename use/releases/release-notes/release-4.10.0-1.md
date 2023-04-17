@@ -14,6 +14,18 @@ Program Dashboard Request getting timed out ([ED-1613](https://project-sunbird.a
 
 ## <mark style="color:blue;">Hotfix:5.1.0.9</mark>
 
+**Bugs(07-03-203)**
+
+* \[ML] : Unable to select multiple files/images/videos from gallery for observations and surveys([ED-1357](https://project-sunbird.atlassian.net/browse/ED-1357))
+* Mobile App : User is getting wrong error message “Error while login“ while try to login with wrong password.([ED-1393](https://project-sunbird.atlassian.net/browse/ED-1393))
+* \[ML] Clicking on back arrow button from project listing page user is re-directing back to project view page with START IMPROVEMENT button enabled even when user has already started the project when user tries to access the CERTIFICATE projects via link.([ED-1321](https://project-sunbird.atlassian.net/browse/ED-1321))
+
+| Service to build                     | Public Tag                                                                                                   | Comments                                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.1.0.9\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/releases/tag/release-5.1.0.9\_RC1) | Branch: [release-5.1.0.9](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/release-5.1.0.9) |
+
+## <mark style="color:blue;">Hotfix:5.1.0.9</mark>
+
 **Bugs(02-03-2023)**
 
 * Destop app : Error while building offline desktop build from jenkins([ED-1358](ttps://project-sunbird.atlassian.net/browse/ED-1358))
@@ -198,8 +210,8 @@ Course progress does not get updated correctly.  [ED-648](https://project-sunbir
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.2**</mark>** (21-10-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.2.docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.2 (2).docx" %}
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.1**</mark>** (27-9-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.1 (2).docx" %}
