@@ -86,6 +86,7 @@
   * [Release calendars](use/releases/release-calendars/README.md)
     * [Release Calendar 4.9, 4.10, 5.0](use/releases/release-calendars/release-calendar-4.9-4.10-5.0.md)
     * [Release calendar 5.0.1, 5.0.2, 5.0.3, 5.1.0 (major), 5.1.1, 5.1.2, 5.1.3 &5.2.0 (major)](use/releases/release-calendars/release-calendar-5.0.1-5.0.2-5.0.3-5.1.0-major-5.1.1-5.1.2-5.1.3-and-5.2.0-major.md)
+    * [Release Calendar 6.0.0](use/releases/release-calendars/release-calendar-6.0.0.md)
   * [Planned items](use/releases/planned-items/README.md)
     * [4.9, 4.9.1, & 4.10(major)](use/releases/planned-items/4.9-4.9.1-and-4.10-major.md)
     * [4.10.1, 4.10.2, 4.10.3, & 5.0(major)](use/releases/planned-items/4.10.1-4.10.2-4.10.3-and-5.0-major.md)
