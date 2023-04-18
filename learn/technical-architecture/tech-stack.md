@@ -1,5 +1,5 @@
 # Tech Stack
 
-&#x20;&#x20;
+&#x20;
 
-![](<../../.gitbook/assets/image (16).png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-18 at 4.06.11 PM.png" alt=""><figcaption></figcaption></figure>
