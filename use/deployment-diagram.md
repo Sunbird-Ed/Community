@@ -1,3 +1,3 @@
 # Deployment Diagram
 
-![](https://imgr.whimsical.com/object/QNiPzLABKYoydJ6Ev8hzTZ)
+<figure><img src="../.gitbook/assets/SunbirdEd-DeploymentDiagram.png" alt=""><figcaption></figcaption></figure>
