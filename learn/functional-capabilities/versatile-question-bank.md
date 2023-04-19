@@ -41,5 +41,5 @@ The above capabilities of Question bank are derived from components of Sunbird I
 Further details on [versatile-question-bank.md](../product-and-developers-guide/versatile-question-bank.md "mention")
 {% endhint %}
 
-
+Note: The complete capabilities of inQuiry are not yet integrated within ED. If you are using inQuiry BB for your instance you have to validate the workflows.
 
