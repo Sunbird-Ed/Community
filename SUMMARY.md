@@ -92,7 +92,7 @@
     * [4.10.1, 4.10.2, 4.10.3, & 5.0(major)](use/releases/planned-items/4.10.1-4.10.2-4.10.3-and-5.0-major.md)
     * [5.0.1, 5.0.2, 5.0.3 & 5.1 (major)](use/releases/planned-items/5.0.1-5.0.2-5.0.3-and-5.1-major.md)
   * [Release notes](use/releases/release-notes/README.md)
-    * [5.2.0 (Current)](use/releases/release-notes/release-5.2.0/README.md)
+    * [5.2.0 (Latest)](use/releases/release-notes/release-5.2.0/README.md)
       * [Release-5.1.2](use/releases/release-notes/release-5.2.0/release-5.1.2.md)
       * [Release-5.1.1](use/releases/release-notes/release-5.2.0/release-5.1.1.md)
     * [5.1.0-hotfix (OCI )](use/releases/release-notes/5.1.0-hotfix.md)
