@@ -54,7 +54,7 @@ bash ./install-ed.sh k8s-config.yaml
    3. Update the values to globar-vars.yaml
 6. Run the Ed easy installer post install script
 
-## Known Issues:
+##
 
 
 
