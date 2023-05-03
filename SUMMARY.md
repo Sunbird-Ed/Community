@@ -73,6 +73,7 @@
     * [Post Install Steps](use/installing-ed-platform/release-5.1.0/post-install-steps.md)
   * [Sunbird ED Portal](use/installing-ed-platform/sunbird-ed-portal.md)
   * [Sunbird ED Mobile](use/installing-ed-platform/sunbird-ed-mobile.md)
+  * [Easy installer (Draft)](use/installing-ed-platform/easy-installer-draft.md)
 * [Updating Sunbird Releases](use/updating-sunbird-releases/README.md)
   * [4.10.1, 4.10.2, 4.10.3, & 5.0](use/updating-sunbird-releases/4.10.1-4.10.2-4.10.3-and-5.0.md)
   * [5.0.0 to 5.1.0](use/updating-sunbird-releases/5.0.0-to-5.1.0.md)
