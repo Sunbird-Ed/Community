@@ -25,7 +25,7 @@ To successfully complete Sunbird installation, you need to have:
    * Azure Kuberentes Cluster: Please follow the steps mentioned in the below documentation tp provision AKS cluster and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script. kubernetes version: 1.24.x , Node size: 4 Core, 16 GB RAM, Node count range: 1 to 8   [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
    *   Azure Storage account with following containers
 
-       * `sunbird-contents-dev` public container
+       * `sunbird-content-dev` public container
        * `flink-state-backend` private container
 
 
@@ -47,7 +47,7 @@ To successfully complete Sunbird installation, you need to have:
 K9s download link: [https://k9scli.io/topics/install/](https://k9scli.io/topics/install/)&#x20;
 
 ```
-bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install
+bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install 2>&1 | tee ed-easyinstall.log 
 ```
 
 4. Manual keycloak configurations
@@ -72,20 +72,23 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install
     username: admin password: admin
 
     * Click `lms` client -> Select `service account roles` -> Click on `Client roles` drop down -> Select `realm management` -> Select `manage-users in` Available Roles -> Click on `Add Selected`
-    * Click on `lms` client -> `Credentials` -> Copy the secret value -> Update `sunbird_sso_client_secret` variable value in `global-vars.yaml` with the copied secret value
-    * Click on  `Keys`, copy the public key. Update the variable `sunbird_sso_publickey` in `global-vars.yaml` with the copied public key
+    * Click on `lms` client -> `Credentials` -> Copy the secret value -> Update `sunbird_sso_client_secret` variable value in `global-values.yaml` with the copied secret value
+    * Click on  `Keys`, copy the public key. Update the variable `sunbird_sso_publickey` in `global-values.yaml` with the copied public key
 
 
-* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/user-federation` Click on `cassandra-storage-provider` -> Copy the provider key. Update the `sunbird_keycloak_user_federation_provider_id` variable in `global-vars.yaml` with the copied provider key
+* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/user-federation` Click on `cassandra-storage-provider` -> Copy the provider key. Update the `sunbird_keycloak_user_federation_provider_id` variable in `global-values.yaml` with the copied provider key
+* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy RSA KID . Update the variable `keycloak_sunbird_realm_kid` in global-values.yaml
+*   Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy Public Key . Update the variable `keycloak_sunbird_realm_public_key`
+
+    &#x20;in global-values.yaml
 
 5. Run the Ed easy installer post install script
 
 ```
-bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript
+bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript 2>&1 | tee ed-easyinstall-post.log 
 ```
 
-6. Update the DNS record. Fetch the public ip using kubectl command. Access the Ed instance using https://{domain-name}
-7. Functional configurations
+6. Update the DNS record: Get the public ip printed on the console and add DNS A record for the same domain you have added to global-values.yaml. Access the Ed instance using https://{domain-name}
 
 If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)
 
