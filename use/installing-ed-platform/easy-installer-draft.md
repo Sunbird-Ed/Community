@@ -74,6 +74,7 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install 2>&1 | tee ed-easyin
     * Click `lms` client -> Select `service account roles` -> Click on `Client roles` drop down -> Select `realm management` -> Select `manage-users in` Available Roles -> Click on `Add Selected`
     * Click on  `Credentials TAB`-> Copy the secret value -> Update `sunbird_sso_client_secret` variable value in `global-values.yaml` with the copied secret value
     * Click on `Realm Settings`-> `Keys` -> Click on `public key` button-> Copy the key. Update the variables `sunbird_sso_publickey` and `keycloak_sunbird_realm_public_key` in `global-values.yaml` with the copied public key
+    * Click on `Realm Settings` -> Click on Themes -> Select `sunbird` as a login theme -> click save
 
 
 * Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/user-federation` Click on `cassandra-storage-provider` -> Copy the `Provider ID`. Update the `sunbird_keycloak_user_federation_provider_id` variable in `global-values.yaml` with the copied Provider ID
