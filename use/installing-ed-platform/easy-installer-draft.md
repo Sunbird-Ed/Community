@@ -54,7 +54,7 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install 2>&1 | tee ed-easyin
 
 `NOTE: These manual configurations will be automated in the next consequent releases`
 
-*   Port forward to keycloak pod to access admin console through web browser. Make sure there is no process running on port 8080 on the system from where you are running the installer
+*   Port forward to keycloak pod to access admin console through web browser. Make sure there is no process running on port 8080 on the system from where you are running the installer. Also, make sure context to kubectl is set to the right kubernetes cluster.
 
 
 
@@ -72,15 +72,14 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install 2>&1 | tee ed-easyin
     username: admin password: admin
 
     * Click `lms` client -> Select `service account roles` -> Click on `Client roles` drop down -> Select `realm management` -> Select `manage-users in` Available Roles -> Click on `Add Selected`
-    * Click on `lms` client -> `Credentials` -> Copy the secret value -> Update `sunbird_sso_client_secret` variable value in `global-values.yaml` with the copied secret value
-    * Click on  `Keys`, copy the public key. Update the variable `sunbird_sso_publickey` in `global-values.yaml` with the copied public key
+    * Click on  `Credentials TAB`-> Copy the secret value -> Update `sunbird_sso_client_secret` variable value in `global-values.yaml` with the copied secret value
+    * Click on `Realm Settings`-> `Keys` -> Click on `public key` button-> Copy the key. Update the variables `sunbird_sso_publickey` and `keycloak_sunbird_realm_public_key` in `global-values.yaml` with the copied public key
 
 
-* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/user-federation` Click on `cassandra-storage-provider` -> Copy the provider key. Update the `sunbird_keycloak_user_federation_provider_id` variable in `global-values.yaml` with the copied provider key
-* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy RSA KID . Update the variable `keycloak_sunbird_realm_kid` in global-values.yaml
-*   Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy Public Key . Update the variable `keycloak_sunbird_realm_public_key`
+* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/user-federation` Click on `cassandra-storage-provider` -> Copy the `Provider ID`. Update the `sunbird_keycloak_user_federation_provider_id` variable in `global-values.yaml` with the copied Provider ID
+* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy KID or Type RSA . Update the variable `keycloak_sunbird_realm_kid` in global-values.yaml
 
-    &#x20;in global-values.yaml
+
 
 5. Run the Ed easy installer post install script
 
