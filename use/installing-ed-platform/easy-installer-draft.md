@@ -79,7 +79,7 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install
 
 
 * Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/user-federation` Click on `cassandra-storage-provider` -> Copy the `Provider ID`. Update the `sunbird_keycloak_user_federation_provider_id` variable in `global-values.yaml` with the copied Provider ID
-* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy KID or Type RSA . Update the variable `keycloak_sunbird_realm_kid` in global-values.yaml
+* Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy KID of Type RSA . Update the variable `keycloak_sunbird_realm_kid` in global-values.yaml
 
 5. Run the Ed easy installer post install script
 
