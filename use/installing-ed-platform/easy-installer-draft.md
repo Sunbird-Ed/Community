@@ -42,12 +42,12 @@ To successfully complete Sunbird installation, you need to have:
        ```
 
        * Use your favourite text editor and update variables mentioned in global-values.yaml. Follow the instructions mentioned in the `global-values.yaml` file under every variable
-3. Run the Ed easy installer bash script. While the installer is running, you can view the deployments to the kubernetes cluster using any kubernetes client like kubectl or k9s
+3. Run the Ed easy installer bash script. While the installer is running, you can view the deployments to the kubernetes cluster using any kubernetes client like kubectl or k9s. This will take 45 min to 1 hour based on the internet speed on the machine where you are running the script. Take a break and check back !
 
 K9s download link: [https://k9scli.io/topics/install/](https://k9scli.io/topics/install/)&#x20;
 
 ```
-bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install 2>&1 | tee ed-easyinstall.log 
+bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install  
 ```
 
 4. Manual keycloak configurations
@@ -80,15 +80,15 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install 2>&1 | tee ed-easyin
 * Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/user-federation` Click on `cassandra-storage-provider` -> Copy the `Provider ID`. Update the `sunbird_keycloak_user_federation_provider_id` variable in `global-values.yaml` with the copied Provider ID
 * Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/keys` -> copy KID or Type RSA . Update the variable `keycloak_sunbird_realm_kid` in global-values.yaml
 
-
-
 5. Run the Ed easy installer post install script
 
 ```
-bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript 2>&1 | tee ed-easyinstall-post.log 
+bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript  
 ```
 
 6. Update the DNS record: Get the public ip printed on the console and add DNS A record for the same domain you have added to global-values.yaml. Access the Ed instance using https://{domain-name}
 
-If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)
+Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for. Please refer the below mentioned postman collection to setup minimal functional configuration for content and course creation workflow. We will be automating this process in the coming sprints and update the documentation here. Please check this page for updates. [https://api.postman.com/collections/4214340-cb46f587-0dd8-402c-9e4a-10788ca590c5?access\_key=PMAT-01GVFD3C1PAY6Y6ET7PMXN9TF2](https://api.postman.com/collections/4214340-cb46f587-0dd8-402c-9e4a-10788ca590c5?access\_key=PMAT-01GVFD3C1PAY6Y6ET7PMXN9TF2)&#x20;
+
+If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
 
