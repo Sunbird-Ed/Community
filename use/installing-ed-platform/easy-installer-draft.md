@@ -101,15 +101,26 @@ Download the postman collection of Sunbird-Ed configuration
 
 #### **Postman environment variables:**
 
-Download the postman environment variables & update the values after importing to postman
+Download the postman environment variables & update the values after importing to postman.
+
+Please refer global\_values.yaml file for varaible values.
+
+| Environment key name    | global\_values.yaml key name          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ----------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| host                    | domain                                | http://example.co.oin                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| kong\_api\_key          | Bearer \{{sunbird\_encryption\_key\}} | Bearer xxx.yyy.zzz                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| keycloak\_access\_token |                                       | <p>Generate using Auth-Token API<br><a href="https://www.postman.com/sunbird-building-blocks/workspace/sunbird-ed/documentation/25186239-6547f9fc-5f16-495c-b5e0-d76f5a78d66d?entity=request-81d7a679-2c0d-4413-9d63-868d4fdd0b67">https://www.postman.com/sunbird-building-blocks/workspace/sunbird-ed/documentation/25186239-6547f9fc-5f16-495c-b5e0-d76f5a78d66d?entity=request-81d7a679-2c0d-4413-9d63-868d4fdd0b67</a><br>Copy "access_token" value from response</p> |
+| auth\_client\_id        |                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| auth\_client\_secret    | sunbird\_sso\_client\_secret          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| auth\_grantType         |                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 [https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json](https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json)\
 \
-How to import environment varibles into postman
+How to import environment variables into postman.
 
 [https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
 \
-Install Newman to run the collection on server(where Knowlg services present)
+Install Newman & run configuration postman collection on server from where easy installer has initiated(./install-ed.sh) using below commands.
 
 <pre><code><strong>$ npm install -g newman
 </strong></code></pre>
