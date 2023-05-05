@@ -23,6 +23,7 @@ To successfully complete Sunbird installation, you need to have:
 
 1. Provision Pre-requisites: Current easy installer supports azure cloud service provider. Please provision the following resources required&#x20;
    * Azure Kuberentes Cluster: Please follow the steps mentioned in the below documentation tp provision AKS cluster and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script. kubernetes version: 1.24.x , Node size: 4 Core, 16 GB RAM, Node count range: 1 to 8   [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
+   * Install az cli [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
    *   Azure Storage account with following containers
 
        * `sunbird-content-dev` public container
