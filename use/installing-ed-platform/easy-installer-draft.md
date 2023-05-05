@@ -89,7 +89,35 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript
 
 6. Update the DNS record: Get the public ip printed on the console and add DNS A record for the same domain you have added to global-values.yaml. Access the Ed instance using https://{domain-name}
 
-Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for. Please refer the below mentioned postman collection to setup minimal functional configuration for content and course creation workflow. We will be automating this process in the coming sprints and update the documentation here. Please check this page for updates. [https://api.postman.com/collections/4214340-cb46f587-0dd8-402c-9e4a-10788ca590c5?access\_key=PMAT-01GVFD3C1PAY6Y6ET7PMXN9TF2](https://api.postman.com/collections/4214340-cb46f587-0dd8-402c-9e4a-10788ca590c5?access\_key=PMAT-01GVFD3C1PAY6Y6ET7PMXN9TF2)&#x20;
+Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for.&#x20;
+
+Please refer the below mentioned postman collection to setup minimal functional configuration for content and course creation workflow. We will be automating this process in the coming sprints and update the documentation here. Please check this page for updates.&#x20;
+
+#### Postman Collection
+
+Download the postman collection of Sunbird-Ed configuration
+
+[https://api.postman.com/collections/4214340-ae9d4061-2dff-4605-8579-a55563e46c75?access\_key=PMAT-01GZKEBEAZW1WSGF3WVS95D8RT](https://api.postman.com/collections/4214340-ae9d4061-2dff-4605-8579-a55563e46c75?access\_key=PMAT-01GZKEBEAZW1WSGF3WVS95D8RT)
+
+#### **Postman environment variables:**
+
+Download the postman environment variables & update the values after importing to postman
+
+[https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json](https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json)\
+\
+How to import environment varibles into postman
+
+[https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
+\
+Install Newman to run the collection on server(where Knowlg services present)
+
+<pre><code><strong>$ npm install -g newman
+</strong></code></pre>
+
+<pre class="language-bash"><code class="lang-bash"><strong>$ newman run path_to_Sunbird_ED_collection.json -e path_to_environment.json
+</strong></code></pre>
+
+{% embed url="https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/" %}
 
 If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
 
