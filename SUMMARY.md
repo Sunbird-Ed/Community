@@ -170,6 +170,7 @@
 ## Development Resources
 
 * [Misc Pages](development-resources/misc-pages/README.md)
+  * [Mobile form configurations](development-resources/misc-pages/mobile-form-configurations.md)
   * [Content Indexing Flow](development-resources/misc-pages/content-indexing-flow.md)
   * [What are multiple databases used for](development-resources/misc-pages/what-are-multiple-databases-used-for.md)
   * [Course completion, reports and certificate issue](development-resources/misc-pages/course-completion-reports-and-certificate-issue.md)
