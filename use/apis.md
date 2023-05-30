@@ -29,3 +29,12 @@ This service is owned by Sunbird-ED Building Block. The CRUD API's are documente
 What properties can be used as part of forum create & the details has updated in the below document itself.
 
 {% embed url="https://documenter.getpostman.com/view/25186239/2s93Y2TNAw" %}
+
+### Certificate: Enabling Certifications
+
+This section detailed about&#x20;
+
+* How to configure the Certifications feature in Sunbird-ED?&#x20;
+* What are the API's related to Certifications?
+
+{% embed url="https://github.com/orgs/Sunbird-Lern/discussions/112" %}
