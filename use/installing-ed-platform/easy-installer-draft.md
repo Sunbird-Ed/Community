@@ -22,11 +22,11 @@ To successfully complete Sunbird installation, you need to have:
 ## Steps:
 
 1. Provision Pre-requisites: Current easy installer supports azure cloud service provider. Please provision the following resources required&#x20;
-   * Azure Kuberentes Cluster: Please follow the steps mentioned in the below documentation tp provision AKS cluster and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script. kubernetes version: 1.24.x , Node size: 4 Core, 16 GB RAM, Node count range: 1 to 8   [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
+   * Azure Kuberentes Cluster: Please follow the steps mentioned in the below documentation tp provision AKS cluster and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script. kubernetes version: 1.24.x , Node size: 4 Core, 16 GB RAM, Node count range: 6 to 10   [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
    * Install az cli [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
    *   Azure Storage account with following containers
 
-       * `sunbird-content-dev` public container
+       * `sunbird-contents-dev` public container
        * `flink-state-backend` private container
 
 
@@ -103,19 +103,16 @@ Download the postman collection of Sunbird-Ed configuration
 
 Download the postman environment variables & update the values after importing to postman.
 
+[https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json](https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json)
+
+
 Please refer global\_values.yaml file for varaible values.
 
 | Environment key name    | global\_values.yaml key name          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | host                    | domain                                | http://example.co.oin                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| kong\_api\_key          | Bearer \{{sunbird\_encryption\_key\}} | Bearer xxx.yyy.zzz                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| keycloak\_access\_token |                                       | <p>Generate using Auth-Token API<br><a href="https://www.postman.com/sunbird-building-blocks/workspace/sunbird-ed/documentation/25186239-6547f9fc-5f16-495c-b5e0-d76f5a78d66d?entity=request-81d7a679-2c0d-4413-9d63-868d4fdd0b67">https://www.postman.com/sunbird-building-blocks/workspace/sunbird-ed/documentation/25186239-6547f9fc-5f16-495c-b5e0-d76f5a78d66d?entity=request-81d7a679-2c0d-4413-9d63-868d4fdd0b67</a><br>Copy "access_token" value from response</p> |
-| auth\_client\_id        |                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| auth\_client\_secret    | sunbird\_sso\_client\_secret          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| auth\_grantType         |                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| kong\_api\_key          | Bearer \{{core\_vault\_sunbird\_api\_auth\_token\}} | Bearer xxx.yyy.zzz                                                                                                                                                                                                      
 
-[https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json](https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json)\
-\
 How to import environment variables into postman.
 
 [https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
