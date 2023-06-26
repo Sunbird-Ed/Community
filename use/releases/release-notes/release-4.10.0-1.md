@@ -139,9 +139,7 @@ Program Dashboard Request getting timed out ([ED-1613](https://project-sunbird.a
 
 Mobile App : Unable to login with an existing user. ([<mark style="color:blue;">**ED-1169**</mark>](https://project-sunbird.atlassian.net/browse/ED-1169))
 
-| Service to Build | Public Tag                                                                                                                            | Comment |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| SunbirdEd-Portal | [<mark style="color:blue;">**release-5.1.0.2\_RC1**</mark>](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.2\_RC1) |         |
+<table><thead><tr><th>Service to Build</th><th width="272.6666666666667">Public Tag</th><th>Comment</th></tr></thead><tbody><tr><td>SunbirdEd-Portal</td><td><a href="https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.1.0.2_RC1"><mark style="color:blue;"><strong>release-5.1.0.2_RC1</strong></mark></a></td><td></td></tr></tbody></table>
 
 ### <mark style="color:blue;">Hotfix:5.1.0.1(27-01-2023)</mark>
 
@@ -171,7 +169,7 @@ Verification flow for certificate([**ED-97**](https://project-sunbird.atlassian.
 
 The 5.1.0 release has breaking changes. Adopters who are on 5.1.0 should ensure that their mobile app users are on the latest version.
 
-{% file src="../../../.gitbook/assets/Release Notes 5.1.0 (2).docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.1.0 (2) (1).docx" %}
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.6**</mark>** (12-01-2023)**
 
@@ -203,15 +201,12 @@ Course progress does not get updated correctly.  [ED-648](https://project-sunbir
 
 
 
-| Service to Build | Public Tag                                                                                                  | Comment                                                                                                                                                                                                      |
-| ---------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| SunbirdEd-Portal | release-5.0.0.4\_RC2[**​**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3) | <p>Sunbird video player version update for End event summary progress issue.<br><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3">sunbird-video-player: 5.1.3</a></p> |
-| Sunbird-Mobile   | release-5.0.5\_RC0                                                                                          | Same as above                                                                                                                                                                                                |
+<table data-header-hidden><thead><tr><th width="215.33333333333331">Service to Build</th><th>Public Tag</th><th></th></tr></thead><tbody><tr><td>Service to Build</td><td>Public Tag</td><td>Comment</td></tr><tr><td>SunbirdEd-Portal</td><td>release-5.0.0.4_RC2<a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3"><strong>​</strong></a></td><td>Sunbird video player version update for End event summary progress issue.<br><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3">sunbird-video-player: 5.1.3</a></td></tr><tr><td>Sunbird-Mobile</td><td>release-5.0.5_RC0</td><td>Same as above </td></tr></tbody></table>
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.2**</mark>** (21-10-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.2 (2).docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.2.docx" %}
 
 ### <mark style="color:blue;">**Hot-fix:  5.0.1**</mark>** (27-9-2022)**
 
-{% file src="../../../.gitbook/assets/Release Notes 5.0.1 (2).docx" %}
+{% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}

@@ -51,12 +51,4 @@ To successfully complete Sunbird installation, you need to have:
 
 Before you start the installation process, ensure that you have the required infrastructure mentioned above is provisioned. Every component in Sunbird can scale horizontally / vertically by adding additional resources. Please find the mapping between server and the application components below.
 
-| APPLICATION COMPONENT | SERVER CONFIG           | COUNT        |
-| --------------------- | ----------------------- | ------------ |
-| Jenkins               | 4core 16GB RAM 250G HDD | 1            |
-| KP                    | 4core 16GB RAM 60G HDD  | 1            |
-| DP                    | 4core 16GB RAM 60G HDD  | 1            |
-| DB                    | 4core 16GB RAM 60G HDD  | 1            |
-| Learning              | 4core 16GB RAM 60G HDD  | 1            |
-| Druid                 | 4core 16GB RAM 60G HDD  | 1            |
-| Basic Load Balancers  | Layer 4                 | 2 (Optional) |
+<table><thead><tr><th>APPLICATION COMPONENT</th><th>SERVER CONFIG</th><th width="192.33333333333331">COUNT</th></tr></thead><tbody><tr><td>Jenkins</td><td>4core 16GB RAM 250G HDD</td><td>1</td></tr><tr><td>KP</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>DP</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>DB</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Learning</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Druid</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Basic Load Balancers</td><td>Layer 4</td><td>2 (Optional)</td></tr></tbody></table>
