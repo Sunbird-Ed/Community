@@ -97,13 +97,14 @@ Please refer the below mentioned postman collection to setup minimal functional 
 
 Download the postman collection of Sunbird-Ed configuration
 
-[https://api.postman.com/collections/4214340-ae9d4061-2dff-4605-8579-a55563e46c75?access\_key=PMAT-01GZKEBEAZW1WSGF3WVS95D8RT](https://api.postman.com/collections/4214340-ae9d4061-2dff-4605-8579-a55563e46c75?access\_key=PMAT-01GZKEBEAZW1WSGF3WVS95D8RT)
+[https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/collection.json](https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/collection.json)
+
 
 #### **Postman environment variables:**
 
 Download the postman environment variables & update the values after importing to postman.
 
-[https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json](https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json)
+[https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json](https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json)
 
 
 Please refer global\_values.yaml file for varaible values.
@@ -116,16 +117,8 @@ Please refer global\_values.yaml file for varaible values.
 How to import environment variables into postman.
 
 [https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
-\
-Install Newman & run configuration postman collection on server from where easy installer has initiated(./install-ed.sh) using below commands.
 
-<pre><code><strong>$ npm install -g newman
-</strong></code></pre>
-
-<pre class="language-bash"><code class="lang-bash"><strong>$ newman run path_to_Sunbird_ED_collection.json -e path_to_environment.json
-</strong></code></pre>
-
-{% embed url="https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/" %}
+Execute the postman collection in sequence manner.
 
 If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
 
