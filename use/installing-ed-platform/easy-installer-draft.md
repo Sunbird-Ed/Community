@@ -106,19 +106,23 @@ Download the postman environment variables & update the values after importing t
 
 [https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json](https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json)
 
+How to import environment variables into postman.
+
+[https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
 
 Please refer global\_values.yaml file for varaible values.
 
 | Environment key name    | global\_values.yaml key name          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | host                    | domain                                | http://example.co.oin                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| kong\_api\_key          | Bearer \{{core\_vault\_sunbird\_api\_auth\_token\}} | Bearer xxx.yyy.zzz                                                                                                                                                                                                      
+| kong\_api\_key          | Bearer \{{core\_vault\_sunbird\_api\_auth\_token\}} | Bearer xxx.yyy.zzz                                                                                     
 
-How to import environment variables into postman.
+* Once postman collection and environment are imported.Navigate to the Environment --> Double click the envrionment file and update the domain and kong_api_key on current value and save it.
 
-[https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
+* Click on collection and right side corner --> environment --> drop down and select the environment.
 
-Execute the postman collection in sequence manner.
+
+* Execute the postman collection in sequence manner.
 
 If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
 
