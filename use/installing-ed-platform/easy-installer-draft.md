@@ -117,12 +117,11 @@ Update below mentioned environmental variables in postman tool. Please refer glo
 | host                    | domain                                | http://example.co.in/                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | kong\_api\_key          | Bearer \{{core\_vault\_sunbird\_api\_auth\_token\}} | Bearer xxx.yyy.zzz                                                                                     
 
-* Once postman collection and environment files are imported. Navigate to the Environment --> select sunbird-easeinstall environment --> update the host and kong_api_key variable value and save it.
+* Import the Postman collection and environment files. Then, go to the "Environment" section and choose the "sunbird-easeinstall" environment. Update the values of the "host" and "kong_api_key" variables, and remember to save the changes.
 
-* After environment variables are updated, click on collections tab  on left side corner --> select environment name from the drop down (right top corner).
+* Once you have updated the environment variables, click on the "Collections" tab located in the upper-left corner. From the dropdown menu in the upper-right corner, select the desired environment name.
 
-
-* Trigger  the APIs in the collection one after the other in sequence. Proceed to next api, once the current api response is 200
+* Now, you can start triggering the APIs in the collection one by one, following the specified sequence. Proceed to the next API only when the response from the current API is a successful "200" status code.
 
 If you have any queries or facing issues please create a discussion thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
 
