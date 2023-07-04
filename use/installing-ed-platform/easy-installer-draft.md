@@ -91,7 +91,7 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript
 
 Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for.&#x20;
 
-These functional configuration are setup using postman tool.Please download and install postman tool from here https://www.postman.com/downloads/ 
+To configure these functionalities, you will need to use the Postman tool. You can download and install the Postman tool by visiting the following link: https://www.postman.com/downloads/. 
 
 Please refer the below mentioned postman collection to setup minimal functional configuration for content creation workflow.
 
