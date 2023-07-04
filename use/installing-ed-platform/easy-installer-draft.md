@@ -91,38 +91,38 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript
 
 Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for.&#x20;
 
-Please refer the below mentioned postman collection to setup minimal functional configuration for content and course creation workflow. We will be automating this process in the coming sprints and update the documentation here. Please check this page for updates.&#x20;
+These functional configuration are setup using postman tool.Please download and install postman tool from here https://www.postman.com/downloads/ 
 
-#### Postman Collection
+Please refer the below mentioned postman collection to setup minimal functional configuration for content creation workflow.
 
-Download the postman collection of Sunbird-Ed configuration
+Download the postman collection of Sunbird-Ed functional configuration
 
 [https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/collection.json](https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/collection.json)
 
 
-#### **Postman environment variables:**
 
-Download the postman environment variables & update the values after importing to postman.
+Download the postman environment variable file
 
 [https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json](https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json)
 
-How to import environment variables into postman.
+
+Import postman collection and environment variables to postman tool
 
 [https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
 
-Please refer global\_values.yaml file for varaible values.
+Update below mentioned environmental variables in postman tool. Please refer global\_values.yaml file for varaible values.
 
 | Environment key name    | global\_values.yaml key name          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| host                    | domain                                | http://example.co.oin                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| host                    | domain                                | http://example.co.in/                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | kong\_api\_key          | Bearer \{{core\_vault\_sunbird\_api\_auth\_token\}} | Bearer xxx.yyy.zzz                                                                                     
 
-* Once postman collection and environment are imported.Navigate to the Environment --> Double click the envrionment file and update the domain and kong_api_key on current value and save it.
+* Once postman collection and environment files are imported. Navigate to the Environment --> select sunbird-easeinstall environment --> update the host and kong_api_key variable value and save it.
 
-* Click on collection and right side corner --> environment --> drop down and select the environment.
+* After environment variables are updated, click on collections tab  on left side corner --> select environment name from the drop down (right top corner).
 
 
-* Execute the postman collection in sequence manner.
+* Trigger  the APIs in the collection one after the other in sequence. Proceed to next api, once the current api response is 200
 
-If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
+If you have any queries or facing issues please create a discussion thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
 
