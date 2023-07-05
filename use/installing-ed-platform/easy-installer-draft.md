@@ -91,41 +91,37 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript
 
 Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for.&#x20;
 
-Please refer the below mentioned postman collection to setup minimal functional configuration for content and course creation workflow. We will be automating this process in the coming sprints and update the documentation here. Please check this page for updates.&#x20;
+To configure these functionalities, you will need to use the Postman tool. You can download and install the Postman tool by visiting the following link: https://www.postman.com/downloads/. 
 
-#### Postman Collection
+Please refer the below mentioned postman collection to setup minimal functional configuration for content creation workflow.
 
-Download the postman collection of Sunbird-Ed configuration
+Download the postman collection of Sunbird-Ed functional configuration
 
-[https://api.postman.com/collections/4214340-ae9d4061-2dff-4605-8579-a55563e46c75?access\_key=PMAT-01GZKEBEAZW1WSGF3WVS95D8RT](https://api.postman.com/collections/4214340-ae9d4061-2dff-4605-8579-a55563e46c75?access\_key=PMAT-01GZKEBEAZW1WSGF3WVS95D8RT)
-
-#### **Postman environment variables:**
-
-Download the postman environment variables & update the values after importing to postman.
-
-[https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json](https://github.com/vinukumar-vs/Sunbird\_ED\_Postman/blob/master/Sunbird-Ed%20template.postman\_environment.json)
+[https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/collection.json](https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/collection.json)
 
 
-Please refer global\_values.yaml file for varaible values.
+
+Download the postman environment variable file
+
+[https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json](https://github.com/project-sunbird/sunbird-devops/blob/oneclickinstaller/oneclickinstaller/environment.json)
+
+
+Import postman collection and environment variables to postman tool
+
+[https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
+
+Update below mentioned environmental variables in postman tool. Please refer global\_values.yaml file for varaible values.
 
 | Environment key name    | global\_values.yaml key name          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| host                    | domain                                | http://example.co.oin                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| kong\_api\_key          | Bearer \{{core\_vault\_sunbird\_api\_auth\_token\}} | Bearer xxx.yyy.zzz                                                                                                                                                                                                      
+| host                    | domain                                | http://example.co.in/                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| kong\_api\_key          | Bearer \{{core\_vault\_sunbird\_api\_auth\_token\}} | Bearer xxx.yyy.zzz                                                                                     
 
-How to import environment variables into postman.
+* Import the Postman collection and environment files. Then, go to the "Environment" section and choose the "sunbird-easeinstall" environment. Update the values of the "host" and "kong_api_key" variables, and remember to save the changes.
 
-[https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)\
-\
-Install Newman & run configuration postman collection on server from where easy installer has initiated(./install-ed.sh) using below commands.
+* Once you have updated the environment variables, click on the "Collections" tab located in the upper-left corner. From the dropdown menu in the upper-right corner, select the desired environment name.
 
-<pre><code><strong>$ npm install -g newman
-</strong></code></pre>
+* Now, you can start triggering the APIs in the collection one by one, following the specified sequence. Proceed to the next API only when the response from the current API is a successful "200" status code.
 
-<pre class="language-bash"><code class="lang-bash"><strong>$ newman run path_to_Sunbird_ED_collection.json -e path_to_environment.json
-</strong></code></pre>
-
-{% embed url="https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/" %}
-
-If you have any queries or facing issues please create thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
+If you have any queries or facing issues please create a discussion thread at [https://github.com/orgs/Sunbird-Ed/discussions/categories/installation](https://github.com/orgs/Sunbird-Ed/discussions/categories/installation)&#x20;
 
