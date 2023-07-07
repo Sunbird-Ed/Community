@@ -16,7 +16,7 @@ The first form we must use here is user type selection.  This Form is used for g
 
 <details>
 
-<summary>Form Create API:</summary>
+<summary>Form Read API request:</summary>
 
 ```
 "request": {
@@ -31,7 +31,7 @@ The first form we must use here is user type selection.  This Form is used for g
 
 <details>
 
-<summary>Form Read API:</summary>
+<summary>Form Read API response:</summary>
 
 ```
 {
@@ -75,11 +75,11 @@ In the user onboarding, users can select their role through this page.
 
 2\. _**Framework config**_
 
-&#x20;  The second form we must use is framework config. This Form is used for getting the board, medium, and grade details
+&#x20;  The second form we must use is framework config. This Form is used for getting the framework details.
 
 <details>
 
-<summary>Form Create API:</summary>
+<summary>Form Read API request:</summary>
 
 ```
 "request": {
@@ -94,7 +94,7 @@ In the user onboarding, users can select their role through this page.
 
 <details>
 
-<summary>Form Read API:</summary>
+<summary>Form Read API response:</summary>
 
 ```
 {
