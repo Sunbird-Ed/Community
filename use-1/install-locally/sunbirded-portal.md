@@ -14,7 +14,7 @@ To get started with the Sunbird portal, please try out our cloud-based demo site
 * [Project Structure](https://github.com/Sunbird-Ed/SunbirdEd-portal#project-structure)
 * [Testing](https://github.com/Sunbird-Ed/SunbirdEd-portal#testing)
 
-***
+
 
 #### Prerequisites
 

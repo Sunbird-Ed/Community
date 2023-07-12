@@ -67,4 +67,3 @@ Get the kubeconfig file for your cluster with the below command -
 
 * Disable **Secure transfer required** in storage account configuration
 
-***

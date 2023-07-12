@@ -39,7 +39,7 @@ CLI Setup
 \- Open chrome and enter `chrome://inspect`\
 \- Select app
 
-***
+
 
 ## IOS Development setup
 
