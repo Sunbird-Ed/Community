@@ -1,4 +1,4 @@
-# Easy installer (Draft)
+# Easy installer
 
 ## Overview:&#x20;
 
@@ -22,7 +22,16 @@ To successfully complete Sunbird installation, you need to have:
 ## Steps:
 
 1. Provision Pre-requisites: Current easy installer supports azure cloud service provider. Please provision the following resources required&#x20;
-   * Azure Kuberentes Cluster: Please follow the steps mentioned in the below documentation tp provision AKS cluster and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script. kubernetes version: 1.24.x , Node size: 4 Core, 16 GB RAM, Node count range: 6 to 10   [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
+
+   * Azure Kubernetes Cluster: Please follow the steps mentioned in the below azure documentation link  to provision AKS cluster using azure protal and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script.
+     
+     [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
+
+        * kubernetes version: 1.24.x
+        * Node size: 4 Core, 16 GB RAM,
+        * Node count range: 6 to 10   
+        
+
    * Install az cli [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
    *   Azure Storage account with following containers
 
@@ -42,8 +51,8 @@ To successfully complete Sunbird installation, you need to have:
        chmod +x *sh
        ```
 
-       * Use your favourite text editor and update variables mentioned in global-values.yaml. Follow the instructions mentioned in the `global-values.yaml` file under every variable
-3. Run the Ed easy installer bash script. While the installer is running, you can view the deployments to the kubernetes cluster using any kubernetes client like kubectl or k9s. This will take 45 min to 1 hour based on the internet speed on the machine where you are running the script. Take a break and check back !
+    * Use your favourite text editor and update variables mentioned in global-values.yaml. Follow the instructions mentioned in the `global-values.yaml` file under every variable
+3. Run the Ed easy installer bash script. While the installer is running, you can view the deployments to the kubernetes cluster using any kubernetes client like kubectl or k9s. This step take 45 min to 1 hour based on the internet speed on the machine where you are running the script. Take a break and check back !
 
 K9s download link: [https://k9scli.io/topics/install/](https://k9scli.io/topics/install/)&#x20;
 
@@ -55,7 +64,7 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install
 
 `NOTE: These manual configurations will be automated in the next consequent releases`
 
-*   Port forward to keycloak pod to access admin console through web browser. Make sure there is no process running on port 8080 on the system from where you are running the installer. Also, make sure context to kubectl is set to the right kubernetes cluster.
+*   Port forward to keycloak pod to access admin console through web browser. If you are running installer from server(not local machine).Make sure SSH tunnel is done b/w local machine to server.Make sure there is no process running on port 8080 on the system from where you are running the installer. Also, make sure context to kubectl is set to the right kubernetes cluster.
 
 
 
@@ -68,7 +77,7 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i ed-install
     ```
 
 
-*   Goto `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/clients`&#x20;
+*   Go to `http://localhost:8080/auth/admin/master/console/#/realms/sunbird/clients`&#x20;
 
     username: admin password: admin
 
@@ -89,7 +98,9 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript
 
 6. Update the DNS record: Get the public ip printed on the console and add DNS A record for the same domain you have added to global-values.yaml. Access the Ed instance using https://{domain-name}
 
-Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for.&#x20;
+## Functional Configuration:
+
+Once above steps are completed, functional configurations need to be setup. Following postman collection helps to setup minimal functional configuration.You can leverage same postman collection to setup functional configuration for your use case.&#x20;
 
 To configure these functionalities, you will need to use the Postman tool. You can download and install the Postman tool by visiting the following link: https://www.postman.com/downloads/. 
 
