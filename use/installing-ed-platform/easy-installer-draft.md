@@ -22,7 +22,7 @@ To successfully complete Sunbird installation, you need to have:
 ## Steps:
 
 1. Provision Pre-requisites: Current easy installer supports azure cloud service provider. Please provision the following resources required&#x20;
-   * Azure Kuberentes Cluster: Please follow the steps mentioned in the below documentation tp provision AKS cluster and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script. kubernetes version: 1.24.x , Node size: 4 Core, 16 GB RAM, Node count range: 6 to 10   [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
+   * Azure Kuberentes Cluster: Please follow the steps mentioned in the below documentation to provision AKS cluster and generate the kubeconfig file for the same and save it in the server/local machine from where you will be running the installer script. kubernetes version: 1.24.x , Node size: 4 Core, 16 GB RAM, Node count range: 6 to 10   [https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
    * Install az cli [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
    *   Azure Storage account with following containers
 
@@ -88,6 +88,8 @@ bash ./install-ed.sh /path/to/kubeconfig.yaml -i postscript
 ```
 
 6. Update the DNS record: Get the public ip printed on the console and add DNS A record for the same domain you have added to global-values.yaml. Access the Ed instance using https://{domain-name}
+
+## Functional Configuration:
 
 Once this is done, functional configurations to be setup based on the use case you would like to implement Sunbird Ed for.&#x20;
 
