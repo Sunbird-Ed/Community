@@ -18,13 +18,13 @@ For more information about **Asset Category Service** please click here
 
 1. Asset Search Service
 
-For more information about **Asset Search Service** please click [here](http://localhost:5000/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/assets-search-service)
+For more information about **Asset Search Service** please click [here](http://127.0.0.1:5000/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/assets-search-service)
 
 1. Dial Service
 
 For more information about **Dial Service** please click here&#x20;
 
 {% hint style="info" %}
-Powered By [Sunbird Knowlg](http://localhost:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/ "mention")
+Powered By [Sunbird Knowlg](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/ "mention")
 {% endhint %}
 
