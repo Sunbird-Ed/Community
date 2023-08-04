@@ -130,6 +130,7 @@
 * [System Requirements](use-1/system-requirements/README.md)
   * [Learning Apps](use-1/system-requirements/learning-apps.md)
 * [Source Code](use-1/source-code/README.md)
+  * [Sunbird-ED Architecture](use-1/source-code/sunbird-ed-architecture.md)
   * [Workflows](use-1/source-code/workflows/README.md)
     * [Mobile - Component Diagrams](use-1/source-code/workflows/mobile-component-diagrams.md)
     * [Portal - Component Diagrams](use-1/source-code/workflows/portal-component-diagrams.md)
