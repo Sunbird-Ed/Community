@@ -38,7 +38,7 @@
 * [Adopters](learn/adopters/README.md)
   * [DIKSHA](learn/adopters/diksha.md)
 * [Technical Architecture](learn/technical-architecture/README.md)
-  * [Design Principle](learn/technical-architecture/design-principle.md)
+  * [Design Principles](learn/technical-architecture/design-principle.md)
   * [Technical Architecture Diagram](learn/technical-architecture/technical-architecture-diagram.md)
   * [Tech Stack](learn/technical-architecture/tech-stack.md)
 * [Roadmap](learn/roadmap.md)
