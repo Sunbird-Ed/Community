@@ -178,6 +178,8 @@
 ## Development Resources
 
 * [Misc Pages](development-resources/misc-pages/README.md)
+  * [sunbird-mobile-sdk](development-resources/misc-pages/sunbird-mobile-sdk.md)
+  * [Sunbird-mobile-app plugins](development-resources/misc-pages/sunbird-mobile-app-plugins.md)
   * [Mobile form configurations](development-resources/misc-pages/mobile-form-configurations.md)
   * [Content Indexing Flow](development-resources/misc-pages/content-indexing-flow.md)
   * [What are multiple databases used for](development-resources/misc-pages/what-are-multiple-databases-used-for.md)
