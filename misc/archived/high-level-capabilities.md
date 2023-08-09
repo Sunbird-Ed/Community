@@ -1,6 +1,6 @@
 # High Level Capabilities
 
-![Sunbird ED](<../../.gitbook/assets/image (1).png>)
+![Sunbird ED](<../../.gitbook/assets/image (1) (1).png>)
 
 Sunbird ED enables you to launch a learning solution where user can experience following capabilities. These capabilities are targeting various stakeholders such as Learners, Instructor/Facilitator and Admins available via Mobile app (Android & IOS), Web app (Website) & Desktop app.
 

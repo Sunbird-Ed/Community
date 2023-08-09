@@ -9,43 +9,51 @@ description: >-
 
 ## GitHub Repository:&#x20;
 
-{% embed url="https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-6.0.0" %}
+{% embed url="https://github.com/Sunbird-Ed/SunbirdEd-portal" %}
+git
+{% endembed %}
 
 ## Architecture
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Sunbird ED Portal Architecture</p></figcaption></figure>
 
 ## Sunbird ED Portal&#x20;
 
-&#x20;The Sunbird ED portal is divided into two folders called app that contains server-side code and client for client-side code.
+The Sunbird ED portal is divided into two folders&#x20;
+
+**App** : Contains the Backend code base which used Node.js framework for server-side.
+
+**Client** : Contains the Forntend code base which used Angular framework for client-side
 
 ![](<../../../.gitbook/assets/image (22).png>)![](<../../../.gitbook/assets/image (23).png>)
 
-
-
 ## **Sunbird Portal UI**
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/image (2).png>)![](<../../../.gitbook/assets/image (3).png>)
 
-[**Client Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app/client)
+[**Client Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app/client) includes the client source code for the Angular application. This folder includes various components, modules, services, styles, and other assets necessary to build the front end of the application.&#x20;
 
-Includes the client source code for the Angular application. This folder includes various components, modules, services, styles, and other assets necessary to build the front end of the application.&#x20;
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-09 at 10.56.12 AM.png" alt=""><figcaption><p>SUnbird Portal UI Architecture</p></figcaption></figure>
 
 
+
+**The key module which is used in Sunbird Portal UI**
 
 ### [Public ](https://sunbird-ed.github.io/docs/portal/modules/PublicModule.html)
 
-The main objective of this folder to&#x20;
+The main objective of this folder is to provide all the public route (i.e. consumers) in one place which can further be leveraged.
 
-The folder contains all the components page routes which can be accessible by anonymous or guest users.&#x20;
+This folder contains routing for the modules which can be accessed by everyone and does not have any auth required Ex: guest user/anonymous user.
 
 ### [Core](https://sunbird-ed.github.io/docs/portal/modules/CoreModule.html)
 
-The folder contains all the reusable features such as the header, footer, search, main menu, and language dropdown.
+The main objective of this folder is to provide a static screen component which is present in every route in one place. which can further be leveraged if needed.
 
-
+The folder contains those components which are statically positioned though data will be dynamic, we integrate the core components at the app level so that they are present in every route and also provides the routes to different modules such as the header, footer, search, main menu, and language dropdown.
 
 ### [Shared](https://sunbird-ed.github.io/docs/portal/modules/SharedModule.html)
+
+The main objective of this folder is to provide all reusable features in one place which can further be leveraged if needed.
 
 The Folder contains all the reusable components across the portal such as the loader, popup, card,sb-data table, alert popup, slick etc...
 
@@ -61,30 +69,34 @@ In the portal, lots of UI capabilities are generalised in terms of [formConfig](
 
 ## Front-End Libraries
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-08 at 2.32.52 PM.png" alt=""><figcaption><p>Frontend libraries</p></figcaption></figure>
 
-All the library that Front-end is depending  to get the capabilities&#x20;
+The Purpose of all the libraries is to make the UI more consistent across all the clients who are using this library.
 
-| ED Library Name    | GitHub Repo                                                                                                                                        | Description                                                                                                                                                                                                       |
+|  Library Name      | GitHub Repo                                                                                                                                        | Description                                                                                                                                                                                                       |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Common Consumption | [https://github.com/Sunbird-Ed/SunbirdEd-consumption-ngcomponents#readme](https://github.com/Sunbird-Ed/SunbirdEd-consumption-ngcomponents#readme) | These components are designed to be used in Sunbird consumption platforms _( web portal, offline desktop app)_ to drive reusability, maintainability hence reduce the redundant development effort significantly. |
-| Player             | [https://github.com/Sunbird-Ed/sb-styles/tree/master](https://github.com/Sunbird-Ed/sb-styles/tree/master)                                         | Sunbird styles is Sass-based tool to generate utility classes.                                                                                                                                                    |
-| Editors            | [https://github.com/Sunbird-Ed/sb-themes](https://github.com/Sunbird-Ed/sb-themes)                                                                 | Sunbird themes are color & layout templates used in subird Portal & Mobile apps.                                                                                                                                  |
-| SB-Forms           | [https://github.com/Sunbird-Ed/SunbirdEd-forms](https://github.com/Sunbird-Ed/SunbirdEd-forms)                                                     |                                                                                                                                                                                                                   |
-| SB-Dashlet         |                                                                                                                                                    |                                                                                                                                                                                                                   |
-| Client Service     |                                                                                                                                                    |                                                                                                                                                                                                                   |
+| Common-Consumption | [https://github.com/Sunbird-Ed/SunbirdEd-consumption-ngcomponents#readme](https://github.com/Sunbird-Ed/SunbirdEd-consumption-ngcomponents#readme) | These components are designed to be used in Sunbird consumption platforms _( web portal, offline desktop app)_ to drive reusability, maintainability hence reduce the redundant development effort significantly. |
+| SB-Forms           | [https://github.com/Sunbird-Ed/SunbirdEd-forms](https://github.com/Sunbird-Ed/SunbirdEd-forms)                                                     | This Library expects a configuration and renders form according to the view.                                                                                                                                      |
+| SB-Dashlet         | [https://github.com/Sunbird-Ed/sb-dashlets](https://github.com/Sunbird-Ed/sb-dashlets)                                                             | Library used for Reusable charts. Supported by charts has an extensible, general purpose analytical presentation capabilities like graphs, tables, charts etc..                                                   |
+| Client-Services    | [https://github.com/Sunbird-Ed/sunbird-client-services](https://github.com/Sunbird-Ed/sunbird-client-services)                                     | Library used to create API calls with Sunbird Environment. Includes necessary typescript code to do search, content read, corresponding data models of the platform are available.                                |
+| Quml Player        | [https://github.com/Sunbird-inQuiry/player/tree/release-6.0.0](https://github.com/Sunbird-inQuiry/player/tree/release-6.0.0)                       | The library which  is responsible for rendering questions and question sets created according to the QuML specification.                                                                                          |
+| Collection-Editors | [https://github.com/Sunbird-Knowlg/sunbird-collection-editor](https://github.com/Sunbird-Knowlg/sunbird-collection-editor)                         | Library which supports to create all type of collections like Book, Course, PlayList & QuestionSet                                                                                                                |
+|                    |                                                                                                                                                    |                                                                                                                                                                                                                   |
+| Video Player       | [https://github.com/Sunbird-Knowlg/sunbird-video-player](https://github.com/Sunbird-Knowlg/sunbird-video-player)                                   | The Video player library is used to play video/audio content in Sunbird ED                                                                                                                                        |
+| PDF Player         | [https://github.com/Sunbird-Knowlg/sunbird-pdf-player](https://github.com/Sunbird-Knowlg/sunbird-pdf-player)                                       | The PDF player library is used to play pdf content on Sunbird ED                                                                                                                                                  |
+| Epub Player        | [https://github.com/Sunbird-Knowlg/sunbird-epub-player](https://github.com/Sunbird-Knowlg/sunbird-epub-player)                                     | The Epub player library is used to play epub content on Sunbird ED                                                                                                                                                |
 
 ## Sunbird Portal API Servcies&#x20;
 
-[**App Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app)
+![](../../../.gitbook/assets/image.png)![](<../../../.gitbook/assets/image (1).png>)
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
-
-Includes backend API interface which is used  Node.js framework.&#x20;
+[**App Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app)(without client) Includes backend API interface which is used  Node.js framework.&#x20;
 
 It leverages a keyCloakHelper file to handle login and logout functionalities while adopting token-based session storage to manage user sessions effectively.&#x20;
 
 Additionally, the interface integrates multiple API middleware functions to accomplish tasks such as token verification, API whitelisting, and customizing request headers as needed.
+
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>API Layer Architecture</p></figcaption></figure>
 
 
 
@@ -120,7 +132,7 @@ It contains the [envHelperFile](https://github.com/Sunbird-Ed/SunbirdEd-portal/b
 
 ## **Dependent Sunbird BB\`s**
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Dependent Sunbird BB`s Architecture</p></figcaption></figure>
 
 Lots of front-end Libraries and services we are leveraging from the other building blocks
 
