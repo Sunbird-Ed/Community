@@ -5,19 +5,19 @@ description: >-
   Sunbird can be accessed.
 ---
 
-# Mobile - Component Diagrams
+# Component Diagram
 
 {% embed url="https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/master" %}
 
 ## Architecture
 
-<figure><img src="../../../.gitbook/assets/ed5e8b16-36e7-4738-baa6-3118cb5c6f2c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/ed5e8b16-36e7-4738-baa6-3118cb5c6f2c.png" alt=""><figcaption></figcaption></figure>
 
 ## [Source Code](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/master)
 
 Sunbird Mobiles app follows a basic angular / Ionic code structure. The top level of the workspace contains workspace-wide configuration files, configuration files for the application, and test files.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-04 at 1.18.12 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-04 at 1.18.12 AM.png" alt=""><figcaption></figcaption></figure>
 
 \
 All following primary folders are highlighted in the above screenshot
@@ -32,7 +32,7 @@ All following primary folders are highlighted in the above screenshot
 
 **plugins** folder contains all the plugins which provide JavaScript interface to native components (Android/ Ios)required by Sunbird Mobile App. They allow the app to use native device capabilities beyond what is available to pure web components.
 
-[List of plugins used in the Sunbird Mobile app](../../../development-resources/misc-pages/sunbird-mobile-app-plugins.md)
+[List of plugins used in the Sunbird Mobile app](../../../../development-resources/misc-pages/sunbird-mobile-app-plugins.md)
 
 ### app
 
@@ -42,7 +42,7 @@ This folder contains all the modules and components. It contains the Sunbird Mob
 
 As Modules are a great way to organize an application and extend it with capabilities from external libraries so, in the Sunbird-mobile-app, each functionality/page is configured as a Module. Some key modules are given in the below diagram.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-04 at 2.59.34 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-04 at 2.59.34 PM.png" alt=""><figcaption></figcaption></figure>
 
 * [home](https://sunbird-ed.github.io/docs/mobile/modules/HomePageModule.html)
 * [qrcoderesult](https://sunbird-ed.github.io/docs/mobile/modules/QrcoderesultPageModule.html)
@@ -98,18 +98,18 @@ This folder contains classes with the @injectible decorator. This decorator tell
 
 sunbird-mobile-sdk is the heart of Sunbird-mobile-app which contains all the business logic starting from API access to offline data management.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-06 at 2.14.42 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-06 at 2.14.42 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### Configurations required to  setup Sunbird-mobile-app
 
 These are the set of files required  to set up Sunbird-mobile-app
 
-* [sunbird.properties](mobile/configurations-to-setup-mobile-app.md#1.-sunbird.properties)
-* [google-service.json](mobile/configurations-to-setup-mobile-app.md#2.-google-service.json)
+* [sunbird.properties](configurations-to-setup-mobile-app.md#1.-sunbird.properties)
+* [google-service.json](configurations-to-setup-mobile-app.md#2.-google-service.json)
 
 ### Forms required to  initialize Sunbird-mobile-app
 
 The Form Configurations are a set of predefined forms that enable users to easily modify the UI without changing anything in the source code. Also, it allows users to quickly update any type of app attribute even if the app is already available in Play Store/app store without any app update.
 
-[List of forms available in Sunbird-Mobile-app](../../../development-resources/misc-pages/mobile-form-configurations.md)
+[List of forms available in Sunbird-Mobile-app](../../../../development-resources/misc-pages/mobile-form-configurations.md)
 
