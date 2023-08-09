@@ -15,7 +15,7 @@ git
 
 ## Architecture
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Sunbird ED Portal Architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Sunbird ED Portal Architecture</p></figcaption></figure>
 
 ## Sunbird ED Portal&#x20;
 
@@ -25,15 +25,15 @@ The Sunbird ED portal is divided into two folders&#x20;
 
 **Client** : Contains the Forntend code base which used Angular framework for client-side
 
-![](<../../../../.gitbook/assets/image (22).png>)![](<../../../../.gitbook/assets/image (23).png>)
+![](<../../../.gitbook/assets/image (22).png>)![](<../../../.gitbook/assets/image (23).png>)
 
 ## **Sunbird Portal UI**
 
-![](<../../../../.gitbook/assets/image (2).png>)![](<../../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (2).png>)![](<../../../.gitbook/assets/image (3).png>)
 
 [**Client Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app/client) includes the client source code for the Angular application. This folder includes various components, modules, services, styles, and other assets necessary to build the front end of the application.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-09 at 10.56.12 AM.png" alt=""><figcaption><p>SUnbird Portal UI Architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-09 at 10.56.12 AM.png" alt=""><figcaption><p>SUnbird Portal UI Architecture</p></figcaption></figure>
 
 
 
@@ -69,7 +69,7 @@ In the portal, lots of UI capabilities are generalised in terms of [formConfig](
 
 ## Front-End Libraries
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-08 at 2.32.52 PM.png" alt=""><figcaption><p>Frontend libraries</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-08 at 2.32.52 PM.png" alt=""><figcaption><p>Frontend libraries</p></figcaption></figure>
 
 The Purpose of all the libraries is to make the UI more consistent across all the clients who are using this library.
 
@@ -88,7 +88,7 @@ The Purpose of all the libraries is to make the UI more consistent across all th
 
 ## Sunbird Portal API Servcies&#x20;
 
-![](../../../../.gitbook/assets/image.png)![](<../../../../.gitbook/assets/image (1).png>)
+![](../../../.gitbook/assets/image.png)![](<../../../.gitbook/assets/image (1).png>)
 
 [**App Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app)(without client) Includes backend API interface which is used  Node.js framework.&#x20;
 
@@ -96,7 +96,7 @@ It leverages a keyCloakHelper file to handle login and logout functionalities wh
 
 Additionally, the interface integrates multiple API middleware functions to accomplish tasks such as token verification, API whitelisting, and customizing request headers as needed.
 
-<figure><img src="../../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>API Layer Architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>API Layer Architecture</p></figcaption></figure>
 
 
 
@@ -132,7 +132,7 @@ It contains the [envHelperFile](https://github.com/Sunbird-Ed/SunbirdEd-portal/b
 
 ## **Dependent Sunbird BB\`s**
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Dependent Sunbird BB`s Architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Dependent Sunbird BB`s Architecture</p></figcaption></figure>
 
 Lots of front-end Libraries and services we are leveraging from the other building blocks
 
