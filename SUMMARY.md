@@ -132,9 +132,14 @@
 * [Source Code](use-1/source-code/README.md)
   * [Sunbird-ED Architecture](use-1/source-code/sunbird-ed-architecture.md)
   * [Developer Guide](use-1/source-code/workflows/README.md)
-    * [Mobile - Component Diagrams](use-1/source-code/workflows/mobile-component-diagrams.md)
+    * [Mobile - Component Diagrams](use-1/source-code/workflows/mobile-component-diagrams/README.md)
+      * [Untitled](use-1/source-code/workflows/mobile-component-diagrams/untitled.md)
     * [Portal - Component Diagrams](use-1/source-code/workflows/portal-component-diagrams.md)
     * [Form service](use-1/source-code/workflows/form-service.md)
+    * [Mobile](use-1/source-code/workflows/mobile/README.md)
+      * [sunbird-mobile-sdk](use-1/source-code/workflows/mobile/sunbird-mobile-sdk.md)
+      * [Sunbird-mobile-app plugins](use-1/source-code/workflows/mobile/sunbird-mobile-app-plugins.md)
+      * [Configurations to setup mobile app](use-1/source-code/workflows/mobile/configurations-to-setup-mobile-app.md)
   * [Reference Apps](use-1/source-code/reference-apps.md)
   * [Platform](use-1/source-code/platform.md)
 * [Install Locally](use-1/install-locally/README.md)
@@ -178,8 +183,6 @@
 ## Development Resources
 
 * [Misc Pages](development-resources/misc-pages/README.md)
-  * [sunbird-mobile-sdk](development-resources/misc-pages/sunbird-mobile-sdk.md)
-  * [Sunbird-mobile-app plugins](development-resources/misc-pages/sunbird-mobile-app-plugins.md)
   * [App - Manage Learn - component diagram](development-resources/misc-pages/app-manage-learn-component-diagram.md)
   * [Portal - Manage Learn - component diagram](development-resources/misc-pages/portal-manage-learn-component-diagram.md)
   * [Mobile form configurations](development-resources/misc-pages/mobile-form-configurations.md)
@@ -190,7 +193,6 @@
   * [What are all the flink jobs for](development-resources/misc-pages/what-are-all-the-flink-jobs-for.md)
   * [How does data flow into Druid](development-resources/misc-pages/how-does-data-flow-into-druid.md)
   * [Minimal build properties](development-resources/misc-pages/minimal-build-properties.md)
-  * [Configurations to setup mobile app](development-resources/misc-pages/configurations-to-setup-mobile-app.md)
 
 ***
 
