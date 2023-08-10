@@ -12,11 +12,11 @@ The form service is built as an plugin for the above extensible framework.&#x20;
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-09 at 3.11.47 PM.png" alt=""><figcaption><p>Form Service Architecture</p></figcaption></figure>
 
-## From Service
+## [From Service](https://github.com/project-sunbird/sunbird-ext-framework/blob/master/server/README.md)
 
 It's an extensible framework library to create a server side API endpoint.&#x20;
 
-### [EXT Framework Server](https://github.com/project-sunbird/sunbird-ext-framework/blob/master/server/README.md#plugin-lifecycle)
+### [EXT Framework Server](https://github.com/project-sunbird/sunbird-ext-framework/blob/master/demo/plugins/FormService/server/manifest.ts)
 
 During this phase, the framework tries to read the manifest.ts file under the plugin's home directory.&#x20;
 
