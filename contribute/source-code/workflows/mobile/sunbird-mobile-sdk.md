@@ -10,7 +10,7 @@ description: >-
 
 ### Architecture
 
-<figure><img src="../../../../.gitbook/assets/5c7eb4e5-d11c-4b47-aebe-81bec6e695a1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/8224edc4-0712-45ca-bf28-47702b9bbd16.png" alt=""><figcaption></figcaption></figure>
 
 ### Source Code
 
