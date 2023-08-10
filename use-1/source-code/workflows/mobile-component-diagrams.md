@@ -7,6 +7,8 @@ description: >-
 
 # Component Diagram
 
+## GitHub Repository
+
 {% embed url="https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/master" %}
 
 ## Architecture

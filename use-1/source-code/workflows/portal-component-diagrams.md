@@ -7,7 +7,7 @@ description: >-
 
 # Component Diagram
 
-## GitHub Repository:&#x20;
+## GitHub Repository
 
 {% embed url="https://github.com/Sunbird-Ed/SunbirdEd-portal" %}
 git

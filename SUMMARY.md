@@ -124,13 +124,13 @@
 
 * [Discuss](https://github.com/Sunbird-Ed/Community/discussions)
 
-## Contribute <a href="#use" id="use"></a>
+## Contribute
 
 * [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
 * [System Requirements](use-1/system-requirements/README.md)
   * [Learning Apps](use-1/system-requirements/learning-apps.md)
 * [Source Code](use-1/source-code/README.md)
-  * [Sunbird-ED Architecture](use-1/source-code/sunbird-ed-architecture.md)
+  * [Architecture -  Component Diagram](use-1/source-code/sunbird-ed-architecture.md)
   * [Developer Guide](use-1/source-code/workflows/README.md)
     * [Portal](use-1/source-code/workflows/portal/README.md)
       * [Component Diagram](use-1/source-code/workflows/portal-component-diagrams.md)
@@ -140,7 +140,7 @@
       * [Sunbird-mobile-app plugins](development-resources/misc-pages/sunbird-mobile-app-plugins.md)
       * [Configurations to setup mobile app](use-1/source-code/workflows/mobile/configurations-to-setup-mobile-app.md)
     * [Form service](use-1/source-code/workflows/form-service/README.md)
-      * [Architecture](use-1/source-code/workflows/form-service/architecture.md)
+      * [Component Diagram](use-1/source-code/workflows/form-service/architecture.md)
       * [Data model](use-1/source-code/workflows/form-service/data-model.md)
       * [API's](use-1/source-code/workflows/form-service/apis.md)
   * [Reference Apps](use-1/source-code/reference-apps.md)
