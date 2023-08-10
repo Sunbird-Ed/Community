@@ -135,7 +135,7 @@
     * [Portal](use-1/source-code/workflows/portal/README.md)
       * [Component Diagram](use-1/source-code/workflows/portal-component-diagrams.md)
     * [Mobile](use-1/source-code/workflows/mobile/README.md)
-      * [Component Diagram](contribute/source-code/workflows/mobile/component-diagram.md)
+      * [Component Diagram](use-1/source-code/workflows/mobile-component-diagrams.md)
       * [sunbird-mobile-sdk](contribute/source-code/workflows/mobile/sunbird-mobile-sdk.md)
       * [Sunbird-mobile-app plugins](contribute/source-code/workflows/mobile/sunbird-mobile-app-plugins.md)
       * [Configurations to setup mobile app](use-1/source-code/workflows/mobile/configurations-to-setup-mobile-app.md)
@@ -193,7 +193,9 @@
 ## Development Resources
 
 * [Misc Pages](development-resources/misc-pages/README.md)
-  * [App - Manage Learn - component diagram](development-resources/misc-pages/app-manage-learn-component-diagram.md)
+  * [App - Manage Learn - component diagram](development-resources/misc-pages/app-manage-learn-component-diagram/README.md)
+    * [Projects](development-resources/misc-pages/app-manage-learn-component-diagram/projects.md)
+    * [Observation & Survey](development-resources/misc-pages/app-manage-learn-component-diagram/observation-and-survey.md)
   * [Portal - Manage Learn - component diagram](development-resources/misc-pages/portal-manage-learn-component-diagram.md)
   * [Mobile form configurations](development-resources/misc-pages/mobile-form-configurations.md)
   * [Content Indexing Flow](development-resources/misc-pages/content-indexing-flow.md)

@@ -57,9 +57,9 @@ The main objective of this folder is to provide all reusable features in one pla
 
 The Folder contains all the reusable components across the portal such as the loader, popup, card,sb-data table, alert popup, slick etc...
 
-### Manage Learn
+### [Manage Learn](../../../development-resources/misc-pages/portal-manage-learn-component-diagram.md)
 
-TBU
+Manage Learn contains tools or solutions like Observation, projects, and surveys.  These tools are used to help the learners to learn in a structured manner.
 
 ### Additional Info:
 
