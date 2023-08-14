@@ -24,8 +24,8 @@ Beyond direct user engagements, the ML Core Service relies upon various auxiliar
 
 These services include:
 
-1. [ML Project Service](../ml-project-service/)
-2. [ML Reports Service](../ml-report-service/)
+1. [ML Project Service](../ml-project-service.md)
+2. [ML Reports Service](../ml-report-service.md)
 3. Learner Service
 
 Collectively, these services forge a unified ecosystem, empowering the ML Core Service to provide programs, solutions and other core module functionalities. The harmonious interconnections and interdependencies guarantee a seamless user experience and effective management within the broader SunbirdEd platform.\

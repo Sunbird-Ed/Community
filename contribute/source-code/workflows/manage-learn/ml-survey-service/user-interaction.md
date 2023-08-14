@@ -12,7 +12,7 @@ The image above illustrates the process through which users can engage with obse
 
 <figure><img src="../../../../../.gitbook/assets/observation flow-1 lvl1.jpeg" alt=""><figcaption><p>Level 1 Observation Flow</p></figcaption></figure>
 
-This workflow diagram illustrates each step encompassed within the process of observation consumption. The steps encompass observation discovery, entity addition, start observation, submission of observation, and report generation. Throughout this workflow, distinct building blocks and microservices play integral roles at each stage. Notably, the workflow involves the utilization of various microservices, including the [ML Core Service](../ml-core-service/), [ML Reports Service](../ml-report-service/), and Gotenberg, each contributing to the seamless execution of the process.
+This workflow diagram illustrates each step encompassed within the process of observation consumption. The steps encompass observation discovery, entity addition, start observation, submission of observation, and report generation. Throughout this workflow, distinct building blocks and microservices play integral roles at each stage. Notably, the workflow involves the utilization of various microservices, including the [ML Core Service](../ml-core-service.md), [ML Reports Service](../ml-report-service.md), and Gotenberg, each contributing to the seamless execution of the process.
 
 <figure><img src="../../../../../.gitbook/assets/observation flow-2-lvl-0.jpeg" alt=""><figcaption><p>Level 0 Observtaion Flow</p></figcaption></figure>
 
@@ -34,7 +34,7 @@ The image above illustrates the process through which users can engage with surv
 
 <figure><img src="../../../../../.gitbook/assets/survey-flow-1-lvl1.jpeg" alt=""><figcaption><p>Level 1 Survey Flow </p></figcaption></figure>
 
-This workflow diagram illustrates each step encompassed within the process of survey consumption. The steps encompass survey discovery, starting survey, submission of survey, and report generation. Throughout this workflow, distinct building blocks and microservices play integral roles at each stage. Notably, the workflow involves the utilization of various microservices, including the [ML Reports Service](../ml-core-service/), and Gotenberg, each contributing to the seamless execution of the process.
+This workflow diagram illustrates each step encompassed within the process of survey consumption. The steps encompass survey discovery, starting survey, submission of survey, and report generation. Throughout this workflow, distinct building blocks and microservices play integral roles at each stage. Notably, the workflow involves the utilization of various microservices, including the [ML Reports Service](../ml-core-service.md), and Gotenberg, each contributing to the seamless execution of the process.
 
 <figure><img src="../../../../../.gitbook/assets/survey-flow-2-lvl0.jpeg" alt=""><figcaption><p>Level 0 Survey Flow</p></figcaption></figure>
 

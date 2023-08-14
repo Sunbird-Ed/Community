@@ -14,25 +14,25 @@ For more details visit here
 
 {% embed url="https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE_DgYJbvPS/~/changes/846/misc/templates-1/overview" %}
 
-### [ML Core service](../ml-core-service/)
+### [ML Core service](../ml-core-service.md)
 
 ML Core service plays a vital role in crafting programs and solutions within the Manage Learn environment. It acts as the bridge connecting Manage Learn with the cloud service, enabling the retrieval of preSignedUrls and downloadableUrls.
 
 
 
-### [ML Project Service](../ml-project-service/)
+### [ML Project Service](../ml-project-service.md)
 
 ML Project Service empowers the micro-improvement capability within the Manage Learn Building block. This integral service engages with other micro services within Manage Learn and uses Learner Service and Sunbird RC to produce certificates upon a successful compilation of improvement projects.
 
 
 
-### [ML Survey Services](../ml-survey-service/)
+### [ML Survey Services](../ml-survey-service.md)
 
 ML Survey Services facilitate the integration of survey and observation capabilities into Manage Learn. This service allows users to actively participate in surveys and observations.
 
 
 
-### [ML Reports Services](../ml-report-service/)
+### [ML Reports Services](../ml-report-service.md)
 
 The ML Reports Service is designed to create reports, charts, and graphs to support analytical insights.
 

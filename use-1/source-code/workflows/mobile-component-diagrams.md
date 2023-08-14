@@ -107,8 +107,8 @@ sunbird-mobile-sdk is the heart of Sunbird-mobile-app which contains all the bus
 
 These are the set of files required  to set up Sunbird-mobile-app
 
-* [sunbird.properties](mobile/configurations-to-setup-mobile-app.md#1.-sunbird.properties)
-* [google-service.json](mobile/configurations-to-setup-mobile-app.md#2.-google-service.json)
+* [sunbird.properties](../../../development-resources/misc-pages/configurations-to-setup-mobile-app.md#1.-sunbird.properties)
+* [google-service.json](../../../development-resources/misc-pages/configurations-to-setup-mobile-app.md#2.-google-service.json)
 
 ### Forms required to  initialize Sunbird-mobile-app
 

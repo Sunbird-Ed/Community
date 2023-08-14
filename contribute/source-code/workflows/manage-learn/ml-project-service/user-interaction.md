@@ -16,9 +16,9 @@ Beyond direct user engagements, the ML Project Service relies upon various auxil
 
 These services include:
 
-1. [ML Core Service](../ml-core-service/)
-2. [ML Project Service](./)
-3. [ML Reports Service](../ml-report-service/)
+1. [ML Core Service](../ml-core-service.md)
+2. [ML Project Service](../ml-project-service.md)
+3. [ML Reports Service](../ml-report-service.md)
 4. Sunbird RC
 5. Gotenberg&#x20;
 
