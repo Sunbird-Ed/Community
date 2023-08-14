@@ -1,10 +1,10 @@
-# Sunbird-ED Architecture
+# Architecture -  Component Diagram
 
-## Architecuture
+## Architecture
 
 Below architecture diagram explains L0 architectural view of Sunbird-ED
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-04 at 2.25.36 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 4.58.08 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Learning Apps
 
