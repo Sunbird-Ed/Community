@@ -145,6 +145,8 @@
   * [Developer Guide](use-1/source-code/workflows/README.md)
     * [Portal](use-1/source-code/workflows/portal/README.md)
       * [Component Diagram](use-1/source-code/workflows/portal-component-diagrams.md)
+    * [Desktop](contribute/source-code/workflows/desktop/README.md)
+      * [Component Diagram](contribute/source-code/workflows/desktop/component-diagram.md)
     * [Mobile](use-1/source-code/workflows/mobile/README.md)
       * [Component Diagram](use-1/source-code/workflows/mobile-component-diagrams.md)
       * [sunbird-mobile-sdk](contribute/source-code/workflows/mobile/sunbird-mobile-sdk.md)

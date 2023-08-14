@@ -10,9 +10,11 @@ The form service is built as an plugin for the above extensible framework.&#x20;
 
 {% embed url="https://github.com/project-sunbird/sunbird-ext-framework/tree/master/demo/plugins/FormService" %}
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-09 at 3.11.47 PM.png" alt=""><figcaption><p>Form Service Architecture</p></figcaption></figure>
+## Architecture
 
-## [From Service](https://github.com/project-sunbird/sunbird-ext-framework/blob/master/server/README.md)
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-11 at 4.20.54 PM.png" alt=""><figcaption><p>Form Service plugin Architecture</p></figcaption></figure>
+
+## [From Service Plugin](https://github.com/project-sunbird/sunbird-ext-framework/blob/master/server/README.md)
 
 It's an extensible framework library to create a server side API endpoint.&#x20;
 
