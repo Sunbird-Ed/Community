@@ -1,0 +1,27 @@
+# User Interaction
+
+
+
+
+
+<figure><img src="../../../../../.gitbook/assets/projects-flow1-lvl0.jpeg" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../../../../../.gitbook/assets/projects-flow1-lvl1.jpeg" alt=""><figcaption></figcaption></figure>
+
+The Project flow diagrams depict user engagement with the ML Project Service, highlighting the step-by-step progression and engagements inherent to its usage. These visual aids offer a lucid representation of the user's path and the procedures intrinsic to the project's service.
+
+Beyond direct user engagements, the ML Project Service relies upon various auxiliary services to accomplish its functions and provide an uninterrupted user experience.
+
+These services include:
+
+1. [ML Core Service](../ml-core-service/)
+2. [ML Project Service](./)
+3. [ML Reports Service](../ml-report-service/)
+4. Sunbird RC
+5. Gotenberg&#x20;
+
+Collectively, these services forge a unified ecosystem, empowering the ML Project Service to provide extensive project management functionalities and furnish users with insightful reports. The harmonious interconnections and interdependencies guarantee a seamless user experience and effective project management within the broader SunbirdEd platform.\
+
+
