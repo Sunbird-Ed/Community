@@ -1,6 +1,6 @@
 # Folder Structure
 
-ML Core Service folder structure is designed to organize the different modules and files that constitute the core service of the Learn application. It follows a modular approach, facilitating easy management and development of the service.
+[ML Core Service](../ml-core-service.md) folder structure is designed to organize the different modules and files that constitute the core service of the Learn application. It follows a modular approach, facilitating easy management and development of the service.
 
 ### The structure is as follows
 

@@ -2,9 +2,9 @@
 
 
 
-<figure><img src="../../../../../.gitbook/assets/ML Core Service L0 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/ML Core Service L0 (1).png" alt=""><figcaption><p>ML Core Service Component Diagram</p></figcaption></figure>
 
-The ML Core Service is constructed using a MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like ML Project Service, ML Survey Service, and Learner Services. This Microservice is composed of ten pivotal Modules, each playing a crucial role.
+The ML Core Service is constructed using a MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like [ML Project Service](../ml-project-service.md), [ML Survey Service](../ml-survey-service.md), and Learner Services. This Microservice is composed of ten pivotal Modules, each playing a crucial role.
 
 #### User Role&#x20;
 
@@ -46,4 +46,4 @@ Creating and managing programs.
 
 Storing user details and program-related information for program designers and managers.
 
-These ten modules synergize as the backbone of the ML Core Service, empowering users to enhance and optimize program capabilities within the broader SunbirdEd ecosystem on the App platform.
+These ten modules synergize as the backbone of the [ML Core Service](../ml-core-service.md), empowering users to enhance and optimize program capabilities within the broader SunbirdEd ecosystem on the App platform.

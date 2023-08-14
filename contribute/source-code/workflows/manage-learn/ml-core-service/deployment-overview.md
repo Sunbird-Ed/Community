@@ -2,7 +2,7 @@
 
 ### Developing a New Feature
 
-* If you're working on a new feature, create a new branch in your local repository. Ensure that the branch is named descriptively, reflecting the feature's purpose.\\
+* If you're working on a new feature, create a new branch in your local repository. Ensure that the branch is named descriptively, reflecting the feature's purpose.
 * Implement the new feature within this branch, making necessary code changes and additions.
 * Regularly commit your changes as you make progress.
 

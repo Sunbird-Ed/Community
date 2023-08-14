@@ -2,9 +2,9 @@
 
 
 
-<figure><img src="../../../../../.gitbook/assets/ML Reports Service L0 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/ML Reports Service L0 (1).png" alt=""><figcaption><p>ML Reports Component Diagram</p></figcaption></figure>
 
-The ML Reports Service is constructed using a Druid as a data source. Additionally, it seamlessly collaborates with vital services like [ML Survey Service](../ml-survey-service.md), [ML Core Service](../ml-core-service.md), and Gotenberg. This Microservice is composed of six pivotal Modules, each playing a crucial role.
+The ML Reports Service is constructed using a Druid as a data source. Additionally, it seamlessly collaborates with vital services like [ML Survey Service](../ml-survey-service.md), [ML Core Service](../ml-core-service.md), and Gotenberg. This Microservice comprises six pivotal Modules, each playing a crucial role.
 
 #### Assessment
 
@@ -36,4 +36,4 @@ Responsible for generating reports on Survey Document
 
 Gotenberg provides a developer-friendly API to interact with powerful tools like Chromium and LibreOffice for converting numerous document formats (HTML, Markdown, Word, Excel, etc.) into PDF files, and more!
 
-These six modules synergize as the backbone of the ML Reports Service, empowering users to enhance and optimize Reports within the broader SunbirdEd ecosystem on the App platform.
+These six modules synergize as the backbone of the [ML Reports Service](../ml-report-service.md), empowering users to enhance and optimize Reports within the broader SunbirdEd ecosystem on the App platform.

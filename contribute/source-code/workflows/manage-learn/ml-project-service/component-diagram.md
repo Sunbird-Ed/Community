@@ -4,9 +4,9 @@
 
 
 
-<figure><img src="../../../../../.gitbook/assets/ML Project Service L0 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/ML Project Service L0 (2).png" alt=""><figcaption><p>ML Project Service Component Diagram</p></figcaption></figure>
 
-The ML Project Service is constructed upon the framework of Kafka, MongoDB, and cloud storage, ensuring a smooth amalgamation and efficient data control. Moreover, it collaborates seamlessly with vital services like ml-core-service, ml-survey-service, learner services, and Sunbird-RC services. Within the Project service, five crucial modules are incorporated, each catering to distinct facets of project management.
+The [ML Project Service](../ml-project-service.md) is constructed upon the framework of Kafka, MongoDB, and cloud storage, ensuring a smooth amalgamation and efficient data control. Moreover, it collaborates seamlessly with vital services like [ML Core Service](../ml-core-service.md), [ML Survey Service](../ml-survey-service.md), [ML Report Service](../ml-report-service.md), learner services, and Sunbird-RC services. Within the Project service, five crucial modules are incorporated, each catering to distinct facets of project management.
 
 #### Template Module
 

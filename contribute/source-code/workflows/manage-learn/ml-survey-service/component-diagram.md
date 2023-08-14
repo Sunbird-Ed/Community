@@ -2,9 +2,9 @@
 
 
 
-<figure><img src="../../../../../.gitbook/assets/ML Survey Service L0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/ML Survey Service L0.png" alt=""><figcaption><p>ML Survey Service Component Diagram</p></figcaption></figure>
 
-The ML Survey Service is constructed using MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like ML Project Service, ML Core Service, and Learner Services. This Microservice is composed of ten pivotal Modules, each playing a crucial role.
+The [ML Survey Service](../ml-survey-service.md) is constructed using MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like [ML Project Service](../ml-project-service.md), [ML Core Service](../ml-core-service.md), and Learner Services. This Microservice comprises ten pivotal Modules, each playing a crucial role.
 
 #### Reports
 
