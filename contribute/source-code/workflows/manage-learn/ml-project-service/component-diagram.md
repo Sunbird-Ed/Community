@@ -6,7 +6,7 @@
 
 <figure><img src="../../../../../.gitbook/assets/ML Project Service L0 (2).png" alt=""><figcaption><p>ML Project Service Component Diagram</p></figcaption></figure>
 
-The [ML Project Service](../ml-project-service.md) is constructed upon the framework of Kafka, MongoDB, and cloud storage, ensuring a smooth amalgamation and efficient data control. Moreover, it collaborates seamlessly with vital services like [ML Core Service](../ml-core-service.md), [ML Survey Service](../ml-survey-service.md), [ML Report Service](../ml-report-service.md), learner services, and Sunbird-RC services. Within the Project service, five crucial modules are incorporated, each catering to distinct facets of project management.
+The [ML Project Service](../ml-project-service.md) is constructed upon the framework of Kafka, MongoDB, and cloud storage, ensuring a smooth amalgamation and efficient data control. Moreover, it collaborates seamlessly with vital services like [ML Core Service](../ml-core-service.md), [ML Survey Service](../ml-survey-service.md), [ML Report Service](../ml-report-service.md), [learner services](https://lern.sunbird.org/learn/readme), and [Sunbird-RC](https://docs.sunbirdrc.dev/learn/readme) services. Within the Project service, five crucial modules are incorporated, each catering to distinct facets of project management.
 
 #### Template Module
 
@@ -33,4 +33,4 @@ Devoted to managing project certificate-related aspects, this module governs the
 
 
 
-These five modules form the backbone of Ml Projects Service, empowering users to extend and optimize project capabilities within the broader SunbirdEd ecosystem on the App platform.\
+These five modules form the backbone of [ML Projects Service](../ml-project-service.md), empowering users to extend and optimize project capabilities within the broader SunbirdEd ecosystem on the App platform.\

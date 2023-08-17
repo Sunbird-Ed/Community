@@ -1,2 +1,0 @@
-# Managed Learn Capabilities
-

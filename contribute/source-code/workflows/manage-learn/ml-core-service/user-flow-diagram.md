@@ -1,4 +1,4 @@
-# User Interaction
+# User Flow Diagram
 
 
 
@@ -26,7 +26,7 @@ These services include:
 
 1. [ML Project Service](../ml-project-service.md)
 2. [ML Reports Service](../ml-report-service.md)
-3. Learner Service
+3. [Learner Service](https://lern.sunbird.org/learn/readme)
 
 Collectively, these services forge a unified ecosystem, empowering the [ML Core Service](../ml-core-service.md) to provide programs, solutions and other core module functionalities. The harmonious interconnections and interdependencies guarantee a seamless user experience and effective management within the broader SunbirdEd platform.\
 

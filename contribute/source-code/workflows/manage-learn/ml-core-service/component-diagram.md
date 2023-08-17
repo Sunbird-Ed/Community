@@ -4,7 +4,7 @@
 
 <figure><img src="../../../../../.gitbook/assets/ML Core Service L0 (1).png" alt=""><figcaption><p>ML Core Service Component Diagram</p></figcaption></figure>
 
-The ML Core Service is constructed using a MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like [ML Project Service](../ml-project-service.md), [ML Survey Service](../ml-survey-service.md), and Learner Services. This Microservice is composed of ten pivotal Modules, each playing a crucial role.
+The ML Core Service is constructed using a MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like [ML Project Service](../ml-project-service.md), [ML Survey Service](../ml-survey-service.md), and [Learner Services](https://lern.sunbird.org/learn/readme). This Microservice is composed of ten pivotal Modules, each playing a crucial role.
 
 #### User Role&#x20;
 

@@ -4,7 +4,7 @@
 
 <figure><img src="../../../../../.gitbook/assets/ML Survey Service L0.png" alt=""><figcaption><p>ML Survey Service Component Diagram</p></figcaption></figure>
 
-The [ML Survey Service](../ml-survey-service.md) is constructed using MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like [ML Project Service](../ml-project-service.md), [ML Core Service](../ml-core-service.md), and Learner Services. This Microservice comprises ten pivotal Modules, each playing a crucial role.
+The [ML Survey Service](../ml-survey-service.md) is constructed using MongoDB, Kafka, and cloud storage technologies. Additionally, it seamlessly collaborates with vital services like [ML Project Service](../ml-project-service.md), [ML Core Service](../ml-core-service.md), and [Learner Services](https://lern.sunbird.org/learn/readme). This Microservice comprises ten pivotal Modules, each playing a crucial role.
 
 #### Reports
 
@@ -48,4 +48,4 @@ Supplies a list of available programs within Manage Learn.
 
 ####
 
-These ten modules synergize as the backbone of the ML Survey Service, empowering users to enhance and optimize Observation and Survey capabilities within the broader SunbirdEd ecosystem on the App platform.
+These ten modules synergize as the backbone of the [ML Survey Service](../ml-survey-service.md), empowering users to enhance and optimize Observation and Survey capabilities within the broader SunbirdEd ecosystem on the App platform.

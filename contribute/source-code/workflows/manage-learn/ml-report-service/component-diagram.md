@@ -4,7 +4,7 @@
 
 <figure><img src="../../../../../.gitbook/assets/ML Reports Service L0 (1).png" alt=""><figcaption><p>ML Reports Component Diagram</p></figcaption></figure>
 
-The ML Reports Service is constructed using a Druid as a data source. Additionally, it seamlessly collaborates with vital services like [ML Survey Service](../ml-survey-service.md), [ML Core Service](../ml-core-service.md), and Gotenberg. This Microservice comprises six pivotal Modules, each playing a crucial role.
+The ML Reports Service is constructed using a Druid as a data source. Additionally, it seamlessly collaborates with vital services like [ML Survey Service](../ml-survey-service.md), [ML Core Service](../ml-core-service.md), and [Gotenberg](https://gotenberg.dev/). This Microservice comprises six pivotal Modules, each playing a crucial role.
 
 #### Assessment
 

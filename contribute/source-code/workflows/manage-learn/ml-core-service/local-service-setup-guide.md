@@ -1,10 +1,10 @@
-# Service Setup Guide
+# Local Service Setup Guide
 
 ### Pre-requisites
 
 * All resources under Introduction to Manage Learn Category
-* NodeJS
-* MongoDB
+* NodeJS - v12
+* MongoDB - v4.4.0
 * Basics of Cloud Storage
 * Basics of Kafka
 
