@@ -169,14 +169,12 @@
 * migrations - Within this folder, we have JSON data and script related to report creations.
 * observations - Inside this directory, you can find both real-time and batch scripts intended for handling observations.
 * projects - Inside this directory, you can find batch scripts intended for handling projects.
-* release-notes -  In this folder, we store documentation detailing the necessary steps and tasks to be carried out post-deployment.
+* release-notes -  In this folder, we store documentation detailing the necessary steps and tasks to be carried out for deployment.
 * survey - Inside this directory, you can find both real-time and batch scripts intended for handling Survey.
 * trust\_review\_scripts -Within this folder, you can find scripts designed to provide metrics relevant to Trust review meetings.
-* urgent\_data\_metrics - In this directory, you'll find scripts that generate CSV files containing metrics specifically related to NASK data.
 * config.sample - This file stores all the essential variables needed for our scripts.
 * druid\_data\_product\_query\_config.txt -This file contains the necessary URLs (CURLs) responsible for updating the program dashboard's CSV-related data.
 * requirements.txt - This file includes a list of necessary packages required for the successful execution of all our scripts.
 * run.sh - This script outlines the sequence and instructions for running our batch scripts in the intended order.
 * run\_program.sh - This script outlines the sequence and instructions for running selected scripts in the intended order.
-* run\_weekly.sh - This script outlines the sequence and instructions for running our scripts in the intended order once in a week.
 * shell\_script\_config.sample - This file stores all the essential variables needed for our .sh files.

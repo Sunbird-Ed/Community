@@ -29,6 +29,6 @@ Checkout latest version or repo&#x20;
 * Install virtual environment using `pip install virtual env` command or `sudo apt install python3.8-venv` command
 * Create a virtual environment using the `python -m venv spark_venv` command
 * Activate virtual environment using source `spark_venv/bin/activate` command
-* Go to /src folder and Install the required dependency using `sudo pip install -r requirements.txt`&#x20;
+* &#x20;Install the required dependency using `sudo pip install -r requirements.txt`&#x20;
 * Use the `pip list` command to recheck if the dependencies are installed correctly
 * Create a config.ini file and add config paths ( In the ml-analytics dir )

@@ -1,39 +1,5 @@
 # Data Model
 
-## MongoDB Schema
-
-## reports\_logger collection
-
-```
-{
-    "_id": ObjectId,
-    "operation": String, // frontend_update, backend_create
-    "file": String,   // path of the report config JSON
-    "reportId": String, // UUID of report
-    "createdAt": ISODate,
-    "updatedAt": ISODate,
-    "config": Object, // report config
-    "status": String // success, failed, duplicate  
-}
-```
-
-## batchLogger collection
-
-```
-{
-    "_id" : ObjectId,
-    "dataSource" : String,  // druid data source
-    "taskId" : String, // druid task id
-    "taskCreatedDate" : String,
-    "statusCode" : Integer,
-    "createdAt" : ISODate,
-    "updatedAt" : ISODate,
-    "status" : String
-}
-```
-
-##
-
 ## Druid Data Sources
 
 ## sl-project
@@ -304,3 +270,39 @@
 | unique\_entities    | Long     | Agg. coloumn in druid - countDistinct of entity\_id     |
 | unique\_solution    | Long     | Agg. coloumn in druid - countDistinct of solution\_id   |
 | unique\_submissions | Long     | Agg. coloumn in druid - countDistinct of submission\_id |
+
+
+
+## MongoDB Schema
+
+
+
+## batchLogger collection
+
+```
+{
+    "_id" : ObjectId,
+    "dataSource" : String,  // druid data source
+    "taskId" : String, // druid task id
+    "taskCreatedDate" : String,
+    "statusCode" : Integer,
+    "createdAt" : ISODate,
+    "updatedAt" : ISODate,
+    "status" : String
+}
+```
+
+## reports\_logger collection
+
+```
+{
+    "_id": ObjectId,
+    "operation": String, // frontend_update, backend_create
+    "file": String,   // path of the report config JSON
+    "reportId": String, // UUID of report
+    "createdAt": ISODate,
+    "updatedAt": ISODate,
+    "config": Object, // report config
+    "status": String // success, failed, duplicate  
+}
+```

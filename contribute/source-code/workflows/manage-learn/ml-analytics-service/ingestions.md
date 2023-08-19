@@ -2,8 +2,6 @@
 
 There are two types of ingestion
 
-
-
 ## Batch Ingestion
 
 Batch ingestion refers to a data processing technique where data is collected and processed in discrete, predefined groups or batches rather than processed in real-time or as a continuous stream.
@@ -28,10 +26,10 @@ Note: In the above-discussed approaches, we have applied a duplication logic to 
 
 ### Project ( Daily )
 
-1. py\_gather\_program.py - This script gathers all program\_id's from MongoDB and stores it into a CSV file.
+1. py\_gather\_program.py - This script gathers all program\_id's from MongoDB and stores it into a text file.
 2. pyspark\_project\_deletion\_batch.py - This script deletes all segments in the Druid project data source.
 3. pyspark\_project\_batch.py - This script takes program ID as input, fetches the data from MongoDB, flattens the data, and puts it into Druid.
-4. pyspark\_prj\_status.py - This script creates an aggregated data source with block-level granularity.
+4. pyspark\_prj\_status.py - This script creates an aggregated data source.
 5. pyspark\_prj\_status\_prglevel.py - This script creates an aggregated data source at the program level, providing a high-level view with all status information.\
 
 
@@ -46,9 +44,9 @@ Note: In the above-discussed approaches, we have applied a duplication logic to 
 ### Survey ( Daily )
 
 1. pyspark\_survey\_status.py - This script fetches the data related to survey submission information with status from MongoDB, flattens the data, and puts it into Druid.
-2. pyspark\_sur\_status.py - This script creates an aggregated data source for survey status level information.
+2. pyspark\_sur\_status.py - This script creates an aggregated data source for survey status-level information.
 
-
+These jobs will run at daily midnight&#x20;
 
 ### To run Batch Scripts in ML Analytics, follow these steps:
 
@@ -97,7 +95,7 @@ Real-time scripts in ML Analytics&#x20;
 
 Open a terminal or SSH into the server where the real-time scripts need to be executed.
 
-Start a new Tmux session and open that session run this CMD&#x20;
+Start a new Tmux session `tmux new -s my_session` and open that session run this CMD&#x20;
 
 `python {{ script_name}}.py worker -l info`
 

@@ -27,9 +27,11 @@ The Analytics Service is composed of three key modules,&#x20;
 
 
 
-2. Projects
+2. Projects&#x20;
 
-The projects module functions similarly to the observations module but is specifically designed for managing project-related data.
+* Batch: Operating on a predefined schedule, it reads project-related data from MongoDB. The data is then transformed into a flattened structure before being loaded into Druid for further analysis.
+
+
 
 [ml-project-service.md](../ml-project-service.md "mention")
 
@@ -37,7 +39,12 @@ The projects module functions similarly to the observations module but is specif
 
 3. Survey
 
-The survey module functions similarly to the observations module but is specifically designed for managing survey-related data.
+The basically do the batch and real-time data ingestion.&#x20;
+
+* Batch: Operating on a predefined schedule, it reads survey-related data from MongoDB. The data is then transformed into a flattened structure before being loaded into Druid for further analysis.
+* Real-time: The system subscribes to a designated Kafka topic that holds a survey. Upon receiving the new survey, the system processes them and subsequently publishes the processed data to another Kafka topic. This processed data is then consumed by Druid for real-time analysis.
+
+
 
 [ml-survey-service.md](../ml-survey-service.md "mention")\
 

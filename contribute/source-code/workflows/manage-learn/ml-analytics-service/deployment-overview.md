@@ -10,6 +10,7 @@
 * Choose "Sunbird-Ed/ml-analytics-service."
 * Select the latest available release.
 * Initiate the build process.
+* Once a job is completed latest tag will be available in the GitHub tag.
 
 ## Deploy Latest Version
 
