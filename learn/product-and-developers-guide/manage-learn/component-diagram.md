@@ -36,7 +36,11 @@ The ML Analytics Service is constructed upon a framework that incorporates Kafka
 
 
 
-## [Learn Data Pipeline (Flink Jobs)](https://lern.sunbird.org/learn/product-and-developer-guide/data-pipeline-flink-jobs)
+### Observ Data Product
+
+On Demand Druid Exhaust Job is a generic data-product used to generate CSV reports. By passing the druid query config, we can use its capability to generate reports dynamically for any columns included in the druid datasource.
+
+### [Learn Data Pipeline (Flink Jobs)](https://lern.sunbird.org/learn/product-and-developer-guide/data-pipeline-flink-jobs)
 
 Program User Info Job&#x20;
 
@@ -44,10 +48,10 @@ Program User Info Job&#x20;
 
 
 
-## [Learn Data Products](https://lern.sunbird.org/learn/product-and-developer-guide/data-products)
+### [Learn Data Products](https://lern.sunbird.org/learn/product-and-developer-guide/data-products)
 
 Program Exhaust\
-Program user personal info exhaust is data-product that generates CSV file containing user details. Each record represents user details who has joined the [program](../../functional-capabilities/manage-learn/what-is-a-program.md). This service uses flattened data from Cassandra which is created by a Flink job called Program User Info. This data-product is configurable for L2, L3 and L4 [data security levels](https://docs.google.com/document/d/1pLvKSiPYzFm-XNl9zA5KAIU1MM5CC0tC/edit#heading=h.gjdgxs).![white\_check\_mark](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/2705@2x.png)![eyes](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f440@2x.png)![raised\_hands](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f64c@2x.png)\
+Program user personal info exhaust is data-product that generates CSV file containing user details. Each record represents user details who has joined the [program](../../functional-capabilities/manage-learn/what-is-a-program.md). This service uses flattened data from Cassandra which is created by a Flink job called Program User Info. This data-product is configurable for L2, L3 and L4 [data security levels](https://docs.google.com/document/d/1pLvKSiPYzFm-XNl9zA5KAIU1MM5CC0tC/edit#heading=h.gjdgxs).\
 
 
 
@@ -58,15 +62,15 @@ Upon the compilation of user resources, the ML Core, ML Project, and ML Surveys 
 
 ### MongoDB
 
-MongoDB functions as the storage repository for all data, with the utilization of version 4.4.0.
+MongoDB is a [document database](https://www.mongodb.com/document-databases) used to build highly available and scalable internet applications. With its [flexible schema](https://www.mongodb.com/scale/mongodb-schema-design) approach, it’s popular with development teams using agile methodologies.&#x20;
 
 ### Kafka
 
-Kafka functions as the communication bridge, transmitting data to various services, including analytics.
+Kafka is used to build real-time streaming data pipelines. A data pipeline reliably processes and moves data from one system to another, and a streaming application is an application that consumes streams of data.
 
 ### Druid
 
-Druid acts as the data repository specifically designated for generating reports.
+Apache Druid is a real-time analytics database designed for large data sets. Most often, Druid powers use cases where real-time ingestion, fast query performance, and high uptime.
 
 ### Cloud Storage
 
