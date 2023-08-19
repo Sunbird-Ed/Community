@@ -6,7 +6,7 @@
 
 <figure><img src="../../../.gitbook/assets/9734d044-3220-408a-bc45-ea8a2aca102d (1).png" alt=""><figcaption><p><a href="https://sunbird-ed.github.io/docs/mobile/modules/ProjectModule.html">Project Module </a></p></figcaption></figure>
 
-
+Read more on the project [here](https://ed.sunbird.org/misc/templates-1/overview/what-is-a-project)&#x20;
 
 ### [List](https://sunbird-ed.github.io/docs/mobile/components/ProjectListingComponent.html)
 
