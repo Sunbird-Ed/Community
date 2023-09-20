@@ -1,4 +1,4 @@
-# 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5,5.1.0
+# 5.1.0
 
 ## <mark style="color:blue;">Hotfix:5.1.0.10</mark>
 
@@ -171,42 +171,14 @@ The 5.1.0 release has breaking changes. Adopters who are on 5.1.0 should ensure 
 
 {% file src="../../../.gitbook/assets/Release Notes 5.1.0 (2) (1).docx" %}
 
-### <mark style="color:blue;">**Hot-fix:  5.0.6**</mark>** (12-01-2023)**
-
-<mark style="color:blue;">**Bugs:**</mark>
-
-Course progress does not get updated correctly. For a course which has a single page PDF  [ED-731](https://project-sunbird.atlassian.net/browse/ED-731)
-
-| Service to Build | Public Tag                                                                                       | Comment                                                                                                                                                                                                         |
-| ---------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SunbirdEd-Portal | [release-5.0.0.5\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/release-5.0.0.5\_RC1) | changed the code if course back button or next module and prev module button is clicked from a single page PDF then the PDF content progress is marked as read ie., 100% and the content status is updated as 2 |
-
-### <mark style="color:blue;">Hot-fix: 5.0.5</mark> (09-01-2023)
-
-#### <mark style="color:blue;">Bugs:</mark>
-
-Mobile app: User is not able to play resource content [ED-714](https://project-sunbird.atlassian.net/browse/ED-714)
-
-| Service to Build                     | Public Tag                                                                                       | Private Branch |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------ | -------------- |
-| Mobile/job/Sunbird-IONIC-Mobile-App/ | [release-5.0.6\_RC1](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/release-5.0.6\_RC1) | release-5.0.0  |
+###
 
 
 
-### <mark style="color:blue;">**Hot-fix:  5.0.4**</mark>** (29-12-2022)**
-
-<mark style="color:blue;">**Bugs:**</mark>
-
-Course progress does not get updated correctly.  [ED-648](https://project-sunbird.atlassian.net/browse/ED-648)
+###
 
 
 
-<table data-header-hidden><thead><tr><th width="215.33333333333331">Service to Build</th><th>Public Tag</th><th></th></tr></thead><tbody><tr><td>Service to Build</td><td>Public Tag</td><td>Comment</td></tr><tr><td>SunbirdEd-Portal</td><td>release-5.0.0.4_RC2<a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3"><strong>​</strong></a></td><td>Sunbird video player version update for End event summary progress issue.<br><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3">sunbird-video-player: 5.1.3</a></td></tr><tr><td>Sunbird-Mobile</td><td>release-5.0.5_RC0</td><td>Same as above </td></tr></tbody></table>
+###
 
-### <mark style="color:blue;">**Hot-fix:  5.0.2**</mark>** (21-10-2022)**
-
-{% file src="../../../.gitbook/assets/Release Notes 5.0.2.docx" %}
-
-### <mark style="color:blue;">**Hot-fix:  5.0.1**</mark>** (27-9-2022)**
-
-{% file src="../../../.gitbook/assets/Release Notes 5.0.1.docx" %}
+###
