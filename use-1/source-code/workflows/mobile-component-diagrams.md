@@ -7,11 +7,13 @@ description: >-
 
 # Component Diagram
 
+## GitHub Repository
+
 {% embed url="https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/master" %}
 
 ## Architecture
 
-<figure><img src="../../../.gitbook/assets/ed5e8b16-36e7-4738-baa6-3118cb5c6f2c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/4a18f6f2-fece-4acc-b8c5-7795410ced94.png" alt=""><figcaption></figcaption></figure>
 
 ## [Source Code](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/tree/master)
 
@@ -32,7 +34,7 @@ All following primary folders are highlighted in the above screenshot
 
 **plugins** folder contains all the plugins which provide JavaScript interface to native components (Android/ Ios)required by Sunbird Mobile App. They allow the app to use native device capabilities beyond what is available to pure web components.
 
-[List of plugins used in the Sunbird Mobile app](../../../development-resources/misc-pages/sunbird-mobile-app-plugins.md)
+[List of plugins used in the Sunbird Mobile app](../../../contribute/source-code/workflows/mobile/sunbird-mobile-app-plugins.md)
 
 ### app
 
@@ -52,6 +54,7 @@ As Modules are a great way to organize an application and extend it with capabil
 * [discussion-forum](https://sunbird-ed.github.io/docs/mobile/modules/DiscussionForumModule.html)
 * [my-groups](https://sunbird-ed.github.io/docs/mobile/modules/MyGroupsPageModule.html)
 * [download-manager](https://sunbird-ed.github.io/docs/mobile/modules/DownloadManagerPageModule.html)
+* [manage-learn](broken-reference)
 
 &#x20;    **. . . . . . . . . . . .**
 
@@ -104,8 +107,8 @@ sunbird-mobile-sdk is the heart of Sunbird-mobile-app which contains all the bus
 
 These are the set of files required  to set up Sunbird-mobile-app
 
-* [sunbird.properties](mobile/configurations-to-setup-mobile-app.md#1.-sunbird.properties)
-* [google-service.json](mobile/configurations-to-setup-mobile-app.md#2.-google-service.json)
+* [sunbird.properties](../../../development-resources/misc-pages/configurations-to-setup-mobile-app.md#1.-sunbird.properties)
+* [google-service.json](../../../development-resources/misc-pages/configurations-to-setup-mobile-app.md#2.-google-service.json)
 
 ### Forms required to  initialize Sunbird-mobile-app
 

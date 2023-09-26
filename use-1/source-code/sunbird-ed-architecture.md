@@ -1,14 +1,14 @@
-# Sunbird-ED Architecture
+# Architecture -  Component Diagram
 
-## Architecuture
+## Architecture
 
 Below architecture diagram explains L0 architectural view of Sunbird-ED
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-04 at 2.25.36 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 4.58.08 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Learning Apps
 
-These are the client facing applications where users(Admin, Creators & Consumers) can drive some capabilities.
+These are the client facing applications where users(Admin, Creators & Consumers) can drive some capabilities.&#x20;
 
 * **Sunbird-Portal UI**\
   The Sunbird portal is the browser-based interface for the Sunbird application stack. It provides a web app through which all functionality of Sunbird can be accessed
@@ -30,9 +30,9 @@ Please refer the below for more details of front-end libraries.
 ### API Player
 
 * Sunbird-Portal (API service)\
-  Sunbird portal is packaged with Client & Server side applications. The server slide application(NodeJS) will get build & deployed independently which will act as proxy service for Sunird-Portal(UI) application.
+  Sunbird portal is packaged with Client & Server side applications. The server slide application(NodeJS) will get build & deployed independently which will act as proxy service for Sunbird-Portal(UI) application.
 * Sunbird-Creation-Portal (API service)\
-  Sunbird creation portal is also packaged with Client & Server side applications. The server slide application(NodeJS) will get build & deployed independently which will act as proxy service for Sunird-Creation-Portal(UI) application.
+  Sunbird creation portal is also packaged with Client & Server side applications. The server slide application(NodeJS) will get build & deployed independently which will act as proxy service for Sunbird-Creation-Portal(UI) application.
 * Form service
 
 [form-service](workflows/form-service/ "mention")
