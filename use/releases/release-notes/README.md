@@ -1,3 +1,5 @@
 # Release notes
 
-{% file src="../../../.gitbook/assets/Sunbird ED 4.7.0.pdf" %}
+{% content-ref url="../../installing-ed-platform/release-6.0.0-draft/" %}
+[release-6.0.0-draft](../../installing-ed-platform/release-6.0.0-draft/)
+{% endcontent-ref %}
