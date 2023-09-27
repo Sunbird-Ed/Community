@@ -4,8 +4,8 @@ The User Interface (UI) in the Sunbird-Ed portal is meticulously designed to pro
 
 We prioritize accessibility and responsiveness, ensuring that users can interact effortlessly across devices. With a consistent design language, comprehensive style guide, and thoughtfully crafted components, the Sunbird-Ed portal's UI fosters efficient learning and collaboration, empowering users to make the most of their educational journey.
 
-{% content-ref url="angular-material.md" %}
-[angular-material.md](angular-material.md)
+{% content-ref url="../../../../use/developer-guide/ui-user-interface-sunbird-ed-portal/angular-material/" %}
+[angular-material](../../../../use/developer-guide/ui-user-interface-sunbird-ed-portal/angular-material/)
 {% endcontent-ref %}
 
 {% content-ref url="component-style-guide-version-1/" %}
