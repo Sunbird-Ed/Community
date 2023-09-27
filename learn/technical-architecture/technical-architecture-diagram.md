@@ -6,4 +6,4 @@
 
 ## **Component view diagram**
 
-[sunbird-ed-architecture.md](../../use/developer-guide/sunbird-ed-architecture.md "mention")
+[sunbird-ed-architecture.md](../../use-1/source-code/sunbird-ed-architecture.md "mention")
