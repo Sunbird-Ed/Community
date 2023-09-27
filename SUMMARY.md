@@ -188,6 +188,7 @@
     * [Trackable Collection](use/telemetry/course.md)
   * [Minimal forms](use/minimal-forms.md)
   * [API's](use/apis.md)
+  * [CSP changes](use/developer-guide/csp-changes.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
   * [Specifications](use/learn-more/specifications/README.md)
