@@ -1,18 +1,36 @@
-# 6.0.0 (Draft)
+# Release notes
 
-## 6.0.0 (Draft)
-
-| Release Version | Date        |
-| --------------- | ----------- |
-| 6.0.0           | 21-Sep-2023 |
+<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>6.0.0</td><td>27-Sep-2023</td></tr></tbody></table>
 
 ### Overview
 
-This document provides the following details in the Sunbird ED for the release version 6.0.0
+This release majorly highlights the CSP changes and angular upgrades. Sunbird ED is now cloud agnostic; it will run seamlessly on any cloud service. Both the web app and mobile app have completed the angular upgrades.
+
+Discussion thread: [https://github.com/orgs/Sunbird-Ed/discussions/508](https://github.com/orgs/Sunbird-Ed/discussions/508)
 
 ### New Features
 
-#### **1.** [**Copy the whole Question Set with the click of a button** ](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details)**(**[**ED-1312**](https://project-sunbird.atlassian.net/browse/ED-1312)**)**
+#### **1.** **Access Program dashboard and reports without resource filter** **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**)**
+
+<details>
+
+<summary>Details</summary>
+
+Program managers can access program-level data, including user detail reports, and graphs without selecting resource-level filters. Program designers need to select resource filters to view data. Big number data will also be shown in the graphs tab.
+
+</details>
+
+#### **2.** **Introduction of Multi-select Block filter** **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**,** [**ED-520**](https://project-sunbird.atlassian.net/browse/ED-520)**)**
+
+<details>
+
+<summary>Details</summary>
+
+A multi-select block filter will be available to drill down the data in the program and admin dashboard. Block filter will be enabled only when users select a district. A new ‘Block-wise status’ tab is also added to the program dashboard.
+
+</details>
+
+#### **3.** **Copy the whole Question Set with the click of a button** **(**[**ED-1945**](https://project-sunbird.atlassian.net/browse/ED-1945)**)**
 
 <details>
 
@@ -22,7 +40,7 @@ Users are now enabled to copy the whole question set, similar to copying the con
 
 </details>
 
-#### **2.** [**Updates on PII Consent and Data**](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-1) **(**[**ED-609**](https://project-sunbird.atlassian.net/browse/ED-609)**)**
+#### **4.** **Updates on PII Consent and Data for Managed Learn (**[**ED-609**](https://project-sunbird.atlassian.net/browse/ED-609)**)**
 
 <details>
 
@@ -34,7 +52,7 @@ Program managers and designers will have the ability to download and access the 
 
 </details>
 
-#### **3.** [**Start date of the Program**](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-2) **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**,** [**ED-609**](https://project-sunbird.atlassian.net/browse/ED-609)**)**
+#### **5.** **Start date of the Program** **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**,** [**ED-609**](https://project-sunbird.atlassian.net/browse/ED-609)**)**
 
 <details>
 
@@ -44,41 +62,33 @@ The program becomes discoverable for targeted users according to the start date 
 
 </details>
 
-#### **4.** [**Access Program dashboard and reports without resource filter**](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-3) **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**)**
-
-<details>
-
-<summary>Details</summary>
-
-Program managers can access program-level data, including user detail reports, and graphs without selecting resource-level filters. Program designers need to select resource filters to view data. Big number data will also be shown in the graphs tab.
-
-</details>
-
-#### **5.** [**Introduction of Multi-select Block filter**](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-4) **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**)**
-
-<details>
-
-<summary>Details</summary>
-
-A multi-select block filter will be available to drill down the data in the program and admin dashboard. Block filter will be enabled only when users select a district. A new ‘Block-wise status’ tab is also added to the program dashboard.
-
-</details>
-
 ### Enhancements / Technical Tasks
 
-#### **1.** [**Migration updates**](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-5)
+#### **1.**[ ](https://github.com/Sunbird-Ed/Community/blob/7e03a2a3a6d002b0f80afa6c5a80994949125228/use/releases/release-notes/6.0.0-draft.md#enhancements-technical-tasks-details)Sunbird ED is now cloud-agnostic ([ED-2631](https://project-sunbird.atlassian.net/browse/ED-2631))
 
-Angular migration is completed
+<details>
 
-* **Portal**: from v12 to v14
+<summary>Details</summary>
+
+From this release, SunbirdEd proudly supports cloud agnosticity, allowing you to deploy and run the platform seamlessly across various cloud providers. This means you have the freedom to choose the cloud environment that best suits your organization's needs, whether it's AWS, Azure, Google Cloud, or others. To achieve this, Sunbird has built the SDK to help all the services use the same code base as much as it can.
+
+For more details on the node services, backend services, and file upload plugins, refer [CSP changes](https://ed.sunbird.org/\~/changes/c4YpJpIRZcszTUHGkkDJ/use/developer-guide/csp-changes)
+
+</details>
+
+#### **2.** Angular Upgrades
+
+Angular migration is completed for
+
+* **Portal**: from v11 to v14
 * **Mobile** **App**: from v9 to v13
 
 <details>
 
 <summary>Details</summary>
 
-* **Angular Migration** is completed for both the Web app and the Mobile app.([ED-1312](https://project-sunbird.atlassian.net/browse/ED-1312), [ED-1311](https://project-sunbird.atlassian.net/browse/ED-1311))
-  * Web app version updated from 12 to 14
+* **Angular upgrade** is completed for both the Web app and the Mobile app.([ED-1312](https://project-sunbird.atlassian.net/browse/ED-1312), [ED-1311](https://project-sunbird.atlassian.net/browse/ED-1311))
+  * Web app version updated from 11 to 14
   * Mobile App version updated from 9 to 13
 
 <!---->
@@ -92,18 +102,7 @@ _**Note:** The splash screen will display a single-colored background with no cu
 
 </details>
 
-#### **2.**[ **Enhancements in the Program feature**](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-6) **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**)**
-
-<details>
-
-<summary>Details</summary>
-
-* New interface for program listing page
-* Addition of a program feature for teachers
-
-</details>
-
-#### **3.**[ **Enhanced Observation and Project features**](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-7) **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**)**
+#### **3.** **Enhanced Observation and Project features** **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**)**
 
 <details>
 
@@ -116,13 +115,14 @@ _**Note:** The splash screen will display a single-colored background with no cu
 
 </details>
 
-#### **4.**[ ](https://github.com/Sunbird-Ed/Community/blob/7e03a2a3a6d002b0f80afa6c5a80994949125228/use/releases/release-notes/6.0.0-draft.md#enhancements-technical-tasks-details)[Sunbird ED is now cloud-agnostic](https://ed.sunbird.org/use/releases/release-notes/6.0.0-draft#details-8) ([ED-2631](https://project-sunbird.atlassian.net/browse/ED-2631))
+#### **4.** **Enhancements in the Program feature** **(**[**ED-63**](https://project-sunbird.atlassian.net/browse/ED-63)**)**
 
 <details>
 
 <summary>Details</summary>
 
-From this release, the Sunbird ED application will run seamlessly on any cloud service provider.
+* New interface for program listing page
+* Addition of a program feature for teachers
 
 </details>
 
@@ -147,10 +147,10 @@ This release had a few bug fixes. For a complete list, refer to this [link](http
 
 There are a few known bugs in this release. For a complete list, refer to this [link](https://project-sunbird.atlassian.net/issues/?filter=12841)
 
-1. Users will not be able to update the board in both the mobile app and portal. They'll be presented with the default board that was pre-selected at the time of login. ([ED-419](https://project-sunbird.atlassian.net/browse/ED-419))
-2. Accessibility issues:&#x20;
+1. Accessibility issues:
    * Users will not be able to consume the downloaded question set in offline mode. ([ED-2317](https://project-sunbird.atlassian.net/browse/ED-2317))
    * Register here and forgot password links are not working on the login page ([ED-2305](https://project-sunbird.atlassian.net/browse/ED-2305))
+2. In the desktop application, the minimize button will freeze when the course assessment is in full-screen mode ([ED-2813](https://project-sunbird.atlassian.net/browse/ED-2813))
 
 ### Build Tags
 
@@ -168,15 +168,15 @@ The build tags used by the below building blocks for this release to upgrade you
 
 ### Installation or Upgrade
 
-For the latest installation process, refer to the [link](https://ed.sunbird.org/use/installing-ed-platform/release-5.2.0-1)
+[For fresh installation 6.0.0](https://ed.sunbird.org/use/installing-ed-platform/release-5.2.0-1)
 
-For the latest upgrade of Sunbird ED, refer to the [link](https://ed.sunbird.org/use/updating-sunbird-releases/5.2.0-to-6.0.0-draft)
+[Upgrade Sunbird from 5.2.0 to 6.0.0](https://ed.sunbird.org/use/updating-sunbird-releases/5.2.0-to-6.0.0-draft)
 
 ### Configuration/Environment variable
 
 This section provides a list of environment variables with their default values and descriptions required to run either the Sunbird portal or mobile service. To change the default behavior, modify the variable value based on your requirements.
 
-<table><thead><tr><th width="171">Variable Name</th><th width="127">Targeted To</th><th width="306">Description</th><th>Default Value for Sunbird</th></tr></thead><tbody><tr><td>sunbird_default_board</td><td>SunbirdED portal</td><td>This variable tells about the default board if a user has not selected any</td><td>sunbird</td></tr></tbody></table>
+[Adding new variables](../updating-sunbird-releases/5.2.0-to-6.0.0-draft.md#adding-the-new-variables)
 
 ### Deprecations and Removals
 
@@ -201,5 +201,7 @@ Sunbird-Lern: [v 5.3.0](https://lern.sunbird.org/use/release-notes/release-v-5.3
 _**Note**: Only PII changes are taken in this release. RC migration is planned for future releases._
 
 Sunbird-inQuiry: [v 5.7.0](https://inquiry.sunbird.org/use/release-notes/inquiry-release-v5.7.0-latest)
+
+_**Note**_: _Question set editor is not integrated, planned for future releases._
 
 Sunbird-CoKreat: [v 5.2.0](https://cokreat.sunbird.org/use/release-notes/cokreat-release-v5.2.0-upcoming-release)
