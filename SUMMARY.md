@@ -151,7 +151,7 @@
       * [Folder Structure](contribute/source-code/workflows/manage-learn/ml-analytics-service/folder-structure.md)
       * [Report creation and Updation Scripts](contribute/source-code/workflows/manage-learn/ml-analytics-service/report-creation-and-updation-scripts.md)
       * [Deployment Overview](contribute/source-code/workflows/manage-learn/ml-analytics-service/deployment-overview.md)
-  * [UI (User interface) Sunbird-Ed portal](contribute/source-code/workflows/ui-user-interface-sunbird-ed-portal/README.md)
+  * [UI (User interface)](contribute/source-code/workflows/ui-user-interface-sunbird-ed-portal/README.md)
     * [Angular Material](use/developer-guide/ui-user-interface-sunbird-ed-portal/angular-material/README.md)
       * [Overview](use/developer-guide/ui-user-interface-sunbird-ed-portal/angular-material/overview.md)
       * [Installation](use/developer-guide/ui-user-interface-sunbird-ed-portal/angular-material/installation.md)

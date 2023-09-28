@@ -19,4 +19,12 @@ This includes adjustments to the layout, button styles, card designs, modals, se
 
 The same design philosophy extends to the Sunbird-Ed mobile application, ensuring that users experience a harmonious and familiar visual environment regardless of the device they use.
 
-In summary, SB-Themes offers a versatile and efficient approach to theming, enhancing the user experience by providing choices and maintaining design consistency across both the Sunbird-Ed portal and mobile application.
+In summary, SB-Themes offers a versatile and efficient approach to theming, enhancing the user experience by providing choices and maintaining design consistency across both the Sunbird-Ed portal and mobile application. To add the `sb-themes` GitHub repository as a dependency in your portal's `package.json` file, you can use the following command:
+
+```bash
+npm install https://github.com/Sunbird-Ed/sb-themes.git --save
+```
+
+This will fetch the `sb-themes` repository and add it as a dependency in your project's `package.json` file, allowing you to use it in your portal.
+
+<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

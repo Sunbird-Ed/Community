@@ -6,7 +6,8 @@ description: >-
 
 # Component Style Guide Version 1
 
-Component style guide encompasses a wide range of components, each designed with a focus on consistency, usability, and aesthetics, similar to Bootstrap's approach.
+Component style guide encompasses a wide range of components, each designed with a focus on consistency, usability, and aesthetics, similar to Bootstrap's approach. For reference please refer to this below page.\
+[https://sunbird-ed.github.io/sunbird-style-guide/dist/#/](https://sunbird-ed.github.io/sunbird-style-guide/dist/#/)
 
 **Benefits:**
 

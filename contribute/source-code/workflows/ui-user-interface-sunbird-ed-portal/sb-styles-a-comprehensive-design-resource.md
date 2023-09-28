@@ -6,7 +6,15 @@ description: >-
 
 # SB-Styles: A Comprehensive Design Resource
 
-It serves as a central hub for an extensive collection of utility classes designed to enhance the user interface (UI) and user experience (UX) of the portal.
+It serves as a central hub for an extensive collection of utility classes designed to enhance the user interface (UI) and user experience (UX) of the portal. To add the `sb-styles` GitHub repository as a dependency in your portal's `package.json` file, you can use the following command:
+
+```bash
+npm install https://github.com/Sunbird-Ed/sb-styles.git --save
+```
+
+This will fetch the `sb-styles` repository and add it as a dependency in your project's `package.json` file, allowing you to use it in your portal. After adding it will reflect in the `package.json` file
+
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 **Utility Classes: Covering Essential Design Aspects**
 
