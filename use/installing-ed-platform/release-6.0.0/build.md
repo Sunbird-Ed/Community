@@ -7,7 +7,7 @@ To install SunbirdED `release-6.0.0`, we will need to run many Jenkins jobs and 
 **Create Plugin Containers / Folder Structure**
 
 * We will create few folders in object storage for storing sunbird plugins
-* Our deployment jobCore Release TagCore Release Tag always tries to delete the folder first before uploading, so we need to have the placeholders before running the jobs
+* Our deployment job always tries to delete the folder first before uploading, so we need to have the placeholders before running the jobs
 * Create a public object storage with the name you have set for the variable `cloud_storage_content_bucketname`&#x20;
 * Under `cloud_storage_content_bucketname` create folders with below names.
   * collection-editor
