@@ -176,7 +176,7 @@ The build tags used by the below building blocks for this release to upgrade you
 
 This section provides a list of environment variables with their default values and descriptions required to run either the Sunbird portal or mobile service. To change the default behavior, modify the variable value based on your requirements.
 
-[Adding new variables](../updating-sunbird-releases/5.2.0-to-6.0.0-draft.md#adding-the-new-variables)
+[Adding new variables](../updating-sunbird-releases/5.2.0-to-6.0.0.md#adding-the-new-variables)
 
 ### Deprecations and Removals
 

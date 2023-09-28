@@ -1,7 +1,5 @@
 # Prerequisites for your own Sunbird ED Instance
 
-## Prerequisites for your own Sunbird ED Instance
-
 **Recommended Permissions and Experience**
 
 To successfully complete Sunbird installation, you need to have:

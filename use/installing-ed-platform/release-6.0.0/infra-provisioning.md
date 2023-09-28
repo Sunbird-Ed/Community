@@ -1,7 +1,5 @@
 # Infra Provisioning
 
-## Infra Provisioning
-
 > **Note:** We have automated infra provision scripts available for azure, if you using any other cloud service provider other than azure provision infrastructure manually.
 
 **Provisioning infrastructure on other cloud service providers (except Azure)**
