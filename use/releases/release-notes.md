@@ -1,6 +1,6 @@
 # Release notes
 
-<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>6.0.0</td><td>27-Sep-2023</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>6.0.0</td><td>28-Sep-2023</td></tr></tbody></table>
 
 ### Overview
 
@@ -16,7 +16,7 @@ Discussion thread: [https://github.com/orgs/Sunbird-Ed/discussions/508](https://
 
 <summary>Details</summary>
 
-Program managers can access program-level data, including user detail reports, and graphs without selecting resource-level filters. Program designers need to select resource filters to view data. Big number data will also be shown in the graphs tab.
+Program managers can access program-level data, including user detail reports and graphs, without selecting resource-level filters. Program designers need to select resource filters to view data. Big number data will also be shown in the graphs tab.
 
 </details>
 
@@ -72,7 +72,7 @@ The program becomes discoverable for targeted users according to the start date 
 
 From this release, SunbirdEd proudly supports cloud agnosticity, allowing you to deploy and run the platform seamlessly across various cloud providers. This means you have the freedom to choose the cloud environment that best suits your organization's needs, whether it's AWS, Azure, Google Cloud, or others. To achieve this, Sunbird has built the SDK to help all the services use the same code base as much as it can.
 
-For more details on the node services, backend services, and file upload plugins, refer [CSP changes](https://ed.sunbird.org/\~/changes/c4YpJpIRZcszTUHGkkDJ/use/developer-guide/csp-changes)
+For more details on the node services, backend services, and file upload plugins, refer [CSP changes](https://ed.sunbird.org/\~/changes/c4YpJpIRZcszTUHGkkDJ/use/developer-guide/csp-changes).
 
 </details>
 
@@ -111,7 +111,7 @@ _**Note:** The splash screen will display a single-colored background with no cu
 * Users can add links as evidence at the task and project level
 * Users can view the observation questionnaire before starting the observation.
 * Users can delete any wrongly attached files to the tasks created in any project.
-* Evidence attached at a project level will automatically be saved to the ‘Files’ section
+* Evidence attached at a project level will automatically be saved to the ‘Files’ section.
 
 </details>
 
@@ -168,7 +168,7 @@ The build tags used by the below building blocks for this release to upgrade you
 
 ### Installation or Upgrade
 
-[For fresh installation 6.0.0](https://ed.sunbird.org/use/installing-ed-platform/release-5.2.0-1)
+[For fresh installation 6.0.0](https://ed.sunbird.org/use/installing-ed-platform/release-6.0.0-draft)
 
 [Upgrade Sunbird from 5.2.0 to 6.0.0](https://ed.sunbird.org/use/updating-sunbird-releases/5.2.0-to-6.0.0-draft)
 
