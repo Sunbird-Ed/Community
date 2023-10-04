@@ -36,6 +36,28 @@ $color-primary: mat.get-color-from-palette($primary);
 
 ```
 
+The code snippet you provided can be explained as follows:
+
+\
+**$primary: map.get($color-config, 'primary');**
+
+* This line appears to be assigning a value to the variable **$primary**.
+* **map.get()** is likely a function used to retrieve a value from a map or dictionary.
+* It retrieves the value associated with the key `'primary'` from a map named `$color-config`.
+* The value retrieved is assumed to be a color or a reference to a color.
+
+**$color-primary: mat.get-color-from-palette($primary);**
+
+* This line assigns a value to the variable **$color-primary**.
+* **mat.get-color-from-palette()** is likely a custom or library function used to extract a color from a color palette.
+* It takes the previously assigned `$primary` value (presumably a color or color reference) and extracts the actual color value.
+
+**--color-primary: #{$color-primary}**`;`
+
+* This line sets a CSS custom property (also known as a CSS variable) named **--color-primary**.
+* The value of this custom property is assigned the value stored in the **$color-primary** variable.
+* The **#{$color-primary}** syntax is used to interpolate the value of **$color-primary** into the CSS custom property.
+
 **Primary color variations**
 
 ```scss

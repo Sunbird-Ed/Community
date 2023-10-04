@@ -29,7 +29,7 @@ The Sunbird ED portal is divided into two folders
 
 ## **Sunbird Portal UI**
 
-![](<../../../.gitbook/assets/image (2).png>) ![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>) ![](<../../../.gitbook/assets/image (3) (1).png>)
 
 [**Client Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app/client) includes the client source code for the Angular application. This folder includes various components, modules, services, styles, and other assets necessary to build the front end of the application.
 
@@ -86,7 +86,7 @@ The Purpose of all the libraries is to make the UI more consistent across all th
 
 ## Sunbird Portal API Servcies
 
-![](../../../.gitbook/assets/image.png) ![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (4).png>) ![](<../../../.gitbook/assets/image (1) (1).png>)
 
 [**App Folder**](https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/6.0.0/src/app)(without client) Includes backend API interface which is used Node.js framework.
 

@@ -8,6 +8,8 @@ Use the Angular CLI's installation schematic to set up your Angular Material pro
 ng add @angular/material
 ```
 
+For detailed installation instructions, please refer to the following link: [**Angular Material Installation Guide**](https://v14.material.angular.io/guide/getting-started).
+
 The `ng add` command will install Angular Material, the Component Dev Kit(CDK), Angular Animations and it will ask you the following questions to determine which features to include:
 
 1. Choose a prebuilt theme name, or "custom" for a custom theme. These are the list of prebuilt themes.

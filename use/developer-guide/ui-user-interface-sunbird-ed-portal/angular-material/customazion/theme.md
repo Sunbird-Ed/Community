@@ -1,5 +1,7 @@
 # Theme
 
+Angular Material's theming system is widely recommended for achieving consistent and manageable custom styles throughout your application. It offers a structured and efficient approach to defining and implementing custom themes, facilitating a cohesive and visually pleasing design.
+
 ### Custom Theme
 
 Within the same "**\_palette.scss**" file, we have defined a theme called "**Joy**" within the "**app-themes**" section. We have configured various parameters using the created palettes, as demonstrated below.
@@ -97,7 +99,7 @@ For existing light theme CSS variables in **themes.scss** file, we have also rec
     --mat-list-border-active: var(--sbt-body-bg2);
 </code></pre>
 
-Similarly, we have added the same for the dark mode, as demonstrated below.
+Similarly, we have added the same for the **dark mode**, as demonstrated below.
 
 ```scss
      $primary100: map-get($background,
@@ -184,7 +186,5 @@ themes: string[] = [
 ```
 
 And  the expected result is:
-
-
 
 <figure><img src="../../../../../.gitbook/assets/new-theme2.webp" alt=""><figcaption></figcaption></figure>
