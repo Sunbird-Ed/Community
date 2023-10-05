@@ -4,7 +4,7 @@ For a meaningful discovery of assets, assets can be crowdsourced, tagged to rele
 
 Some of the features that ED leverages from Asset sourcing are, allowing users to
 
-1. Create asset taxonomy for content&#x20;
+1. Create asset taxonomy for content
 2. Identify framework categories
 3. Associate assets with multiple types such as audience type, topic, etc.
 4. Create framework - Organization and target framework
@@ -21,6 +21,4 @@ Some of the features that ED leverages from Asset sourcing are, allowing users t
 15. Get the consumption details of the assets that got published for consumption
 16. Check various reports such as Collection level gap report, Folder level gap report, Visitor's report, etc.
 
-
-
-The above capabilities of Asset Sourcing are derived from components of Sunbird CoKreat. You can find details by clicking on the link [here](../product-and-developers-guide/asset-sourcing.md)&#x20;
+The above capabilities of Asset Sourcing are derived from components of Sunbird CoKreat. You can find details by clicking on the link [here](product-and-developers-guide/asset-sourcing.md)

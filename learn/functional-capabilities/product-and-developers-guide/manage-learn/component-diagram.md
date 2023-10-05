@@ -1,26 +1,26 @@
 # Component Diagram
 
-<figure><img src="../../../.gitbook/assets/Level 0 ML Component Diagram (2) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Level 0 ML Component Diagram (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 The component depicted above offers a comprehensive view of the entire Manage Learn, showcasing its vital components and the significant roles they play in the construction and functioning of Manage Learn.
 
-### [ML Core service](../../../contribute/source-code/workflows/manage-learn/ml-core-service.md)
+### [ML Core service](../../../../contribute/source-code/workflows/manage-learn/ml-core-service.md)
 
 ML Core service plays a vital role in crafting programs and solutions within the Manage Learn environment. It acts as the bridge connecting Manage Learn with the cloud service, enabling the retrieval of preSignedUrls and downloadableUrls.
 
-### [ML Project Service](../../../contribute/source-code/workflows/manage-learn/ml-project-service.md)
+### [ML Project Service](../../../../contribute/source-code/workflows/manage-learn/ml-project-service.md)
 
 ML Project Service empowers the micro-improvement capability within the Manage Learn Building block. This integral service engages with other micro services within Manage Learn and uses [Learner Service](https://lern.sunbird.org/learn/readme) and [Sunbird RC ](https://docs.sunbirdrc.dev/learn/readme)to produce certificates upon a successful compilation of improvement projects.
 
-### [ML Survey Services](../../../contribute/source-code/workflows/manage-learn/ml-survey-service.md)
+### [ML Survey Services](../../../../contribute/source-code/workflows/manage-learn/ml-survey-service.md)
 
 ML Survey Services facilitate the integration of survey and observation capabilities into Manage Learn. This service allows users to actively participate in surveys and observations.
 
-### [ML Reports Services](../../../contribute/source-code/workflows/manage-learn/ml-report-service.md)
+### [ML Reports Services](../../../../contribute/source-code/workflows/manage-learn/ml-report-service.md)
 
 The ML Reports Service is designed to create reports, charts, and graphs to support analytical insights.
 
-### [ML Analytics Service](../../../contribute/source-code/workflows/manage-learn/ml-anaylatics-service.md)
+### [ML Analytics Service](../../../../contribute/source-code/workflows/manage-learn/ml-anaylatics-service.md)
 
 The ML Analytics Service is constructed upon a framework that incorporates Kafka, MongoDB, Druid, and cloud storage. the ML-Analytics service collects data from MongoDB or Kafka, performs data transformation, and then transfers the refined data to either Cloud Storage or Kafka. This data is then made available in Druid for further analysis needs.
 
@@ -37,7 +37,7 @@ Program User Info Job
 ### [Learn Data Products](https://lern.sunbird.org/learn/product-and-developer-guide/data-products)
 
 Program Exhaust\
-Program user personal info exhaust is data-product that generates CSV file containing user details. Each record represents user details who has joined the [program](../../functional-capabilities/manage-learn/what-is-a-program.md). This service uses flattened data from Cassandra which is created by a Flink job called Program User Info. This data-product is configurable for L2, L3 and L4 [data security levels](https://docs.google.com/document/d/1pLvKSiPYzFm-XNl9zA5KAIU1MM5CC0tC/edit#heading=h.gjdgxs).\\
+Program user personal info exhaust is data-product that generates CSV file containing user details. Each record represents user details who has joined the [program](../../manage-learn/what-is-a-program.md). This service uses flattened data from Cassandra which is created by a Flink job called Program User Info. This data-product is configurable for L2, L3 and L4 [data security levels](https://docs.google.com/document/d/1pLvKSiPYzFm-XNl9zA5KAIU1MM5CC0tC/edit#heading=h.gjdgxs).\\
 
 Upon the compilation of user resources, the ML Core, ML Project, and ML Surveys services will initiate the transfer of data to Kafka. This data will subsequently be archived within Druid, serving as a repository for future utilization. Eventually, the Reports Services will harness this stored data to generate reports.
 

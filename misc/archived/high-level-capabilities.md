@@ -8,12 +8,12 @@ Sunbird ED enables you to launch a learning solution where user can experience f
 
     1. Learning on any device using mobile app, web portal or Desktop app in online and offline mode
 
-    Learning apps is powered by [_Sunbird ED_](../../learn/product-and-developers-guide/learning-apps/)
+    Learning apps is powered by [_Sunbird ED_](../../learn/functional-capabilities/product-and-developers-guide/learning-apps/)
 2.  **Asset Sourcing**
 
     1. Web Portal to source, crowdsource and curate digital assets required for learning needs
 
-    Asset sourcing is powered by [_Sunbird CoKreat_](../../learn/product-and-developers-guide/learning-apps/)
+    Asset sourcing is powered by [_Sunbird CoKreat_](../../learn/functional-capabilities/product-and-developers-guide/learning-apps/)
 3.  **Content:**
 
     1. Enable learning experience with wide variety of content such as simulations, explanation, e-books, games, virtual labs, AR/VR experiences using multiple formats - html, videos, h5p, pdf, audios and epub.
