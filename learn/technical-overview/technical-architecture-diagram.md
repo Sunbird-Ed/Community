@@ -7,3 +7,14 @@
 ## **Component view diagram**
 
 [sunbird-ed-architecture.md](../../use-1/source-code/sunbird-ed-architecture.md "mention")
+
+
+
+#### Video - Sunbird Tech Architecture
+
+{% embed url="https://youtu.be/fypu3gU2XN8?si=SWIfVMAHUHsMPgmE&t=695" %}
+
+
+
+\
+\
