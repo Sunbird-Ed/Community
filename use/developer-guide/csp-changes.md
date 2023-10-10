@@ -13,7 +13,27 @@ description: >-
 
 SunbirdED has been tested in Azure Cloud provider and the application is working as expected.
 
-CSP Implementation table
+&#x20;Environment Varibles - CSP&#x20;
+
+### Environment Variables - CSP
+
+```
+cloud_service_provider
+cloud_public_storage_accountname
+cloud_public_storage_secret
+cloud_public_storage_endpoint
+cloud_public_storage_region
+
+cloud_private_storage_accountname
+cloud_private_storage_secret
+cloud_private_storage_endpoint
+cloud_private_storage_region
+
+cloud_storage_{datatype}_bucketname
+cloud_storage_base_url
+```
+
+### CSP Implementation Table
 
 Node SDK ([client-cloud-services](https://github.com/Sunbird-Ed/client-cloud-services))
 
