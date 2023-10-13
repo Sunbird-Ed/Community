@@ -2,6 +2,8 @@
 
 Contains Form component powered by angular. This component expects a configuration and renders form according to the view.
 
+{% embed url="https://youtu.be/QFv5rEv-NXc?si=xlMjxYVCOtiX_Bp1&t=82" %}
+
 {% hint style="info" %}
 [https://github.com/Sunbird-Ed/SunbirdEd-forms](https://github.com/Sunbird-Ed/SunbirdEd-forms)
 {% endhint %}

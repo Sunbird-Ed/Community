@@ -245,3 +245,5 @@ export interface CsCourseService {
     getUserEnrollmentList(request: GetUserEnrollmentListRequests, additionalParams?: { [key: string]: string }, config?: CsCourseServiceConfig): Observable<Course[]>;
 }
 ```
+
+{% embed url="https://youtu.be/qbPv9rij1Lo?si=bL87hUutRRtsXySc&t=466" %}

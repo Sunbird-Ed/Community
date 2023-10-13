@@ -2,6 +2,8 @@
 
 Contains common UI components powered by angular. These components are designed to be used in sunbird consumption platforms _(mobile app, web portal, offline desktop app)_ to drive reusability, maintainability hence reducing the redundant development effort significantly.
 
+{% embed url="https://youtu.be/Q35VOcjSygs?si=TnJyE2PjyNHvXBYb&t=132" %}
+
 {% hint style="info" %}
 [https://github.com/Sunbird-Ed/SunbirdEd-consumption-ngcomponents](https://github.com/Sunbird-Ed/SunbirdEd-consumption-ngcomponents)
 {% endhint %}

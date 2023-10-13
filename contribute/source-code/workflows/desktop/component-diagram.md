@@ -7,6 +7,8 @@ description: >-
 
 # Component Diagram
 
+{% embed url="https://youtu.be/H8afe1-cF_c?si=MvSjRbyVzu0vq4Y5" %}
+
 ## GitHub Repository
 
 {% embed url="https://github.com/Sunbird-Ed/SunbirdEd-portal/tree/master/src/desktop" %}

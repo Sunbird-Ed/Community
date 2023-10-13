@@ -1,7 +1,5 @@
 # Architecture - Component Diagram
 
-## Architecture
-
 Below architecture diagram explains L0 architectural view of Sunbird-ED
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 4.58.08 PM.png" alt=""><figcaption></figcaption></figure>
@@ -18,6 +16,10 @@ These are the client facing applications where users(Admin, Creators & Consumers
   It is powered by Sunbird-Portal itself. The same code-based being used for offline access of portal application.
 * **Sunbird-CoKreat (part of Sunbird-CoKreat building block)**\
   [**https://cokreat.sunbird.org/learn/readme#what-is-sunbird-cokreat**](https://cokreat.sunbird.org/learn/readme#what-is-sunbird-cokreat)
+
+{% embed url="https://youtu.be/XPrhdALMHeI?si=4DgX6U6QlwgBQSqX&t=116" %}
+
+&#x20;
 
 ### Front-end Libraries
 
