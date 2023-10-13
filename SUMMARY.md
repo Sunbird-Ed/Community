@@ -74,7 +74,7 @@
       * [Jenkins Setup](use/release/installing-ed-platform/release-6.0.0/jenkins-setup.md)
       * [Ansible Variables](use/release/installing-ed-platform/release-6.0.0/ansible-variables.md)
       * [Build](use/release/installing-ed-platform/release-6.0.0/build.md)
-      * [Post Install Steps](use/release/installing-ed-platform/release-6.0.0/post-install-steps.md)
+      * [Functional configurations](use/release/installing-ed-platform/release-6.0.0/post-install-steps.md)
     * [Sunbird ED Portal](use/release/installing-ed-platform/sunbird-ed-portal.md)
     * [Sunbird ED Mobile](use/release/installing-ed-platform/sunbird-ed-mobile.md)
     * [Easy installer (Draft)](use/release/installing-ed-platform/easy-installer-draft.md)

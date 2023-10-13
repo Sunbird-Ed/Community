@@ -12,7 +12,7 @@ To successfully complete Sunbird installation, you need to have:
 
 **Infra Requirements**
 
-* Kubernetes Cluster with 4 worker nodes each of 4 Core 16 GB RAM
+* Kubernetes Cluster\[1.24.x] with 5 worker nodes each of 4 Core 16 GB RAM
 * Total 6 VM's are required each of 4 Core 16 GB RAM
 * Private GitHub repository to store ansible inventory
 * Fully Qualified Domain Name (FQDN) with SSL
