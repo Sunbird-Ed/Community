@@ -61,8 +61,14 @@
 
 ## USE
 
-* [Deployment](use/deployment/README.md)
-  * [Deployment Diagram](use/deployment-diagram.md)
+* [Getting started](use/getting-started/README.md)
+  * [Deployment Overview](use/getting-started/deployment-overview.md)
+  * [Pre-requisites](use/getting-started/pre-requisites.md)
+  * [Install](use/getting-started/install/README.md)
+    * [Setup Jenkins](use/getting-started/install/setup-jenkins.md)
+    * [Update Ansible Variables](use/getting-started/install/update-ansible-variables.md)
+    * [Build, Provision and Deploy](use/getting-started/install/build-provision-and-deploy.md)
+    * [Functional Configurations](use/getting-started/install/functional-configurations.md)
 * [Latest Release - 6.0.0](use/release/README.md)
   * [Release notes](use/release/release-notes.md)
   * [Updating Sunbird Releases](use/release/updating-sunbird-releases/README.md)
