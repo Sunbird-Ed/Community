@@ -218,12 +218,9 @@
 ## Engage
 
 * [Discuss](https://github.com/Sunbird-Ed/Community/discussions)
-
-## Contribute
-
-* [Contribute to ED](use-1/contribute-to-ed.md)
-* [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
-* [Issue tracker/ Create Issue](use-1/issue-tracker.md)
+* [Contribute to ED](engage/contribute-to-ed.md)
+* [Extend / Contribute to Sunbird](engage/extend-contribute-to-sunbird.md)
+* [Issue tracker/ Create Issue](engage/issue-tracker.md)
 
 ## Misc
 
