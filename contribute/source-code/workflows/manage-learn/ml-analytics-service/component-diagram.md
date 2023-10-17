@@ -32,8 +32,14 @@ The basically do the batch and real-time data ingestion.
 * Batch: Operating on a predefined schedule, it reads survey-related data from MongoDB. The data is then transformed into a flattened structure before being loaded into Druid for further analysis.
 * Real-time: The system subscribes to a designated Kafka topic that holds a survey. Upon receiving the new survey, the system processes them and subsequently publishes the processed data to another Kafka topic. This processed data is then consumed by Druid for real-time analysis.
 
-[ml-survey-service.md](../ml-survey-service.md "mention")\\
+[ml-survey-service.md](../ml-survey-service.md "mention")
 
 4. Migrations
 
-Migration scripts are used to create, update or retire Charts and Reports in the respective environments.\
+Migration scripts are used to create, update or retire Charts and Reports in the respective environments.
+
+
+
+{% embed url="https://www.youtube.com/watch?index=19&list=PLUrm4D0K_7nxlaZZYirokpx5Mo-jMd64M&v=CuZ3KALmZ8A" %}
+
+\
