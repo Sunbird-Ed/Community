@@ -204,11 +204,11 @@
   * [API's](use/apis.md)
   * [CSP changes](use/developer-guide/csp-changes.md)
   * [Other](use/source-code/other/README.md)
-    * [Minimal forms](use/source-code/other/minimal-forms.md)
-    * [Telemetry](use/source-code/other/telemetry/README.md)
-      * [Trackable Collection](use/source-code/other/telemetry/course.md)
-    * [Platform](use/source-code/other/platform.md)
-    * [Learning Apps](use/source-code/other/learning-apps.md)
+    * [Minimal forms](use/minimal-forms.md)
+    * [Telemetry](use/telemetry/README.md)
+      * [Trackable Collection](use/telemetry/course.md)
+    * [Platform](use-1/source-code/platform.md)
+    * [Learning Apps](use-1/system-requirements/learning-apps.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
   * [Specifications](use/learn-more/specifications/README.md)
@@ -218,9 +218,9 @@
 ## Engage
 
 * [Discuss](https://github.com/Sunbird-Ed/Community/discussions)
-* [Contribute to ED](engage/contribute-to-ed.md)
-* [Extend / Contribute to Sunbird](engage/extend-contribute-to-sunbird.md)
-* [Issue tracker/ Create Issue](engage/issue-tracker.md)
+* [Contribute to ED](use-1/contribute-to-ed.md)
+* [Extend / Contribute to Sunbird](use-1/extend-contribute-to-sunbird.md)
+* [Issue tracker/ Create Issue](use-1/issue-tracker.md)
 
 ## Misc
 

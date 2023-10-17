@@ -44,4 +44,6 @@ During this phase, the method retrieves data from a Cassandra database based on 
 
 It tries to find a matching record by gradually relaxing the constraints on the properties. Once a record is found or all attempts are exhausted, the retrieved data is processed and sent back as a response.
 
+{% embed url="https://youtu.be/QFv5rEv-NXc?si=pTVnWuzj4mvaUrhc" %}
+
 ###

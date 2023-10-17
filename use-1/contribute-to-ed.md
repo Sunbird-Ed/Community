@@ -18,8 +18,6 @@ Contributions to the Sunbird building blocks can be in any form. For ex., one ca
 
 <figure><img src="https://1497159047-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4ZKyfmmhMWpPkD6iYvKF%2Fuploads%2FjIvkMn7b8Dvg2BZyMLqs%2FScreenshot%202023-01-27%20at%201.03.59%20PM.png?alt=media&#x26;token=7d0c15f2-e724-4288-87f7-ffbe16c5de33" alt=""><figcaption></figcaption></figure>
 
-
-
 An item is added to the issue tracker only after there is clarity around what needs to be done, and alignment with the community / working group in terms of the approach or the design, as the case may be.Note:
 
 * Any RFC or Enhancement issues created in the issue tracker should have a high level details of the what is expected in the feature
