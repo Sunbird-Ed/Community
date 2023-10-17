@@ -47,3 +47,7 @@ Supplies a list of available programs within Manage Learn.
 ####
 
 These ten modules synergize as the backbone of the [ML Survey Service](../ml-survey-service.md), empowering users to enhance and optimize Observation and Survey capabilities within the broader SunbirdEd ecosystem on the App platform.
+
+
+
+{% embed url="https://youtu.be/7QVvGrQxJGc?list=PLUrm4D0K_7nxlaZZYirokpx5Mo-jMd64M&t=5055" %}

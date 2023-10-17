@@ -33,3 +33,7 @@ Responsible for generating reports on Survey Document
 Gotenberg provides a developer-friendly API to interact with powerful tools like Chromium and LibreOffice for converting numerous document formats (HTML, Markdown, Word, Excel, etc.) into PDF files, and more!
 
 These six modules synergize as the backbone of the [ML Reports Service](../ml-report-service.md), empowering users to enhance and optimize Reports within the broader SunbirdEd ecosystem on the App platform.
+
+
+
+{% embed url="https://youtu.be/iRaAd8K4bsI?list=PLUrm4D0K_7nxlaZZYirokpx5Mo-jMd64M&t=3032" %}

@@ -24,4 +24,8 @@ This module revolves around user project-related operations, encompassing functi
 
 Devoted to managing project certificate-related aspects, this module governs the templates and functionalities associated with project certificates.
 
-These five modules form the backbone of [ML Projects Service](../ml-project-service.md), empowering users to extend and optimize project capabilities within the broader SunbirdEd ecosystem on the App platform.\\
+These five modules form the backbone of [ML Projects Service](../ml-project-service.md), empowering users to extend and optimize project capabilities within the broader SunbirdEd ecosystem on the App platform.
+
+
+
+{% embed url="https://youtu.be/iRaAd8K4bsI?list=PLUrm4D0K_7nxlaZZYirokpx5Mo-jMd64M&t=255" %}
