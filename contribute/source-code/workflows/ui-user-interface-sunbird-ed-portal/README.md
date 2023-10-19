@@ -1,4 +1,4 @@
-# UI (User interface) Sunbird-Ed portal
+# UI (User interface)
 
 The User Interface (UI) in the Sunbird-Ed portal is meticulously designed to provide an intuitive and engaging experience. Our UI is characterized by modern aesthetics, seamless navigation, and user-friendly components.&#x20;
 
