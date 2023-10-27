@@ -1,4 +1,4 @@
-# Overview for Sunbird ED
+# Overview
 
 ## **What is Sunbird ED and what does it solve for?**
 
@@ -84,8 +84,5 @@ Enable users to engage using pre defined or free flowing conversations. Leverage
 
 Enable targeted time bound programs with defined digital assets to be consumed. Also enable projects with defined tasks, helping users to structure their execution.
 
-**Contributors:** EkStep, ShikshaLokam
 
-**Last Upgrade date**: **3rd** Oct 2022
 
-**Version :** 5.0.1
