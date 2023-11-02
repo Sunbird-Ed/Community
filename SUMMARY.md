@@ -65,6 +65,7 @@
   * [Deployment Overview](use/getting-started/deployment-overview.md)
   * [Pre-requisites](use/getting-started/pre-requisites.md)
   * [Install](use/getting-started/install/README.md)
+    * [Provision Cloud Infrastructure](use/getting-started/install/provision-cloud-infrastructure.md)
     * [Setup Jenkins](use/getting-started/install/setup-jenkins.md)
     * [Update Ansible Variables](use/getting-started/install/update-ansible-variables.md)
     * [Build, Provision and Deploy](use/getting-started/install/build-provision-and-deploy.md)
