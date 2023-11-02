@@ -1,14 +1,8 @@
 # Provision Cloud Infrastructure
 
-> **Note:** Currently, we have automated infra provision scripts available for azure cloud service provider. If you are using any other cloud service provider, provision infrastructure manually as per the pre-requisites or write automation scripts for the same and contribute.&#x20;
+> Currently, we have automated infra provision scripts available for azure cloud service provider. If you are using any other cloud service provider, provision infrastructure manually as per the pre-requisites or write automation scripts for the same and contribute.&#x20;
 
-**Provisioning infrastructure on other cloud service providers (except Azure)**
 
-* Object storage with CORS enabled
-* Virtual network to host VM's and Kubernetes cluster
-* Kubernetes cluster with 4 worker nodes each node with 4 Core, 16GB RAM configuration
-* Create VM's as mentioned in pre-requisites section
-* Make sure kubernetes cluster and VM's can communicate with each other
 
 **Provisioning infrastructure on Azure**
 
@@ -24,18 +18,17 @@ If you want to run this on your local machine, Follow this [guide](https://docs.
 ```
 git clone https://github.com/project-sunbird/sunbird-devops -b release-6.0.0
 cd sunbird-devops/deploy
-# Update the necessary variables in playbook
+# Update the necessary variables in playbook like ssh public key path, resource group name, AKS version, Storage account name, container registry etc. 
 ansible-playbook -c local azure-provision.yaml
 # Resulting infrastructure infromation will be stored in sunbird-devops/deploy/azure-resources.txt file.
 ```
 
-**Creating the AKS cluster**
+**Creating the AKS cluster from Azure console**
 
-> **Note** Follow the steps given below to create the Kubernetes cluster in Azure. For other clouds, please visit the respective cloud provider website The AKS cluster and VM’s should be in same vnet. If they are in different vnet, you have to peer the vnets. To successfully peer, the IP address of the vnets should not overlap.
+> Incase if you are having trouble in creating AKS cluster using the above script, follow the steps given below to create the Kubernetes cluster in Azure. The AKS cluster and VM’s should be in same vnet. If they are in different vnet, you have to peer the vnets. To successfully peer, the IP address of the vnets should not overlap.
 
-* Create a service principal and assign contributor role to service principal
+* Create a service principal and assign contributor role to service principal. Ref: [https://learn.microsoft.com/en-us/cli/azure/azure-cli-sp-tutorial-1?tabs=bash](https://learn.microsoft.com/en-us/cli/azure/azure-cli-sp-tutorial-1?tabs=bash)
 * Get the secrets and client id of service principal
-* Click [here](https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli) for more details
 * Create the AKS cluster either via Azure portal or using `az aks` command line
 * Refer to Azure documentation for all the available options
 * Below is a sample command which you can use -
@@ -66,3 +59,11 @@ Get the kubeconfig file for your cluster with the below command -
 ```
 
 * Disable **Secure transfer required** in storage account configuration
+
+**Provisioning infrastructure on other cloud service providers except Azure**
+
+* Object storage with CORS enabled
+* Virtual network to host VM's and Kubernetes cluster
+* Kubernetes cluster with 4 worker nodes each node with 4 Core, 16GB RAM configuration
+* Create Compute Instances/VM's as mentioned in pre-requisites section
+* Make sure kubernetes cluster and VM's can communicate with each other

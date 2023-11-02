@@ -7,7 +7,29 @@ Ansible is the configuration management system used in Sunbird. The infrastructu
 * Update the files **common.yml**, **hosts**, and **secrets.yml** under **Core**, **KnowledgePlatform** and **DataPipeline** directories. After updating, push them to your private repo branch
 * Your private repo structure starting from the root path should be as shown below
 
-ansible└── inventory└── dev├── Core│ ├── common.yml│ ├── hosts│ └── secrets.yml├── Kubernetes│ ├── common.yml (soft link to Core directory files)│ ├── hosts. (soft link to Core directory files)│ └── secrets.yml (soft link to Core directory files)├── DataPipeline│ ├── common.yml│ ├── hosts│ └── secrets.yml└── KnowledgePlatform├── common.yml├── hosts└── secrets.yml**Neo4j download and upload to object storage**
+```
+ansible
+└── inventory
+    └── dev
+        ├── Core
+        │   ├── common.yml
+        │   ├── hosts
+        │   └── secrets.yml
+        ├── Kubernetes
+        │   ├── common.yml   (soft link to Core directory files)
+        │   ├── hosts.       (soft link to Core directory files)
+        │   └── secrets.yml  (soft link to Core directory files)
+        ├── DataPipeline
+        │   ├── common.yml
+        │   ├── hosts
+        │   └── secrets.yml
+        └── KnowledgePlatform
+            ├── common.yml
+            ├── hosts
+            └── secrets.yml
+```
+
+**Neo4j download and upload to object storage**
 
 * Neo4j community artifact needs to be downloaded from neo4j official website [http://dist.neo4j.org/neo4j-community-3.3.9-unix.tar.gz](http://dist.neo4j.org/neo4j-community-3.3.9-unix.tar.gz) (only Neo4j 3.4 and below is supported)
 * Upload downloaded artifact to `cloud_storage_artifacts_bucketname`
