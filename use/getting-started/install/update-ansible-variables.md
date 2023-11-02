@@ -1,6 +1,16 @@
 # Update Ansible Variables
 
-Ansible is the configuration management system used in Sunbird. The infrastructure setup, deployment of services and other configurations is handled primarily through ansible.**Updating the Private Repository with Hosts and Variables**Execute the following commands in your local to clone the private repo template and update your private GitHub repository -git clone https://github.com/project-sunbird/sunbird-devopscd sunbird-devopsgit checkout tags/release-6.0.0 -b release-6.0.0
+Ansible is the configuration management system used in Sunbird. Provisioning, deployment of services and other configurations are handled primarily through ansible.&#x20;
+
+**Updating the Private Repository with Hosts and Variables**
+
+Execute the following commands in your local to clone the private repo template and update your private GitHub repository -
+
+`git clone https://github.com/project-sunbird/sunbird-devops`
+
+`cd sunbird-devops`
+
+`git checkout tags/release-6.0.0 -b release-6.0.0`
 
 * Copy the directory `sunbird-devops/private_repo/ansible` to your private repo local workspace
 * Run the `key-generate.sh` script located under `ansible/inventory/dev` folder. The script will ask for the ansible vault password. Enter the same vault password that you used in the Jenkins setup stage. The script will generate many private key files and they will be encrypted with the vault password. Deployments will fail if keys are not encrypted.
@@ -15,18 +25,39 @@ ansible
         │   ├── common.yml
         │   ├── hosts
         │   └── secrets.yml
-        ├── Kubernetes
-        │   ├── common.yml   (soft link to Core directory files)
-        │   ├── hosts.       (soft link to Core directory files)
-        │   └── secrets.yml  (soft link to Core directory files)
         ├── DataPipeline
         │   ├── common.yml
         │   ├── hosts
         │   └── secrets.yml
-        └── KnowledgePlatform
-            ├── common.yml
-            ├── hosts
-            └── secrets.yml
+        ├── key-generate.sh
+        ├── KnowledgePlatform
+        │   ├── common.yml
+        │   ├── hosts
+        │   └── secrets.yml
+        ├── Kubernetes
+        │   ├── common.yml -> ../Core/common.yml
+        │   ├── hosts -> ../Core/hosts
+        │   ├── keys -> ../Core/keys/
+        │   └── secrets.yml -> ../Core/secrets.yml
+        ├── Lern
+        │   ├── common.yml -> ../KnowledgePlatform/common.yml
+        │   ├── hosts -> ../KnowledgePlatform/hosts
+        │   └── secrets.yml -> ../KnowledgePlatform/secrets.yml
+        ├── managed-learn
+        │   ├── common.yml -> ../Core/common.yml
+        │   ├── hosts -> ../Core/hosts
+        │   ├── keys -> ../Core/keys/
+        │   └── secrets.yml -> ../Core/secrets.yml
+        ├── Sunbird-RC
+        │   ├── common.yml -> ../Core/common.yml
+        │   ├── hosts -> ../Core/hosts
+        │   ├── keys -> ../Core/keys/
+        │   └── secrets.yml -> ../Core/secrets.yml
+        └── UCI
+            ├── common.yml -> ../Core/common.yml
+            ├── hosts -> ../Core/hosts
+            ├── keys -> ../Core/keys/
+            └── secrets.yml -> ../Core/secrets.yml
 ```
 
 **Neo4j download and upload to object storage**
