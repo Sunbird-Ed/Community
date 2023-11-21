@@ -34,6 +34,6 @@ Gotenberg provides a developer-friendly API to interact with powerful tools like
 
 These six modules synergize as the backbone of the [ML Reports Service](../ml-report-service.md), empowering users to enhance and optimize Reports within the broader SunbirdEd ecosystem on the App platform.
 
-
+#### Video on ML Report Service
 
 {% embed url="https://youtu.be/iRaAd8K4bsI?list=PLUrm4D0K_7nxlaZZYirokpx5Mo-jMd64M&t=3032" %}

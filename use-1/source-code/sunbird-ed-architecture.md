@@ -17,9 +17,11 @@ These are the client facing applications where users(Admin, Creators & Consumers
 * **Sunbird-CoKreat (part of Sunbird-CoKreat building block)**\
   [**https://cokreat.sunbird.org/learn/readme#what-is-sunbird-cokreat**](https://cokreat.sunbird.org/learn/readme#what-is-sunbird-cokreat)
 
-{% embed url="https://youtu.be/XPrhdALMHeI?si=4DgX6U6QlwgBQSqX&t=116" %}
+#### Video on Sunbird ED Architecture - Part 2
 
-&#x20;
+(Refer this [link](https://ed.sunbird.org/learn/technical-overview/technical-architecture-diagram#video-sunbird-tech-architecture) for part 1 of the explanation)
+
+{% embed url="https://youtu.be/XPrhdALMHeI?si=4DgX6U6QlwgBQSqX&t=116" %}
 
 ### Front-end Libraries
 

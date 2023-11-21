@@ -1,4 +1,4 @@
-# Design Principle
+# Design Principles
 
 ## Thinking Microservice Architecture
 
@@ -34,8 +34,8 @@ For instance, in the education system it would be the ability to observe what is
 
 Emit vs Extract is an important construct that even as extenders of Sunbird, developers and architects must ensure that the telemetry and emitting architecture is implemented as part of the microservice, not just as an API.
 
+#### Video on Architecture Principles of Designing Population Scale Digital Infrastructure
+
 To understand the architecture principles of designing population scale digital infrastructure, listen to Dr Pramod Varma, CTO of EkStep foundation.
 
 {% embed url="https://youtu.be/1S-599usfjc" %}
-
-\

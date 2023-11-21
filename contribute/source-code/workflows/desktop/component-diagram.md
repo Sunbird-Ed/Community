@@ -7,6 +7,8 @@ description: >-
 
 # Component Diagram
 
+#### Video on Desktop App
+
 {% embed url="https://youtu.be/H8afe1-cF_c?si=MvSjRbyVzu0vq4Y5" %}
 
 ## GitHub Repository
