@@ -78,7 +78,7 @@
   * [Demo of released items](use/release/demo-of-released-items.md)
 * [Developer Guide](use/source-code/README.md)
   * [Architecture - Component Diagram](use/source-code/sunbird-ed-architecture.md)
-  * [System Requirements](use/source-code/system-requirements/README.md)
+  * [System Requirements](use/source-code/system-requirements.md)
     * [Learning Apps](use/source-code/system-requirements/learning-apps.md)
   * [Install Locally](use/source-code/install-locally/README.md)
     * [SunbirdED Mobile](use/source-code/install-locally/sunbirded-mobile.md)
