@@ -11,5 +11,5 @@ _b)_ **Merit Certificate**: A Merit Certificates can be configured by the creato
 All the certificates issuance can be digitally verifiable using QR code printed on the certificates.
 
 {% hint style="info" %}
-_Powered By_ [Sunbird RC (Registry & Credential)](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/-Mi9TAMApVKuSwtZEklF/ "mention")
+_Powered By_ [Sunbird RC (Registry & Credential)](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-Mi9TAMApVKuSwtZEklF/ "mention")
 {% endhint %}

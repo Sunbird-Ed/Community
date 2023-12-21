@@ -9,5 +9,5 @@ Launch Courses cover major aspects of the following functional needs:
 **Digital Learning Passbook**: Once the user has completed the course, all the history of user's performance on the course, certificate received are persisted as part of "Digital LEARNING passbook". This Information will exist with the user along with his profile information.
 
 {% hint style="info" %}
-Powered by [Sunbird Lern](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/4ZKyfmmhMWpPkD6iYvKF/ "mention")
+Powered by [Sunbird Lern](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/4ZKyfmmhMWpPkD6iYvKF/ "mention")
 {% endhint %}

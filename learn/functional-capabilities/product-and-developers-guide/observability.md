@@ -76,7 +76,7 @@ All events follow a common data structure, though the event data structure (“e
 * All events have unique event codes i.e., (IDs).
 * All events are as per platform schema
 
-For more information about **Telemetry services** please click [here](http://127.0.0.1:5000/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/telemetry-service)
+For more information about **Telemetry services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/telemetry-service)
 
 **Telemetry Spec**
 
@@ -98,24 +98,24 @@ For more information about **Telemetry services** please click [here](http://127
 * [Exdata](http://docs.sunbird.org/latest/developer-docs/telemetry/eventdetails/#exdata) - This method is used as a generic wrapper event to capture encrypted or serialized data
 * [End](http://docs.sunbird.org/latest/developer-docs/telemetry/eventdetails/#end) - This method is used to capture closure after all the activities are completed
 
-For more information about **Telemetry Spec** please click [here](http://127.0.0.1:5000/s/-MkM7F4oILSpCJPO0YUu/learn/understand)
+For more information about **Telemetry Spec** please click [here](https://app.gitbook.com/s/-MkM7F4oILSpCJPO0YUu/learn/understand)
 
 **Data Service -**
 
-For more information about **Data services** please click [here](http://127.0.0.1:5000/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/data-service)
+For more information about **Data services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/data-service)
 
 **Data Pipeline**
 
-For more information about **Data Pipeline** please click [here](http://127.0.0.1:5000/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/data-pipeline)
+For more information about **Data Pipeline** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/data-pipeline)
 
 **Report Service**
 
-For more information about **Report services** please click [here](http://127.0.0.1:5000/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/report-service)
+For more information about **Report services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/report-service)
 
 **Report Configurator**
 
-For more information about **Report Configurator** please click [here](http://127.0.0.1:5000/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/report-configurator)
+For more information about **Report Configurator** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/report-configurator)
 
 {% hint style="info" %}
-Powered By [Sunbird Obsrv](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/ttPCtrHlLrl4MRuGlakt/ "mention")
+Powered By [Sunbird Obsrv](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/ttPCtrHlLrl4MRuGlakt/ "mention")
 {% endhint %}

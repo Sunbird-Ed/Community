@@ -19,14 +19,14 @@ The **Organised Collections** capability is enabled by the following components 
 
 The Collection Management API allows you to manage collection over the sunbird platform. Apis perform operations related to all the _Collection_ on the Sunbird Platform.
 
-For more information about **Collection Service** please click [here](http://127.0.0.1:5000/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/content-service/content-service-1)
+For more information about **Collection Service** please click [here](https://app.gitbook.com/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/content-service/content-service-1)
 
 1. Collection Editor
 
 Collection Editor is an angular Typescript-based editor which facilitates the user with the creation of multiple assets and organising them as structured collections.
 
-For more information about **Collection Editor** please click [here](http://127.0.0.1:5000/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/editors/collection-editor-v2)
+For more information about **Collection Editor** please click [here](https://app.gitbook.com/s/aanfWbeVT74C5lXDPde3/learn/product-and-developer-guide/editors/collection-editor-v2)
 
 {% hint style="info" %}
-Powered By [Sunbird Knowlg](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/ "mention")
+Powered By [Sunbird Knowlg](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/ "mention")
 {% endhint %}
