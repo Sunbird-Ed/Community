@@ -39,7 +39,7 @@ $color-primary: mat.get-color-from-palette($primary);
 The code snippet you provided can be explained as follows:
 
 \
-**$primary: map.get($color-config, 'primary');**
+&#xNAN;**$primary: map.get($color-config, 'primary');**
 
 * This line appears to be assigning a value to the variable **$primary**.
 * **map.get()** is likely a function used to retrieve a value from a map or dictionary.

@@ -57,7 +57,8 @@
   * [Tech Stack](learn/technical-overview/tech-stack.md)
 * [Adopters](learn/adopters/README.md)
   * [DIKSHA](learn/adopters/diksha.md)
-* [Roadmap](learn/roadmap.md)
+* [Roadmap](learn/roadmap/README.md)
+  * [2025-2026](learn/roadmap/2025-2026.md)
 
 ## USE
 

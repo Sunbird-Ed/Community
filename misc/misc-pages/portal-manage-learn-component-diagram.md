@@ -19,11 +19,7 @@ _**Observation Listing**_ -Observation can be targeted to specific roles or role
 
 _**Observation details**_ - This page shows the complete information about the observation and also allows the user to add an entity, remove an entity, etc. Users will be only able to add entities as specified in the observation.\\
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/observation-flow(1).png" alt=""><figcaption><p>Observation flow</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/observation-flow(1).png" alt=""><figcaption><p>Observation flow</p></figcaption></figure></div>
 
 [_Postman form config to enable observation on menu menu bar_](https://www.postman.com/sunbird-building-blocks/workspace/sunbird-ed/folder/25186239-e1369c8a-bfd2-4980-a0ca-c2ec83fdd7c1)
 
@@ -45,7 +41,7 @@ The PM and PD will be able to view multiple reports and CSV. All components and 
 
 <figure><img src="../../.gitbook/assets/Flow-PD(1).png" alt=""><figcaption><p>Program Dashboard Flow</p></figcaption></figure>
 
-_To understand more on reports -_ [_Accessing reports from report service_](https://project-sunbird.atlassian.net/wiki/spaces/\~5c5187317f1b2543d286030f/pages/3166306311/Report+Service+-+Accessing+Reports)
+_To understand more on reports -_ [_Accessing reports from report service_](https://project-sunbird.atlassian.net/wiki/spaces/~5c5187317f1b2543d286030f/pages/3166306311/Report+Service+-+Accessing+Reports)
 
 _To understand more on form config -_[ _Form configuration for program dashboard_](https://project-sunbird.atlassian.net/wiki/spaces/MC/pages/3339780108/PD+-+Form+Config+-+Release-6.0.0+User+Detail+Report)
 
@@ -55,8 +51,8 @@ _Postman collection for_ [_Program Dashboard form configuration_](https://www.po
 
 Logged-in users will be able to view the reports of submissions he/she had made. This module contains all the components and flows for the report viewing.\
 \
-_For more visit:_ [_ML Observartion Reports_](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE\_DgYJbvPS/\~/changes/891/development-resources/misc-pages/portal-manage-learn-reports)
+&#xNAN;_&#x46;or more visit:_ [_ML Observartion Reports_](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE_DgYJbvPS/~/changes/891/development-resources/misc-pages/portal-manage-learn-reports)
 
-_Presentation on_[ _ML Capabilities on portal_](https://docs.google.com/presentation/d/1bsC86EGydtdPRha79SEQrhDo9zR7uxCTzIt58OC\_zUE/edit#slide=id.g13ee83f8e0d\_0\_41)\
+_Presentation on_[ _ML Capabilities on portal_](https://docs.google.com/presentation/d/1bsC86EGydtdPRha79SEQrhDo9zR7uxCTzIt58OC_zUE/edit#slide=id.g13ee83f8e0d_0_41)\
 \
 [_Manage Learn API Collection_](https://documenter.getpostman.com/view/7997930/2s946chuaT#603e751e-e64d-4e06-9c1a-4963f42a2b6b)
