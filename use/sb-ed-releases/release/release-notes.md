@@ -18,14 +18,14 @@ Discussion thread: [https://github.com/orgs/Sunbird-Ed/discussions/669](https://
 
 Sunbird Mobile and Web app will comply with the [Google Play app's account deletion requirements](https://support.google.com/googleplay/android-developer/answer/13327111?hl=en#zippy=%2Cwhat-users-will-see-if-your-app-supports-account-deletion). It has mandated that if the app allows users to create their account, it must also allow users to request account deletion. This will establish transparency and give users control over their data.
 
-The User Data policy's [Account Deletion Requirement](http://support.google.com/googleplay/android-developer/answer/13316080#account\_deletion) means that:&#x20;
+The User Data policy's [Account Deletion Requirement](http://support.google.com/googleplay/android-developer/answer/13316080#account_deletion) means that:&#x20;
 
 1. All developers must complete new Data deletion questions in the Data safety form on the [**App content**](https://play.google.com/console/app/app-content/summary) page (Policy > App content) in Play Console.
 2. If your app enables account creation, you must:
    * provide users with an in-app path to delete their app accounts and associated data; and&#x20;
    * provide a web link resource where users can request app account deletion and associated data deletion.&#x20;
 
-For more details, refer to this [link](../../misc/misc-pages/minimal-build-properties-1.md).
+For more details, refer to this [link](../../../misc/misc-pages/minimal-build-properties-1.md).
 
 </details>
 
@@ -45,9 +45,9 @@ The features have been made dynamic by removing the hard-coded values in the por
 
 From release-7.0.0, the hardcoding of ALL tab/global filters has been removed, and the menu bar forms have been modified within the ALL tab section inside the metadata object as `globalFilterConfig`
 
-2. **Mobile -** Update the [framework config forms](https://project-sunbird.atlassian.net/wiki/spaces/SUN/pages/3452239908/Framework+Agnostics+Release+7.0.0#Form%3A-Framework\_update\_config).
+2. **Mobile -** Update the [framework config forms](https://project-sunbird.atlassian.net/wiki/spaces/SUN/pages/3452239908/Framework+Agnostics+Release+7.0.0#Form%3A-Framework_update_config).
 
-Follow the links to configure the forms step-by-step for the [portal](https://project-sunbird.atlassian.net/wiki/spaces/SUN/pages/3434512396/ED-Portal+Framework+Agnostics+Release+7.0.0) and [mobile](https://project-sunbird.atlassian.net/wiki/spaces/SUN/pages/3452239908/Framework+Agnostics+Release+7.0.0#Form:-Framework\_update\_config).
+Follow the links to configure the forms step-by-step for the [portal](https://project-sunbird.atlassian.net/wiki/spaces/SUN/pages/3434512396/ED-Portal+Framework+Agnostics+Release+7.0.0) and [mobile](https://project-sunbird.atlassian.net/wiki/spaces/SUN/pages/3452239908/Framework+Agnostics+Release+7.0.0#Form:-Framework_update_config).
 
 </details>
 
