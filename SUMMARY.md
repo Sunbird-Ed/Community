@@ -58,7 +58,8 @@
 * [Adopters](learn/adopters/README.md)
   * [DIKSHA](learn/adopters/diksha.md)
 * [Roadmap](learn/roadmap/README.md)
-  * [2025-2026](learn/roadmap/2025-2026.md)
+  * [Plan for 2025-2026](learn/roadmap/plan-for-2025-2026.md)
+  * [Releases and Dates](learn/roadmap/releases-and-dates.md)
 
 ## USE
 
