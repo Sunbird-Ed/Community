@@ -20,7 +20,7 @@ description: Sunbird Releases and planned dates
 
 **RELEASE 7.6** :: 20 MARCH 2025
 
-* Keycloak upgrade to 21
+* ~~Keycloak upgrade to 21~~ (to be taken up in a later releast)
 * Mobile App:
   * Android version upgrade to 34
   * Angular updated to 19
