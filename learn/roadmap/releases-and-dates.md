@@ -4,7 +4,7 @@ description: Sunbird Releases and planned dates
 
 # Releases and Dates
 
-**RELEASE 7.5.1** :: 20 MARCH 2025&#x20;
+**RELEASE 7.5.1** :: 10th MARCH 2025&#x20;
 
 * Image Consolidation - All images to be pulled from sunbird ACR instead of personal ones
 * Superset for visualization and reporting to be included as part of Easy Installer for Sunbird ED.
@@ -16,10 +16,11 @@ description: Sunbird Releases and planned dates
 * Generalize the cassandra and postgres configurations to work with the global values
 * Missing bundles in downloadable artifacts are added, to support smooth installation.
 * Fixes to support publishing content on GCP
+* Velero  for cluster backups
 
-**RELEASE 7.6** :: 30 APRIL 2025
+**RELEASE 7.6** :: 20 MARCH 2025
 
-* <mark style="color:red;">Keycloak upgrade to 21</mark>
+* Keycloak upgrade to 21
 * Mobile App:
   * Android version upgrade to 34
   * Angular updated to 19
