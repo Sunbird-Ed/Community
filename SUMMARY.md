@@ -203,6 +203,7 @@
       * [Sunbird Tag Manager](use/source-code/reference-apps/independent-libraries/sunbird-tag-manager.md)
   * [API's](use/source-code/apis.md)
   * [CSP changes](use/source-code/csp-changes.md)
+  * [Cloud-Store SDK Maven Deployment Guide](use/source-code/cloud-store-sdk-maven-deployment-guide.md)
   * [Other](use/source-code/other/README.md)
     * [Minimal forms](use/source-code/other/minimal-forms.md)
     * [Telemetry](use/source-code/other/telemetry/README.md)
