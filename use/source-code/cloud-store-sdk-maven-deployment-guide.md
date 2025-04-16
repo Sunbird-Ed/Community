@@ -6,13 +6,11 @@ description: >-
 
 # Cloud-Store SDK Maven Deployment Guide
 
-### Steps to Push a Dependency to a Maven Repository
+#### Prerequisites
 
-#### **Prerequisites:**
+* Ensure you have the `cloud-store-sdk-maven` project directory, containing the necessary `settings.xml` and `sunbird.asc` files.
 
-Ensure you have the `cloud-store-sdk-maven` project directory, containing the necessary `settings.xml` and `sunbird.asc` files.
-
-#### Steps:
+#### Steps to Push a Dependency to a Maven Repository
 
 1. **Access the Repository:**
    * Open your web browser and navigate to OSS Sonatype.
@@ -27,60 +25,10 @@ Ensure you have the `cloud-store-sdk-maven` project directory, containing the ne
    * Copy the updated `settings.xml` file to your `.m2` folder.
 5. **Deploy the Dependency:**
    * Navigate to the directory `cloud-store-sdk_2.12`.
-   *   If you encounter GPG key errors, run:
-
-       ```bash
-       mvn deploy -DskipTests
-       ```
-   * If you receive an error related to GPG keys while deploying, [follow these steps](cloud-store-sdk-maven-deployment-guide.md#managing-gpg-keys)
+   * If you encounter GPG key errors, run: `mvn deploy -DskipTests`
+   * _Note:_ If you encounter GPG key errors, ensure that your GPG keys are valid or adjust your deployment command as needed.
 6. **Verify Deployment:**
    * Open your browser and navigate to the Staging Repositories page to confirm your dependency has been pushed to the staging repository.
 7. **Release the Dependency:**
    * Once confirmed, click the **Release** button to promote the dependency from the Staging Repository to Maven Central.
-
-### Managing GPG Keys
-
-1.  **List Existing GPG Keys**
-
-    To view all stored GPG keys and check for expiry:
-
-    ```
-    gpg --list-keys
-    ```
-2.  **Edit an Expired Key**
-
-    If a key has expired, edit it as follows:
-
-    ```
-    gpg --edit-key <KEY_ID>
-    ```
-
-    Replace `<KEY_ID>` with the actual ID (e.g., `1FEE445AFBB262B5`).
-3.  **Change Key Expiry**
-
-    In the GPG interactive shell, type:
-
-    ```
-    expire
-    ```
-
-    Provide the new expiration period when prompted.
-4.  **Export the Updated Key**
-
-    After updating, export the key:
-
-    ```
-    gpg --armor --export <KEY_ID> > <FILE_NAME>.asc
-    ```
-
-    Example: `gpg --armor --export 1FEE445AFBB262B5 > sunbird.asc`
-5.  **Import an Updated GPG Key**
-
-    To import the updated key:
-
-    ```
-    gpg --import <FILE_NAME>.asc
-    ```
-
-    Example: `gpg --import sunbird.asc`
 
