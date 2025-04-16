@@ -4,9 +4,9 @@ To configure Sunbird Ed platform based on your use case, you will need to use th
 
 Please refer the below mentioned postman collection to setup minimal functional configuration for content creation workflow. Download the postman collection of Sunbird-Ed functional configuration from [here](https://github.com/project-sunbird/sunbird-ed-installer/tree/main/postman-collection)
 
-Download the postman environment variable file from [here](https://github.com/project-sunbird/sunbird-ed-installer/blob/release-6.0.0/terraform/azure/template/postman.env.json) and replace the place holder values with actual values.
+Download the postman environment variable file (`postman.env.json`) from [here](https://github.com/project-sunbird/sunbird-ed-installer/blob/main/terraform/azure/template/postman.env.json) and replace the place holder values with actual values.
 
-> NOTE: The above link points to Azure Postman ENV file. Depending on the cloud provider, please download the respective file.
+> NOTE: The above link points to Azure Postman ENV file from template directory. Depending on the cloud provider, please download the respective file.
 
 ​Import postman collection and environment variables to postman tool
 
