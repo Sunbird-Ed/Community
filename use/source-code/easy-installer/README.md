@@ -4,4 +4,5 @@ The SunbirdEd Easy Installer is designed to simplify and accelerate the setup pr
 
 Please refer below mentioned link to setup Sunbird Ed using easy installer.
 
-[https://github.com/project-sunbird/sunbird-ed-installer/tree/release-7.0.0](https://github.com/project-sunbird/sunbird-ed-installer/tree/release-7.0.0)
+{% embed url="https://github.com/project-sunbird/sunbird-ed-installer" %}
+

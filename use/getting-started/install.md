@@ -35,4 +35,4 @@ In order to provision infra and install all services, run the following command
 
 
 
-\
+> NOTE: Currently there is only support for Azure. To add support for a new cloud provider, follow this [document](../source-code/easy-installer/adding-support-for-a-new-cloud-provider.md). We welcome contributions!
