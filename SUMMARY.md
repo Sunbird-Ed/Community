@@ -63,20 +63,11 @@
 
 ## USE
 
-* [Getting Started](use/getting-started/README.md)
+* [Getting Started - Setup](use/getting-started/README.md)
   * [Pre-requisites](use/getting-started/pre-requisites.md)
   * [Install](use/getting-started/install.md)
   * [Functional Configurations](use/getting-started/functional-configurations.md)
-* [SB Ed Releases](use/sb-ed-releases/README.md)
-  * [Latest Release - Sunbird v7.5.1](use/sb-ed-releases/latest-release-sunbird-v7.5.1.md)
-  * [Release - SB 7.5](use/sb-ed-releases/release-sb-7.5.md)
-  * [SB Release - 7.0.0](use/sb-ed-releases/release/README.md)
-    * [Release notes](use/sb-ed-releases/release/release-notes.md)
-    * [Updating Sunbird Releases](use/sb-ed-releases/release/updating-sunbird-releases/README.md)
-      * [6.0.1 to 7.0.0](use/sb-ed-releases/release/updating-sunbird-releases/5.2.0-to-6.0.0.md)
-    * [Release Calendar 7.0.0](use/sb-ed-releases/release/release-calendar-6.0.0.md)
-    * [Demo of released items](use/sb-ed-releases/release/demo-of-released-items.md)
-* [Developer Guide](use/source-code/README.md)
+* [Developer Guide - Overview](use/source-code/README.md)
   * [Architecture - Component Diagram](use/source-code/sunbird-ed-architecture.md)
   * [System Requirements](use/source-code/system-requirements.md)
     * [Learning Apps](use/source-code/system-requirements/learning-apps.md)
@@ -212,6 +203,18 @@
   * [Specifications](use/learn-more/specifications/README.md)
     * [SOFIE](use/learn-more/specifications/sofie.md)
     * [SOFIE Implementation](use/learn-more/specifications/sofie-implementation.md)
+
+***
+
+* [SB Ed Releases](sb-ed-releases/README.md)
+  * [Latest Release - Sunbird v7.5.1](sb-ed-releases/latest-release-sunbird-v7.5.1.md)
+  * [Release - SB 7.5](sb-ed-releases/release-sb-7.5.md)
+  * [SB Release - 7.0.0](sb-ed-releases/release/README.md)
+    * [Release notes](sb-ed-releases/release/release-notes.md)
+    * [Updating Sunbird Releases](sb-ed-releases/release/updating-sunbird-releases/README.md)
+      * [6.0.1 to 7.0.0](sb-ed-releases/release/updating-sunbird-releases/5.2.0-to-6.0.0.md)
+    * [Release Calendar 7.0.0](sb-ed-releases/release/release-calendar-6.0.0.md)
+    * [Demo of released items](sb-ed-releases/release/demo-of-released-items.md)
 
 ## Engage
 
