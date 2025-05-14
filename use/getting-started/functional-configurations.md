@@ -16,3 +16,9 @@ refer: ​[https://learning.postman.com/docs/getting-started/importing-and-expor
 * Right click on the collection and choose `Run collection`. In `Run Configuration` section update `Delay` to `500ms` and then run the collection. This will trigger all the apis in the collection.
 
 For forms related configurations and customizations, refer to the postman collection [here](https://www.postman.com/sunbird-building-blocks/sunbird-ed-coss/overview)
+
+
+
+After configuration to ensure the installation is proper, use the following sanity test cases to validate the installation (& configuration)
+
+{% file src="../../.gitbook/assets/Sunbird ED 7.0.0 Regression .xlsx" %}
