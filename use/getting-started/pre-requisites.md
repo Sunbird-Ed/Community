@@ -66,10 +66,10 @@ Based on the cloud provider, install the respective tools
 
 {% tabs %}
 {% tab title="Azure" %}
-### **Required tools and permisions**
+### **Required tools and permissions**
 
 1. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
-2. Ensure that the user or service principal running the Terraform script has the necessary prvileges as [listed here](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/resources/application#api-permissions)
+2. Ensure that the user or service principal running the Terraform script has the necessary privileges as [listed here](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/resources/application#api-permissions)
 
 > NOTE: We will overwrite the following files. Please take a backup of your existing files in the following locations
 >
@@ -116,7 +116,79 @@ Post login, update the `terraform/azure/<env>/global-values.yaml` with the varia
 {% endtab %}
 
 {% tab title="Google Cloud" %}
-### Coming Soon
+Create a project on google cloud and export it as a variable. Please see [Creating and Managing Projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects) for reference and enable the Kubernetes Engine API for the project, as it is required to create and manage Kubernetes clusters within Google Cloud  You can enable the API by following the guide [Enable the Kubernetes Engine API](https://console.cloud.google.com/apis/library/container.googleapis.com).
+
+```
+export GOOGLE_PROJECT_ID=<your_project_id>
+```
+
+**Required tools and permissions**
+
+1. [<mark style="color:blue;">Google Cloud CLI</mark>](https://cloud.google.com/sdk/docs/install)
+2. Ensure that the user or service account running the Terraform script has the necessary privileges as [listed here](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#authentication).
+
+> NOTE: We will overwrite the following files. Please take a backup of your existing files in the following locations
+>
+> * `~/.config/rclone/rclone.conf`
+
+### Authentication
+
+Post installation of the CLI tool and providing necessary permissions, use the following commands to login to GCP via CLI.
+
+```
+gcloud auth login
+```
+
+Then initialize the GCP configuration:
+
+```
+gcloud init
+```
+
+Authenticate the application with default credentials:
+
+```
+gcloud auth application-default login
+```
+
+Install the GKE gcloud authentication plugin:
+
+```
+gcloud components install gke-gcloud-auth-plugin
+```
+
+Note: Make sure you select the correct project and authenticate with the appropriate credentials.
+
+### **Infra Setup**
+
+Post login, update the `terraform/gcp/<env>/global-values.yaml` with the variables as per your environment
+
+```
+building_block: "" # building block name
+env: ""
+environment: "" # use lowercase alphanumeric string between 1-9 characters
+cloud_storage_region: ""
+cloud_storage_project: ""
+zone: ""
+gke_node_pool_instance_type: ""
+domain: ""
+sunbird_google_captcha_site_key: ""
+google_captcha_private_key: ""
+sunbird_google_oauth_clientId: ""
+sunbird_google_oauth_clientSecret: ""
+mail_server_from_email: ""
+mail_server_password: ""
+mail_server_host: smtp.sendgrid.net
+mail_server_port: "587"
+mail_server_username: apikey
+sunbird_msg_91_auth: ""
+sunbird_msg_sender: ""
+youtube_apikey: ""
+proxy_private_key: |
+ <private_key_generated_when_setting_up_ssl>
+proxy_certificate: |
+ <certificate_generated_when_setting_up_ssl>
+```
 {% endtab %}
 
 {% tab title="Oracle Cloud" %}

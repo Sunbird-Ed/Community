@@ -21,6 +21,7 @@ Create the following buckets:
 1. `private_container_name`
 2. `public_container_name`
 3. `dial_state_container_public`
+4. `velero_private_container_name`
 
 #### Additional Requirements
 
@@ -143,7 +144,9 @@ serviceAccount:
   create: true
   name: <created at step 2>
   annotations:
-    iam.gke.io/gcp-service-account: iam.gke.io/gcp-service-account: <service-account-name>@<project-id>.iam.gserviceaccount.com
+    iam.gke.io/gcp-service-account: <service-account-name>@<project-id>.iam.gserviceaccount.com
 ```
 
-For **Azure installation**, please refer to the documentation:`/sunbird-ed-installer/README.md`
+For **Azure installation**, please refer to the documentation:`/sunbird-ed-installer/terraform/azure/README.md`
+
+For GCP **installation**, please refer to the documentation:`/sunbird-ed-installer/``terraform/gcp/README.md`
