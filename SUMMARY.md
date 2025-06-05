@@ -76,6 +76,7 @@
     * [SunbirdED Portal](use/source-code/install-locally/sunbirded-portal.md)
   * [Easy Installer](use/source-code/easy-installer/README.md)
     * [Adding Support for a New Cloud Provider](use/source-code/easy-installer/adding-support-for-a-new-cloud-provider.md)
+    * [Velero Backup and Restore Guide](use/source-code/easy-installer/velero-backup-and-restore-guide.md)
   * [Configuration](use/source-code/configuration/README.md)
     * [SunbirdEd Portal](use/source-code/configuration/sunbirded-portal.md)
     * [Sunbird Mobile](use/source-code/configuration/sunbird-mobile.md)
