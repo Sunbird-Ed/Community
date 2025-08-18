@@ -8,19 +8,40 @@ Sunbird Release 7.7 is now available.
 
 The release includes fixes for some of the vulnerabilities identified, as well as a Keycloak upgrade (from the older version 7 to the newer 21) &#x20;
 
-Release tag : [https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/v7.7.0](https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/v7.7.0)
-
-
-
 Jira Tickets for Release 7.7 : [https://project-sunbird.atlassian.net/issues/?filter=13047](https://project-sunbird.atlassian.net/issues/?filter=13047)
 
 
 
-**Release Highlights:**
+#### **Release Highlights – Sunbird v7.7.0**
 
-1. GitHub Actions enabled for 90% of the repositories
-2. Keycloak upgrade from version 7 to 21
-3. [Security and vulnerability fixes](https://project-sunbird.atlassian.net/issues/?filter=13047\&jql=project%20%3D%20%22SBCOSS%22%0AAND%20parent%20%3D%20SBCOSS-385%0AAND%20status%20%3D%20Done%0AAND%20sprint%20IN%20%28762%2C%20763%2C%20861%2C%20894%2C%20895%2C%20960%2C%20961%29%0AORDER%20BY%20created%20DESC)
+* GitHub Actions enabled for 90% of repositories
+* Keycloak upgraded from version 7 to 21
+* Security and vulnerability fixes implemented
+* Volume autoscaler added to dynamically increase Persistent Volume (PV) sizes
+* Unique suffix added to all bucket names to ensure global uniqueness and prevent conflicts
+* Support added for database-level backups with Velero, enabling targeted restore and improved recovery flexibility
+
+#### **Link to Release Tag** [**Release v7.7.0 · project-sunbird/sunbird-ed-installer**](https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/v7.7.0)
+
+📘 Migration Guide
+
+* A unique suffix has been added to all bucket names to ensure global uniqueness and avoid naming conflicts.
+* Manually copy backup data from the **old public bucket** (specific directories) to the **corresponding private bucket** that includes the new unique suffix .
+* If any data from the old public bucket is still in use, copy it to the new bucket as well.
+* Update all references in **Postman collections** to the new unique suffix bucket names and re-run the requests.
+
+#### &#x20;&#x20;
+
+**To validate :**
+
+1. Import the Postman collection into Postman: _Postman Collection v7.0.0_
+2. Load the appropriate `env.json` file (containing environment variables).
+3. Run the collection to confirm that all APIs work with the updated configuration.
+
+**Example:**\
+For APIs like the **TnC config API** under _Learn system settings_, re-run the API with the updated bucket path so that the changes are correctly reflected
+
+
 
 
 
