@@ -1,8 +1,8 @@
 ---
-description: Release notes for Sunbird Release 8.0.0 -  06/10/2025
+description: Release notes for Sunbird Release 8.0.0 -  6th September 2025
 ---
 
-# Sunbird Release 8.0.0(Latest)
+# Sunbird v8.0.0(Latest)
 
 This release delivers major feature enhancements, security updates, removal of hardcoded branding, BGMS(board, grade, medium and subject ) category, smarter content discovery via NLQ(Natural language query), and mobile app readiness.
 

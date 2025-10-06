@@ -208,8 +208,8 @@
 ***
 
 * [SB Ed Releases](sb-ed-releases/README.md)
-  * [Sunbird Release 8.0.0(Latest)](sb-ed-releases/sunbird-release-8.0.0-latest.md)
-  * [Sunbird Release 7.7](sb-ed-releases/sunbird-release-7.7.md)
+  * [Sunbird v8.0.0(Latest)](sb-ed-releases/sunbird-v8.0.0-latest.md)
+  * [Sunbird v7.7](sb-ed-releases/sunbird-v7.7.md)
   * [Sunbird v7.6.0](sb-ed-releases/sunbird-v7.6.0.md)
   * [Sunbird v7.5.1](sb-ed-releases/sunbird-v7.5.1.md)
   * [Release - SB 7.5](sb-ed-releases/release-sb-7.5.md)
