@@ -1,5 +1,5 @@
 ---
-description: Release notes for Sunbird Release 8.0.0 -  6th September 2025
+description: Release notes for Sunbird Release 8.0.0 -  6th October 2025
 ---
 
 # Sunbird v8.0.0(Latest)
