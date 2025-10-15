@@ -43,4 +43,13 @@ This release delivers major feature enhancements, security updates, removal of h
 
 Link to Release Tag:&#x20;
 
-[https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/v8.0.0](https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/v8.0.0)
+{% embed url="https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/v8.0.0" %}
+
+#### **Migration Guide**
+
+1. Import the Postman collection into Postman: [ https://github.com/project-sunbird/sunbird-ed-installer/blob/main/postman-collection/collectionrelease700.json](https://github.com/project-sunbird/sunbird-ed-installer/blob/main/postman-collection/collectionrelease700.json)
+2. Load the appropriate `env.json` file containing the required environment variables.
+3. Run the following APIs in Postman:
+   * **Learn 24 API**
+   * **Learn 25 API**
+   * **Forms → 4 - ED-32 - questionset filter view** (for this API, change the method from **POST** to **UPDATE**, and then update the form accordingly)
