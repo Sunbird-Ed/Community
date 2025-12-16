@@ -6,8 +6,7 @@
 * Fully Qualified Domain Name (FQDN)&#x20;
 * SSL Certificate - A FullChain, consisting of the private key and Certificate+CA\_Bundle
 * Object Storage with CORS enabled
-  *   CORS Policy:\
-
+  *   CORS Policy:<br>
 
       ```json
       [

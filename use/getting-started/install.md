@@ -20,14 +20,12 @@ cp -r template <env> # for reference
 
 In order to provision infra and install all services, run the following command
 
-1.  Ensure you are in the respective environment related folder\
-
+1.  Ensure you are in the respective environment related folder<br>
 
     ```
     cd terraform/<cloud-provider>/<env>
     ```
-2.  Run the `install.sh` script that provisions the infra and installs the services\
-
+2.  Run the `install.sh` script that provisions the infra and installs the services<br>
 
     ```
     time ./install.sh

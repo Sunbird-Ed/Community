@@ -4,7 +4,7 @@ description: >-
   2025
 ---
 
-# Sunbird v7.6.0 (Latest)
+# Sunbird v7.6.0
 
 Sunbird release v7.6.0 is the latest release for the SB platform.
 
@@ -30,7 +30,7 @@ This is a certified and preferred release, and is a recommended upgrade to all t
 ### 📄 Setup Instructions
 
 You can find the updated setup documentation here:\
-👉 [SunbirdEd Mobile App GitHub Repo](broken-reference)
+👉 [SunbirdEd Mobile App GitHub Repo](/broken/pages/TrYSzsqITGH3BJUyzp8i)
 
 ## Sunbird Easy Installer
 

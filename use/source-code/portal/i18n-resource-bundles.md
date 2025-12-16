@@ -34,8 +34,7 @@ Select one from the dropdown, default is English.
 
 &#x20;       Add new role  like,
 
-&#x20;      `frmelmnts->btn-> "addnuserrole"="new Add new role"`\
-
+&#x20;      `frmelmnts->btn-> "addnuserrole"="new Add new role"`<br>
 
 ## To add new resource bundle in portal:&#x20;
 

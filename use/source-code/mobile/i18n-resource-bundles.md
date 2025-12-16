@@ -23,4 +23,4 @@ description: >-
 * Copy and paste the content of [en.json](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app/blob/release-7.0.0/src/assets/i18n/en.json) into your new file and modify the value. It will display the default(english) value if any of the values are missing.
 * A proper format should be followed for example, `"ACCOUNT_MERGE_CONFIRMATION_BTN_MERGE": "Merge"`
 
-\
+<br>

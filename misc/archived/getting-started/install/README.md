@@ -7,4 +7,4 @@ To commence your journey with SunbirdEd, follow these guidelines:&#x20;
 * **Install SunbirdEd:** Once you've provisioned the essential cloud resources, it's time to build, provision, and deploy the SunbirdEd platform. Comprehensive installation instructions are provided in the installation guide.&#x20;
 *   **Configure SunbirdEd**: With the SunbirdEd platform successfully installed, you can start configuring it to match your specific needs. This encompasses tasks such as user account setup, tenant configuration, framework definition, and the customisation of forms, among other essential adjustments.
 
-    \
+    <br>

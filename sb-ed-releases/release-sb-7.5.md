@@ -2,7 +2,7 @@
 description: Sunbird Release 7.5 is live as of January 2025
 ---
 
-# Latest Release - SB 7.5
+# Release - SB 7.5
 
 
 
@@ -10,8 +10,7 @@ description: Sunbird Release 7.5 is live as of January 2025
 
 The release tag for Sunbird 7.5 is now available on GitHub:\
 [https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/7.5.0](https://github.com/project-sunbird/sunbird-ed-installer/releases/tag/7.5.0)\
-\
-
+<br>
 
 The highlight of this release is the Sunbird ED Easy Installer - which allows for a 'single-click' installation of Sunbird Ed, bringing togehter all the dependent components  that need to be installed under a single script.&#x20;
 
@@ -30,4 +29,4 @@ Jira links to related issues:
 Form and configuration-related documentation is available [here](https://www.postman.com/sunbird-building-blocks/sunbird-ed-coss/collection/yo5s61t/sunbird-ed-forms)
 
 \
-\
+<br>
