@@ -1,7 +1,5 @@
 # Database Migration: Sunbird ED 8.1.0 → Sunbird Spark
 
-## Database Migration: Sunbird ED 8.1.0 → Sunbird Spark
-
 End-to-end runbook for migrating data from a Sunbird ED 8.1.0 cluster into a new Sunbird Spark cluster.
 
 **Supported clouds:** Azure / GCP / AWS (Blob / GCS / S3)
