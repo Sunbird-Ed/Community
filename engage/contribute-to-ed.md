@@ -28,7 +28,7 @@ An item is added to the issue tracker only after there is clarity about what nee
 
 Once an item is picked up for contribution, it is important for the contributor to update the status of the issue in the tracker so that the community can see the progress being made. Once the contributor completes the development, the changes are finally validated and tested by the community QA team to sign off the changes for inclusion in the latest version of the building block. Any issues found during this testing have to be fixed by the contributor and validated by the QA team within the published release timelines.&#x20;
 
-Further details on contribution issue statuses and workflows are available in the [**Sunbird Community Practices**](https://sunbird.gitbook.io/sunbird-community-practices/VJZlxBFjATn5Y97QSiJB/) document.​ Some important points to keep in mind while making contributions:
+Further details on contribution issue statuses and workflows are available in the [**Sunbird Community Practices**](https://community.sunbird.org/) document.​ Some important points to keep in mind while making contributions:
 
 * The test cases and results will be shared with the building block QA community. The test cases must be shared before creating a review and merge request. The test result should be documented and shared before the issue can be submitted for validation.
 * The contributor QA team should also plan to contribute towards the release testing of the changes developed by them as per the release testing process.

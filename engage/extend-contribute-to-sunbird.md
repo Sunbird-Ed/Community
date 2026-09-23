@@ -2,7 +2,7 @@
 
 **Contribution process**
 
-[**https://sunbird.gitbook.io/sunbird-community-practices/VJZlxBFjATn5Y97QSiJB/**](https://sunbird.gitbook.io/sunbird-community-practices/VJZlxBFjATn5Y97QSiJB/)
+{% embed url="https://community.sunbird.org/" %}
 
 **Priority definition**
 
